@@ -1,0 +1,41 @@
+
+R version 4.3.1 (2023-06-16) -- "Beagle Scouts"
+Copyright (C) 2023 The R Foundation for Statistical Computing
+Platform: x86_64-pc-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> setwd("/home/elliot/Elliot/elliotshannon.github.io/")
+> # devtools::install_github("graysonwhite/gitr")
+> library(gitr)
+> library(blogdown)
+> blogdown::build_site()
+Start building sites … 
+hugo v0.125.6-69ede10edcd539380914bbee58d4d32953dd8b43+extended linux/amd64 BuildDate=2024-05-05T10:52:52Z VendorInfo=gohugoio
+
+WARN  deprecated: .Site.RSSLink was deprecated in Hugo v0.114.0 and will be removed in a future release. Use the Output Format's Permalink method instead, e.g. .OutputFormats.Get "RSS".Permalink
+
+                   | EN  
+-------------------+-----
+  Pages            | 10  
+  Paginator pages  |  0  
+  Non-page files   |  1  
+  Static files     | 11  
+  Processed images |  0  
+  Aliases          |  0  
+  Cleaned          |  0  
+
+Total in 13 ms
+> gitr::commit("update website", add_all = TRUE)
