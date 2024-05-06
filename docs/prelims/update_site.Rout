@@ -37,5 +37,5 @@ WARN  deprecated: .Site.RSSLink was deprecated in Hugo v0.114.0 and will be remo
   Aliases          |  0  
   Cleaned          |  0  
 
-Total in 17 ms
+Total in 13 ms
 > gitr::commit("update website", add_all = TRUE)
