@@ -39,3 +39,12 @@ WARN  deprecated: .Site.RSSLink was deprecated in Hugo v0.114.0 and will be remo
 
 Total in 20 ms
 > gitr::commit("update website", add_all = TRUE)
+[main 7f47921] update website
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+> gitr::push()
+To https://github.com/elliotshannon/elliotshannon.github.io.git
+   6550794..7f47921  main -> main
+> 
+> proc.time()
+   user  system elapsed 
+  0.654   1.176   0.854 
