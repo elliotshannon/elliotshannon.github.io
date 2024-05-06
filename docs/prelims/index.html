@@ -1,0 +1,3455 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2024-05-06 Mon 14:30 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>STT Prelim Study Guide</title>
+<meta name="generator" content="Org mode" />
+<meta name="author" content="Elliot Shannon" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<meta http-equiv='X-UA-Compatible' content='IE=edge'><meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'><style>
+  /* General styling */
+  html {
+    touch-action: manipulation;
+    -webkit-text-size-adjust: 100%;
+  }
+  
+  body {
+    padding: 0;
+    margin: 0 auto;
+    background: #F7F9F9;
+    color: #17202A;
+    font-weight: normal;
+    font-size: 15px;
+    font-family: 'Ubuntu', 'Roboto', 'Arial', sans-serif;
+    max-width: 800px; /* Limit the maximum width */
+  }
+  
+  h2, h3, h4, h5, h6 {
+    font-family: 'Ubuntu', Verdana, sans-serif;
+    color: #6C3483;
+    padding: 0;
+    margin: 20px 0 10px 0;
+    font-size: 1.1em;
+  }
+  
+  h2 {
+    margin: 30px 0 10px 0;
+    font-size: 1.2em;
+  }
+  
+  a {
+    color: #0066FF;
+    text-decoration: none;
+  }
+  
+  p {
+    margin: 6px 0;
+    text-align: justify;
+  }
+  
+  ul, ol {
+    margin: 10px 0;
+    text-align: justify;
+    padding-left: 20px;
+  }
+  
+  ul > li > code {
+    color: #586b82;
+  }
+  
+  pre {
+    white-space: pre-wrap;
+  }
+ 
+  /* Custom styling for TODO and DONE items */
+  .todo {
+    color: #E74C3C; /* Color for TODO items */
+  }
+  
+  .done {
+    color: #2ECC71; /* Color for DONE items */
+  }
+
+  .MathJax {
+    font-family: 'Computer Modern', serif;
+  }
+
+</style>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2020 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        displayAlign: "center",
+        displayIndent: "0em",
+
+        "HTML-CSS": { scale: 100,
+                        linebreaks: { automatic: "false" },
+                        webFont: "TeX"
+                       },
+        SVG: {scale: 100,
+              linebreaks: { automatic: "false" },
+              font: "TeX"},
+        NativeMML: {scale: 100},
+        TeX: { equationNumbers: {autoNumber: "AMS"},
+               MultLineWidth: "85%",
+               TagSide: "right",
+               TagIndent: ".8em"
+             }
+});
+</script>
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_HTML"></script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">STT Prelim Study Guide</h1>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#org1afb4e5">1. STT 867 <code>[25%]</code></a>
+<ul>
+<li><a href="#org5292874">1.1. <span class="done DONE">DONE</span> Least Squares, Gauss-Markov Theorem and extensions <code>[8/8]</code></a>
+<ul>
+<li><a href="#org0595adb"><span class="done DONE">DONE</span> Mulitple linear regression model</a></li>
+<li><a href="#org674a439"><span class="done DONE">DONE</span> Error-in-variables linear regression</a></li>
+<li><a href="#org1bc9006"><span class="done DONE">DONE</span> Ordinary least squares</a></li>
+<li><a href="#org377c3fa"><span class="done DONE">DONE</span> Properties of \(\hat{\beta}\)</a></li>
+<li><a href="#org309053d"><span class="done DONE">DONE</span> Guass-Markov Theorem</a></li>
+<li><a href="#org002b663"><span class="done DONE">DONE</span> Method of Lagrange Multplier</a></li>
+<li><a href="#org46881c9"><span class="done DONE">DONE</span> Generalization of Gauss-Markov</a></li>
+<li><a href="#org38e9cb1"><span class="done DONE">DONE</span> Estimation of \(\sigma^2\)</a></li>
+</ul>
+</li>
+<li><a href="#org4bd476a">1.2. <span class="done DONE">DONE</span> Hypothesis testing and confidence regions <code>[5/5]</code></a>
+<ul>
+<li><a href="#org871cfcf"><span class="done DONE">DONE</span> Testing \(H_0 : A\beta = m\) vs \(H_1 : A\beta \neq m\)</a></li>
+<li><a href="#orged59d8c"><span class="done DONE">DONE</span> Singular value decomposition</a></li>
+<li><a href="#org0548163"><span class="done DONE">DONE</span> Power of \(H_0 : A\beta = m\) vs \(H_1 : A\beta \neq m\)</a></li>
+<li><a href="#orga6242ad"><span class="done DONE">DONE</span> Likelihood ratio test</a></li>
+<li><a href="#orgec6324f"><span class="done DONE">DONE</span> Confidence region for \(A\beta \in \mathbb{R}^r\) with coverage level \(1 - \alpha\)</a></li>
+</ul>
+</li>
+<li><a href="#orgc6375af">1.3. <span class="todo TODO">TODO</span> Simultaneous confidence intervals <code>[0/2]</code></a>
+<ul>
+<li><a href="#org3b6a49b"><span class="todo TODO">TODO</span> Lemma A</a></li>
+<li><a href="#orgbf9618e"><span class="todo TODO">TODO</span> Scheffes Simultaneous C.I. for \(l'\beta\)</a></li>
+</ul>
+</li>
+<li><a href="#org96e2407">1.4. Maximum Likelihood Estimation</a></li>
+<li><a href="#orge5c2a3e">1.5. <span class="todo TODO">TODO</span> Less-than-full-rank linear models <code>[0/3]</code></a>
+<ul>
+<li><a href="#orgd2c350b"><span class="todo TODO">TODO</span> One-way ANOVA example</a></li>
+<li><a href="#orge1d85b9"><span class="todo TODO">TODO</span> Generalized inverse of a matrix</a></li>
+<li><a href="#org7983776"><span class="todo TODO">TODO</span> Properties under less-than-full-rank model</a></li>
+</ul>
+</li>
+<li><a href="#org4d1d672">1.6. <span class="todo TODO">TODO</span> Estimable/Testable linear functions <code>[0/11]</code></a>
+<ul>
+<li><a href="#org7c8fbe6"><span class="todo TODO">TODO</span> Estimability</a></li>
+<li><a href="#orged17ab7"><span class="todo TODO">TODO</span> Identifiability</a></li>
+<li><a href="#org69c4df0"><span class="todo TODO">TODO</span> Estimable linear functions \(a'\beta\)</a></li>
+<li><a href="#org5fd3c06"><span class="todo TODO">TODO</span> Gauss-Markov theorem for \(a'\beta\)</a></li>
+<li><a href="#orgb85f999"><span class="todo TODO">TODO</span> Testable hypothesis</a></li>
+<li><a href="#org218261d"><span class="todo TODO">TODO</span> Confidence region for \(A\beta\)</a></li>
+<li><a href="#orgb1aefa2"><span class="todo TODO">TODO</span> Two-way ANOVA model</a></li>
+<li><a href="#org20c4ea1"><span class="todo TODO">TODO</span> Simultaneous confidence interval for estimable linear functions</a></li>
+<li><a href="#org97ef215"><span class="todo TODO">TODO</span> Bonferroni's intervals</a></li>
+<li><a href="#org418dac7"><span class="todo TODO">TODO</span> Sidaks Intervals</a></li>
+<li><a href="#org4f7e5dc"><span class="todo TODO">TODO</span> Simultaneous C.I. <code>[0/3]</code></a></li>
+</ul>
+</li>
+<li><a href="#org5fcbff5">1.7. <span class="todo TODO">TODO</span> Distributional properties of quadratic forms <code>[0/9]</code></a>
+<ul>
+<li><a href="#orgbada736"><span class="todo TODO">TODO</span> Lemma 1</a></li>
+<li><a href="#org268a916"><span class="todo TODO">TODO</span> Theorem 1</a></li>
+<li><a href="#orgc244519"><span class="todo TODO">TODO</span> Moment generating function</a></li>
+<li><a href="#orgcfa1465"><span class="todo TODO">TODO</span> Corollary \(A \in \mathbb{R}^{n \times n}\)</a></li>
+<li><a href="#orgd7b7d04"><span class="todo TODO">TODO</span> Theorem 2 (Craig's Theorem)</a></li>
+<li><a href="#org945e2b6"><span class="todo TODO">TODO</span> Theorem 3.9 Khuri</a></li>
+<li><a href="#org127fc38"><span class="todo TODO">TODO</span> Theorem 3</a></li>
+<li><a href="#orga95f2ca"><span class="todo TODO">TODO</span> Partitioning the sum of squares <code>[0/1]</code></a></li>
+<li><a href="#orgaac480a"><span class="todo TODO">TODO</span> Cochran's theorem</a></li>
+</ul>
+</li>
+<li><a href="#org5d04a9c">1.8. <span class="todo TODO">TODO</span> Model selection and prediction <code>[0/10]</code></a>
+<ul>
+<li><a href="#org358ec7b"><span class="todo TODO">TODO</span> Expected prediction error</a></li>
+<li><a href="#org75d3156"><span class="todo TODO">TODO</span> Prediction <code>[0/2]</code></a></li>
+<li><a href="#orgf5c450b"><span class="todo TODO">TODO</span> Bias-variance tradeoff</a></li>
+<li><a href="#orgbb29f57"><span class="todo TODO">TODO</span> Goodness of Fit <code>[0/2]</code></a></li>
+<li><a href="#org1bdc07f"><span class="todo TODO">TODO</span> Predicition error <code>[0/2]</code></a></li>
+<li><a href="#org0ddf1af"><span class="todo TODO">TODO</span> Degrees of freedom of given prediction method</a></li>
+<li><a href="#orga2f87d9"><span class="todo TODO">TODO</span> Cross validation</a></li>
+<li><a href="#org6ff278a"><span class="todo TODO">TODO</span> Information Criterion <code>[0/6]</code></a></li>
+<li><a href="#orgf5a2cbd"><span class="todo TODO">TODO</span> Comparison of model selection criteria for linear regression model</a></li>
+<li><a href="#orgce6512a"><span class="todo TODO">TODO</span> Subset selection</a></li>
+</ul>
+</li>
+<li><a href="#org85be723">1.9. <span class="todo TODO">TODO</span> Shrinkage methods <code>[0/3]</code></a>
+<ul>
+<li><a href="#org5082485"><span class="todo TODO">TODO</span> James-Stein estimator</a></li>
+<li><a href="#org7780a0c"><span class="todo TODO">TODO</span> Ridge Regression</a></li>
+<li><a href="#orgef649ed"><span class="todo TODO">TODO</span> The Lasso</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org8b68e57">2. STT 868 <code>[46%]</code></a>
+<ul>
+<li><a href="#orgdffb59b">2.1. <span class="done DONE">DONE</span> Model Identifiability <code>[10/10]</code></a>
+<ul>
+<li><a href="#orgc49a331"><span class="done DONE">DONE</span> One-way ANOVA model</a></li>
+<li><a href="#orgfa29bbc"><span class="done DONE">DONE</span> Variance componenets models</a></li>
+<li><a href="#org1245833"><span class="done DONE">DONE</span> Properties of random effects</a></li>
+<li><a href="#org612c381"><span class="done DONE">DONE</span> Random intercept model</a></li>
+<li><a href="#orgfdfb36d"><span class="done DONE">DONE</span> Linear mixed model</a></li>
+<li><a href="#org9e06589"><span class="done DONE">DONE</span> Identifiability definition</a></li>
+<li><a href="#orgf331da4"><span class="done DONE">DONE</span> Identifiability theorem for LMM</a></li>
+<li><a href="#orgac59f79"><span class="done DONE">DONE</span> Kronecker Product</a></li>
+<li><a href="#org905c9d5"><span class="done DONE">DONE</span> Vectorization</a></li>
+<li><a href="#org0f279db"><span class="done DONE">DONE</span> Schur Complement Condition</a></li>
+</ul>
+</li>
+<li><a href="#org7a55a58">2.2. <span class="done DONE">DONE</span> MLE, ANOVA estimation, MINQUE, RMLE <code>[7/7]</code></a>
+<ul>
+<li><a href="#org580998c"><span class="done DONE">DONE</span> Log-likelihood of LMM</a></li>
+<li><a href="#org33b221d"><span class="done DONE">DONE</span> MLE \(\hat{\beta}\) <code>[2/2]</code></a></li>
+<li><a href="#orgb198389"><span class="done DONE">DONE</span> MLE \(\hat{\sigma}^2\)</a></li>
+<li><a href="#orgd4889a4"><span class="done DONE">DONE</span> Derivatives of log-likelihood function</a></li>
+<li><a href="#org389c9c2"><span class="done DONE">DONE</span> Balanced random coefficient model <code>[3/3]</code></a></li>
+<li><a href="#org7909bbf"><span class="done DONE">DONE</span> Existence of MLE</a></li>
+<li><a href="#org00d8c18"><span class="done DONE">DONE</span> LMM with random intercept <code>[3/3]</code></a></li>
+</ul>
+</li>
+<li><a href="#org1908f97">2.3. <span class="done DONE">DONE</span> Computation and optimization <code>[9/9]</code></a>
+<ul>
+<li><a href="#orgec526c6"><span class="done DONE">DONE</span> Gradient methods <code>[4/4]</code></a></li>
+<li><a href="#orgca5eea0"><span class="done DONE">DONE</span> Convergence issues</a></li>
+<li><a href="#orgb351158"><span class="done DONE">DONE</span> Rate of Convergence</a></li>
+<li><a href="#orgbd0b36e"><span class="done DONE">DONE</span> Expectation-Maximization algorithm</a></li>
+<li><a href="#orgf1b7942"><span class="done DONE">DONE</span> Fisher Scoring Algorithm</a></li>
+<li><a href="#orge944873"><span class="done DONE">DONE</span> RMLE in LMM</a></li>
+<li><a href="#org80bdcd1"><span class="done DONE">DONE</span> MINQUE in LMM</a></li>
+<li><a href="#org37555b7"><span class="done DONE">DONE</span> ANOVA Estimation</a></li>
+<li><a href="#org2db18cf"><span class="done DONE">DONE</span> A general method of moments</a></li>
+</ul>
+</li>
+<li><a href="#orgf5c60bd">2.4. <span class="todo TODO">TODO</span> Hypothesis testing and confidence intervals <code>[0/6]</code></a>
+<ul>
+<li><a href="#org75f32b8"><span class="todo TODO">TODO</span> F test</a></li>
+<li><a href="#org1b08d0f"><span class="todo TODO">TODO</span> Likelihood ratio test</a></li>
+<li><a href="#org22bf62a"><span class="todo TODO">TODO</span> C.I. for \(\sigma^2\) in LMM</a></li>
+<li><a href="#orgfe70afb"><span class="todo TODO">TODO</span> Confidence region for \(D \in \mathbb{R}^{k \times k}\)</a></li>
+<li><a href="#orgbb5b603"><span class="todo TODO">TODO</span> C.I. for functions of \(\sigma^2\) and \(D\)</a></li>
+<li><a href="#orgc223a8f"><span class="todo TODO">TODO</span> Approximate C.I. for variance components <code>[0/2]</code></a></li>
+</ul>
+</li>
+<li><a href="#orgf6e13fb">2.5. <span class="todo TODO">TODO</span> Generalized linear models <code>[0/7]</code></a>
+<ul>
+<li><a href="#orgf8b7d75"><span class="todo TODO">TODO</span> GLM Setup</a></li>
+<li><a href="#org25ae46a"><span class="todo TODO">TODO</span> Exponential family distribution <code>[0/4]</code></a></li>
+<li><a href="#org249dc65"><span class="todo TODO">TODO</span> Link Functions <code>[0/4]</code></a></li>
+<li><a href="#org9243383"><span class="todo TODO">TODO</span> log-likelihood for GLM</a></li>
+<li><a href="#orgd798551"><span class="todo TODO">TODO</span> Fisher scoring algorithm</a></li>
+<li><a href="#org674f918"><span class="todo TODO">TODO</span> Inference in GLM <code>[0/4]</code></a></li>
+</ul>
+</li>
+<li><a href="#org510e552">2.6. <span class="todo TODO">TODO</span> Quasi-likelihood estimation <code>[0/3]</code></a>
+<ul>
+<li><a href="#org83218e2"><span class="todo TODO">TODO</span> Review of MLE</a></li>
+<li><a href="#orgd928836"><span class="todo TODO">TODO</span> Construction of Quasi-likelihood function</a></li>
+<li><a href="#orgcc4fd64"><span class="todo TODO">TODO</span> Maximum quasi-likelihood estimation</a></li>
+</ul>
+</li>
+<li><a href="#org53d98c5">2.7. <span class="todo TODO">TODO</span> Generalized linear mixed models <code>[0/10]</code></a>
+<ul>
+<li><a href="#orge863495"><span class="todo TODO">TODO</span> General setup</a></li>
+<li><a href="#org9909d33"><span class="todo TODO">TODO</span> Mean</a></li>
+<li><a href="#orgd7760fc"><span class="todo TODO">TODO</span> Variance</a></li>
+<li><a href="#org79c5d78"><span class="todo TODO">TODO</span> Covariance</a></li>
+<li><a href="#org30e4382"><span class="todo TODO">TODO</span> Likelihood function</a></li>
+<li><a href="#orgdf0b0e1"><span class="todo TODO">TODO</span> log-likelihood function</a></li>
+<li><a href="#orga76aac4"><span class="todo TODO">TODO</span> Gauss-hermite quadrecture</a></li>
+<li><a href="#org6bea595"><span class="todo TODO">TODO</span> EM algorithm for GLMM</a></li>
+<li><a href="#org6bc8056"><span class="todo TODO">TODO</span> Markov Chain Monte Carlo algorithm</a></li>
+<li><a href="#orgc34c093"><span class="todo TODO">TODO</span> Metropolis-Hastings algorithm</a></li>
+</ul>
+</li>
+<li><a href="#org8b0c57c">2.8. <span class="todo TODO">TODO</span> Generalized estimation equations <code>[0/4]</code></a>
+<ul>
+<li><a href="#org0a05992"><span class="todo TODO">TODO</span> Estimating functions</a></li>
+<li><a href="#org7d72135"><span class="todo TODO">TODO</span> Class of linear estimating functions</a></li>
+<li><a href="#org977ce02"><span class="todo TODO">TODO</span> Optimal linear estimating equation</a></li>
+<li><a href="#orgd9fa29b"><span class="todo TODO">TODO</span> Generalized estimating equation</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org5c9afb5">3. STT 872 <code>[50%]</code></a>
+<ul>
+<li><a href="#org45a705a">3.1. <span class="done DONE">DONE</span> Preparations <code>[9/9]</code></a>
+<ul>
+<li><a href="#orgb771a63"><span class="done DONE">DONE</span> Measure Theory <code>[4/4]</code></a></li>
+<li><a href="#orgdd03064"><span class="done DONE">DONE</span> Integration <code>[8/8]</code></a></li>
+<li><a href="#org393ef0c"><span class="done DONE">DONE</span> Probability Spaces <code>[11/11]</code></a></li>
+<li><a href="#org344dd20"><span class="done DONE">DONE</span> Group families <code>[5/5]</code></a></li>
+<li><a href="#org1f4cb1e"><span class="done DONE">DONE</span> Exponential families <code>[5/5]</code></a></li>
+<li><a href="#orga2fa529"><span class="done DONE">DONE</span> Moment and cumulant generating functions <code>[7/7]</code></a></li>
+<li><a href="#orge7f636d"><span class="done DONE">DONE</span> Sufficient Statistics <code>[22/22]</code></a></li>
+<li><a href="#org8c29d30"><span class="done DONE">DONE</span> Convexity <code>[10/10]</code></a></li>
+<li><a href="#org0c45c87"><span class="done DONE">DONE</span> Large sample theory <code>[18/18]</code></a></li>
+</ul>
+</li>
+<li><a href="#org7363b34">3.2. <span class="done DONE">DONE</span> Unbiasedness <code>[5/5]</code></a>
+<ul>
+<li><a href="#orge464dc8"><span class="done DONE">DONE</span> Minimum Variance Unbiased Estimator <code>[9/9]</code></a></li>
+<li><a href="#org48d38fa"><span class="done DONE">DONE</span> Continuous distributions and UMVU <code>[4/4]</code></a></li>
+<li><a href="#orgc3c0f7c"><span class="done DONE">DONE</span> UMVU for discrete distributions <code>[8/8]</code></a></li>
+<li><a href="#orgdbf0782"><span class="done DONE">DONE</span> Information inequality <code>[12/12]</code></a></li>
+<li><a href="#org466e108"><span class="done DONE">DONE</span> Multiparameter information inequality <code>[5/5]</code></a></li>
+</ul>
+</li>
+<li><a href="#org6e0a1f4">3.3. <span class="done DONE">DONE</span> Equivariance <code>[1/1]</code></a>
+<ul>
+<li><a href="#org0b5712b"><span class="done DONE">DONE</span> First Examples <code>[26/26]</code></a></li>
+</ul>
+</li>
+<li><a href="#org14754af">3.4. <span class="todo TODO">TODO</span> Average risk optimality <code>[0/5]</code></a>
+<ul>
+<li><a href="#orgf98e8a6"><span class="todo TODO">TODO</span> Introduction <code>[0/6]</code></a></li>
+<li><a href="#org44b3162"><span class="todo TODO">TODO</span> First examples <code>[0/8]</code></a></li>
+<li><a href="#org79cd029"><span class="todo TODO">TODO</span> Single Prior Bayes <code>[0/4]</code></a></li>
+<li><a href="#org5aff500">Hierarchical Bayes <code>[0/5]</code></a></li>
+<li><a href="#orgd8c96b8"><span class="todo TODO">TODO</span> Empirical Bayes <code>[0/5]</code></a></li>
+<li><a href="#org3e9331f"><span class="todo TODO">TODO</span> Shrinkage Estimators <code>[0/4]</code></a></li>
+</ul>
+</li>
+<li><a href="#org83f8b78">3.5. <span class="todo TODO">TODO</span> Minimaxity and admissibility <code>[0/3]</code></a>
+<ul>
+<li><a href="#org4a40875"><span class="todo TODO">TODO</span> Admissibility <code>[0/5]</code></a></li>
+<li><a href="#orgb0d72ca"><span class="todo TODO">TODO</span> Minimax Estimation <code>[0/11]</code></a></li>
+<li><a href="#org4a2a2f1"><span class="todo TODO">TODO</span> Admissibility and minimaxity in exponential families <code>[2/12]</code></a></li>
+</ul>
+</li>
+<li><a href="#org787c56c">3.6. <span class="todo TODO">TODO</span> Uniformly most powerful tests <code>[0/6]</code></a>
+<ul>
+<li><a href="#org706a86f"><span class="todo TODO">TODO</span> Stating the problem <code>[0/1]</code></a></li>
+<li><a href="#org265210a"><span class="todo TODO">TODO</span> Neyman-Pearson Fundamental Lemma <code>[0/4]</code></a></li>
+<li><a href="#org9005309"><span class="todo TODO">TODO</span> Distributions with monotone likelihood ratio <code>[0/8]</code></a></li>
+<li><a href="#org63adf3b"><span class="todo TODO">TODO</span> Confidence bounds <code>[0/6]</code></a></li>
+<li><a href="#org6aae637"><span class="todo TODO">TODO</span> A generalization of the fundamental lemma <code>[0/3]</code></a></li>
+<li><a href="#org307edc1"><span class="todo TODO">TODO</span> Two-sided hypotheses <code>[0/2]</code></a></li>
+</ul>
+</li>
+<li><a href="#org03ea48b">3.7. <span class="todo TODO">TODO</span> Unbiased tests <code>[0/5]</code></a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org1afb4e5" class="outline-2">
+<h2 id="org1afb4e5"><span class="section-number-2">1</span> STT 867 <code>[25%]</code></h2>
+<div class="outline-text-2" id="text-1">
+</div>
+<div id="outline-container-org5292874" class="outline-3">
+<h3 id="org5292874"><span class="section-number-3">1.1</span> <span class="done DONE">DONE</span> Least Squares, Gauss-Markov Theorem and extensions <code>[8/8]</code></h3>
+<div class="outline-text-3" id="text-1-1">
+</div>
+<div id="outline-container-org0595adb" class="outline-4">
+<h4 id="org0595adb"><span class="done DONE">DONE</span> Mulitple linear regression model</h4>
+<div class="outline-text-4" id="text-org0595adb">
+\begin{equation*}
+Y_i = X_i ^\prime \beta + \varepsilon_i
+\end{equation*}
+
+<p>
+<span class="underline">Linear</span> means linear with respect to the coefficients \(\beta\)
+</p>
+
+<p>
+<span class="underline">Fixed design</span> is when \(X \in \mathbb{R}^{n \times p}\) is assumed to be fixed or non-random
+</p>
+
+<p>
+<span class="underline">Response variable</span> is assumed to be continuous
+</p>
+
+<p>
+<span class="underline">Simple linear regression</span> \(y_i = \beta_0 + x_i\beta_1 + \varepsilon_i\)
+</p>
+
+<p>
+<span class="underline">Multivariate linear regression</span> is when we have multiple responses for each set of covariates
+</p>
+</div>
+</div>
+
+<div id="outline-container-org674a439" class="outline-4">
+<h4 id="org674a439"><span class="done DONE">DONE</span> Error-in-variables linear regression</h4>
+<div class="outline-text-4" id="text-org674a439">
+\begin{equation*}
+Y = \tilde{X}\beta + \varepsilon \\
+X = \tilde{X} + \tilde{\varepsilon}
+\end{equation*}
+
+<p>
+We observe \(X\), not \(\tilde{X}\)
+</p>
+</div>
+</div>
+
+<div id="outline-container-org1bc9006" class="outline-4">
+<h4 id="org1bc9006"><span class="done DONE">DONE</span> Ordinary least squares</h4>
+<div class="outline-text-4" id="text-org1bc9006">
+<p>
+<span class="underline">Residuals</span> \(|| Y - X\beta ||_2^2\)
+</p>
+
+<p>
+Ordinary least squares (OLS) \(\hat{\beta} = \underset{\beta \in \mathbb{R}^p}{\mathrm{argmin}} ||Y - X\beta ||_2^2\)
+</p>
+
+<p>
+Compute gradient, set equal to zero, check Hessian matrix is positive definite \(\Rightarrow \hat{\beta} = (X^\prime X)^{-1} X^\prime Y\)
+</p>
+
+<p>
+\(\hat{\beta}\) exists and is unique
+</p>
+</div>
+</div>
+
+<div id="outline-container-org377c3fa" class="outline-4">
+<h4 id="org377c3fa"><span class="done DONE">DONE</span> Properties of \(\hat{\beta}\)</h4>
+<div class="outline-text-4" id="text-org377c3fa">
+<p>
+Assuming \(\mathbb{E}(\varepsilon) = 0\) and \(\text{Cov}(\varepsilon) = \sigma^2 I_{n \times n}\), then
+</p>
+
+<ol class="org-ol">
+<li>\(\hat{\beta}\) is unbiased for \(\beta\)</li>
+<li>\(c^\prime \hat{\beta}\) is unbiased for \(c^\prime \beta\)</li>
+</ol>
+</div>
+</div>
+
+<div id="outline-container-org309053d" class="outline-4">
+<h4 id="org309053d"><span class="done DONE">DONE</span> Guass-Markov Theorem</h4>
+<div class="outline-text-4" id="text-org309053d">
+<p>
+This tells us that \(c^\prime \hat{\beta}\) is the best linear unbiased estimator (BLUE) for \(c^\prime \beta\)
+</p>
+
+<p>
+BLUE is unique if \(\sigma^2 > 0\) 
+</p>
+</div>
+</div>
+
+<div id="outline-container-org002b663" class="outline-4">
+<h4 id="org002b663"><span class="done DONE">DONE</span> Method of <a href="https://en.wikipedia.org/wiki/Lagrange_multiplier">Lagrange Multplier</a></h4>
+<div class="outline-text-4" id="text-org002b663">
+<p>
+Use this to turn constrained optimization problem into unconstrained problem.
+</p>
+
+<p>
+We want to optimize a real valued function \(f(x_1, x_2, \ldots, x_n)\), where \(x_1, x_2, \ldots x_n\) are subject to \(m (< n)\) equality constraints of the form
+</p>
+
+\begin{equation*}
+g_1(x_1, x_2, \ldots, x_n) = 0, \\
+g_2(x_1, x_2, \ldots, x_n) = 0, \\
+\vdots \\
+g_m(x_1, x_2, \ldots, x_n) = 0, \\
+\end{equation*}
+
+<p>
+where \(g_1, g_2, \ldots, g_m\) are differentiable functions. 
+</p>
+
+<p>
+The determination of the stationary points in this constrained optimization problem is done by first considering the function
+</p>
+
+\begin{equation*}
+F(\mathbf{x}) = f(\mathbf{x}) + \sum_{j - 1}^{m} \lambda_j g_j(\mathbf{x})
+\end{equation*}
+
+<p>
+where \(\mathbf{x} = (x_1, x_2, \ldots, x_n)^\prime\) and \(\lambda_1, \lambda_2, \ldots, \lambda_m\) are scalars called <i>Lagrange multipliers</i>. By differentiating with respect to \(x_1, x_2, \ldots, x_n\) and equating the partial derivatives to zero, we obtain
+</p>
+
+\begin{equation*}
+\frac{\partial F}{\partial x_i} = \frac{\partial f}{\partial x_i} + \sum_{j = 1}^m \frac{\partial g_j}{\partial x_i} = 0 \\
+i = 1, 2, \ldots, n
+\end{equation*}
+
+<p>
+Together with 
+</p>
+
+\begin{equation*}
+g_1(x_1, x_2, \ldots, x_n) = 0, \\
+g_2(x_1, x_2, \ldots, x_n) = 0, \\
+\vdots \\
+g_m(x_1, x_2, \ldots, x_n) = 0, \\
+\end{equation*}
+
+<p>
+we have \(m + n\) equations for m + n unknowns (namely the \(x\)'s and \(\lambda\)'s). The solutions for \(x_1, x_2, \ldots, x_n\) determine the locations of the stationary points. 
+</p>
+</div>
+</div>
+
+<div id="outline-container-org46881c9" class="outline-4">
+<h4 id="org46881c9"><span class="done DONE">DONE</span> Generalization of Gauss-Markov</h4>
+<div class="outline-text-4" id="text-org46881c9">
+<p>
+This basically extends GM theorem to the case of \(C \beta\), where \(C \in \mathbb{R}^{q \times p}\) and \(\beta \in \mathbb{R}^p\)
+</p>
+
+<p>
+\(C \hat{\beta}\) is the unique BLUE for \(C \beta\)
+</p>
+</div>
+</div>
+
+<div id="outline-container-org38e9cb1" class="outline-4">
+<h4 id="org38e9cb1"><span class="done DONE">DONE</span> Estimation of \(\sigma^2\)</h4>
+<div class="outline-text-4" id="text-org38e9cb1">
+<p>
+Use sample variance to estimate \(\sigma^2\) based on the residuals
+</p>
+
+<p>
+Sample variance \(\frac{1}{n}\sum_{i = 1}^{n} \varepsilon_i^2\) is unbiased for \(\sigma^2\)
+</p>
+
+<p>
+\(\text{MSE} = \frac{1}{n - p} \text{SSE}\) is unbiased for \(\sigma^2\)
+</p>
+
+<p>
+\(\text{SSE} = ||Y - X\hat{\beta}||_2^2\) "residual sum of squares"
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org4bd476a" class="outline-3">
+<h3 id="org4bd476a"><span class="section-number-3">1.2</span> <span class="done DONE">DONE</span> Hypothesis testing and confidence regions <code>[5/5]</code></h3>
+<div class="outline-text-3" id="text-1-2">
+</div>
+<div id="outline-container-org871cfcf" class="outline-4">
+<h4 id="org871cfcf"><span class="done DONE">DONE</span> Testing \(H_0 : A\beta = m\) vs \(H_1 : A\beta \neq m\)</h4>
+<div class="outline-text-4" id="text-org871cfcf">
+<p>
+Assume \(A\) is of rank \(r\) and \(\varepsilon \sim N(0, \sigma^2 I_n)\).
+</p>
+
+<p>
+Weighted \(L_2\) distance between \(A\hat{\beta}\) and \(m\) is
+</p>
+
+\begin{equation*}
+||(\sigma^2 A(X^\prime X)^{-1} A^\prime)^{-1/2} (A\hat{\beta} - m)||_2^2 \sim \chi^2_r
+\end{equation*}
+
+<p>
+We don't know \(\sigma^2\), so replace with MSE. 
+</p>
+
+<p>
+Using SVD, we find out
+</p>
+
+\begin{equation*}
+\frac{(n-p)\text{MSE}}{\sigma^2} \sim \chi^2_{n - p}
+\end{equation*}
+
+<p>
+We then know ratio of two independent \(\chi^2\) is \(F\) distributed. And because \(\hat{\beta} \perp \!\!\! \perp \text{MSE}\), we have
+</p>
+
+\begin{equation*}
+F_{r, n-p} = \frac{\chi^2_r / r}{\chi^2_{n-p} / (n-p)} = \frac{(A\hat{\beta} - m)^\prime (A(X^\prime X)^{-1} A^\prime \text{MSE})^{-1}(A\hat{\beta} - m)}{r}
+\end{equation*}
+
+<p>
+Reject when \(> F_{r, n-p}(1 - \alpha)\).
+</p>
+</div>
+</div>
+
+<div id="outline-container-orged59d8c" class="outline-4">
+<h4 id="orged59d8c"><span class="done DONE">DONE</span> Singular value decomposition</h4>
+<div class="outline-text-4" id="text-orged59d8c">
+<p>
+For any given matrix \(Z \in \mathbb{R}^{m \times n}\) with rank \(r\), \(r \leq \text{min}(m, n)\), there exists
+</p>
+
+\begin{equation*}
+Z = U\Sigma V^\prime \\
+Z \in \mathbb{R}^{m \times n}, U \in \mathbb{R}^{m \times r}, \Sigma \in \mathbb{R}^{r \times r}, V^\prime \in \mathbb{R}^{r \times n}
+\end{equation*}
+
+<p>
+where \(U^\prime U = V^\prime V = I_{r \times r}\)
+</p>
+
+<p>
+\(\Sigma\) is diagonal matrix of singular values. 
+</p>
+
+<p>
+Since \(U^\prime U = I_{r \times r}\), there exists \(\tilde{U} \in \mathbb{R}^{m \times (m - r)}\) such that \(\tilde{U}^\prime \tilde{U} = I_{(m - r) \times (m - r)}\) and \(U^\prime \tilde{U} = 0\). That is to say, the columns of \(U\) and \(\tilde{U}\) form a orthonormal basis for \(\mathbb{R}^n\). 
+</p>
+</div>
+</div>
+
+<div id="outline-container-org0548163" class="outline-4">
+<h4 id="org0548163"><span class="done DONE">DONE</span> Power of \(H_0 : A\beta = m\) vs \(H_1 : A\beta \neq m\)</h4>
+<div class="outline-text-4" id="text-org0548163">
+<p>
+Remember
+</p>
+
+\begin{equation*}
+\text{Power} = 1 - \text{Type-II Error}
+\end{equation*}
+
+<p>
+In other words, power is the probability of rejecting when the alternative is true. This is a good thing, we want high power. 
+</p>
+
+<p>
+So under the alternative, 
+</p>
+
+\begin{equation*}
+\frac{(A\hat{\beta} - m)^\prime (A(X^\prime X)^{-1} A^\prime \text{MSE})^{-1}(A\hat{\beta} - m)}{r} \sim F_{r, n-p} (\lambda)
+\end{equation*}
+
+<p>
+which is non-central \(F\) distribution with 
+</p>
+
+\begin{equation*}
+\lambda = (m_1 - m)^\prime (\sigma^2 A (X^\prime X)^{-1} A^\prime)^{-1} (m_1 - m) \\
+A\beta = m_1 \neq m
+\end{equation*}
+
+<p>
+Then
+</p>
+
+\begin{equation*}
+\begin{split}
+\text{Power} & = 1 - \text{Type-II Error} \\
+& = P(F > F_{r, n-p} (1 - \alpha) | \text{H}_1) \\
+& = P(F_{r, n-p} (\lambda) > F_{r, n-p} (1 - \alpha))
+\end{split}
+\end{equation*}
+</div>
+</div>
+
+<div id="outline-container-orga6242ad" class="outline-4">
+<h4 id="orga6242ad"><span class="done DONE">DONE</span> Likelihood ratio test</h4>
+<div class="outline-text-4" id="text-orga6242ad">
+<p>
+Likelihood ratio test statistic is
+</p>
+
+\begin{equation*}
+T =  \frac{\underset{A \beta \ = m}{\mathrm{max}} \underset{\sigma^2}{\mathrm{max}} L(Y, X ; \beta, \sigma^2)}{\underset{\beta}{\mathrm{max}} \underset{\sigma^2}{\mathrm{max}} L(Y, X ; \beta, \sigma^2)}
+\end{equation*}
+
+<p>
+The likelihood ratio test statistic and the \(F\) test statistic only differ by a constant.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgec6324f" class="outline-4">
+<h4 id="orgec6324f"><span class="done DONE">DONE</span> Confidence region for \(A\beta \in \mathbb{R}^r\) with coverage level \(1 - \alpha\)</h4>
+<div class="outline-text-4" id="text-orgec6324f">
+<p>
+A <i>pivot</i> is a function of the data and the target quantity. 
+</p>
+
+<p>
+Idea is to get the distribution of the pivot, then solve inequality with \((1 - \alpha)\) level quantile of distribution to get the quantity of interest. 
+</p>
+
+<p>
+In \(r = 1\), we get an interval.
+</p>
+
+<p>
+For \(r > 1\), we get an ellipsoid.
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgc6375af" class="outline-3">
+<h3 id="orgc6375af"><span class="section-number-3">1.3</span> <span class="todo TODO">TODO</span> Simultaneous confidence intervals <code>[0/2]</code></h3>
+<div class="outline-text-3" id="text-1-3">
+</div>
+<div id="outline-container-org3b6a49b" class="outline-4">
+<h4 id="org3b6a49b"><span class="todo TODO">TODO</span> Lemma A</h4>
+<div class="outline-text-4" id="text-org3b6a49b">
+<p>
+For \(Z \in \mathbb{R}^m\),
+</p>
+
+\begin{equation*}
+||Z||_2 \leq c \Longleftrightarrow |b^\prime Z| \leq ||b||_2 c \quad \forall b \in \mathbb{R}^m
+\end{equation*}
+</div>
+</div>
+
+<div id="outline-container-orgbf9618e" class="outline-4">
+<h4 id="orgbf9618e"><span class="todo TODO">TODO</span> Scheffes Simultaneous C.I. for \(l'\beta\)</h4>
+</div>
+</div>
+
+<div id="outline-container-org96e2407" class="outline-3">
+<h3 id="org96e2407"><span class="section-number-3">1.4</span> Maximum Likelihood Estimation</h3>
+<div class="outline-text-3" id="text-1-4">
+<p>
+Multivariate normal pdf for \(Y \sim N(\mu, \Sigma)\)
+</p>
+
+\begin{equation*}
+\frac{1}{\sqrt{(2 \pi)^n |\Sigma|}} \text{exp} \left(\frac{-1}{2} (Y - \mu)^\prime \Sigma^{-1} (Y - \mu) \right)
+\end{equation*}
+
+<p>
+Review derivative theorems p. 53 Khuri
+</p>
+</div>
+</div>
+
+<div id="outline-container-orge5c2a3e" class="outline-3">
+<h3 id="orge5c2a3e"><span class="section-number-3">1.5</span> <span class="todo TODO">TODO</span> Less-than-full-rank linear models <code>[0/3]</code></h3>
+<div class="outline-text-3" id="text-1-5">
+</div>
+<div id="outline-container-orgd2c350b" class="outline-4">
+<h4 id="orgd2c350b"><span class="todo TODO">TODO</span> One-way ANOVA example</h4>
+</div>
+<div id="outline-container-orge1d85b9" class="outline-4">
+<h4 id="orge1d85b9"><span class="todo TODO">TODO</span> Generalized inverse of a matrix</h4>
+</div>
+<div id="outline-container-org7983776" class="outline-4">
+<h4 id="org7983776"><span class="todo TODO">TODO</span> Properties under less-than-full-rank model</h4>
+</div>
+</div>
+<div id="outline-container-org4d1d672" class="outline-3">
+<h3 id="org4d1d672"><span class="section-number-3">1.6</span> <span class="todo TODO">TODO</span> Estimable/Testable linear functions <code>[0/11]</code></h3>
+<div class="outline-text-3" id="text-1-6">
+</div>
+<div id="outline-container-org7c8fbe6" class="outline-4">
+<h4 id="org7c8fbe6"><span class="todo TODO">TODO</span> Estimability</h4>
+</div>
+<div id="outline-container-orged17ab7" class="outline-4">
+<h4 id="orged17ab7"><span class="todo TODO">TODO</span> Identifiability</h4>
+</div>
+<div id="outline-container-org69c4df0" class="outline-4">
+<h4 id="org69c4df0"><span class="todo TODO">TODO</span> Estimable linear functions \(a'\beta\)</h4>
+</div>
+<div id="outline-container-org5fd3c06" class="outline-4">
+<h4 id="org5fd3c06"><span class="todo TODO">TODO</span> Gauss-Markov theorem for \(a'\beta\)</h4>
+</div>
+<div id="outline-container-orgb85f999" class="outline-4">
+<h4 id="orgb85f999"><span class="todo TODO">TODO</span> Testable hypothesis</h4>
+</div>
+<div id="outline-container-org218261d" class="outline-4">
+<h4 id="org218261d"><span class="todo TODO">TODO</span> Confidence region for \(A\beta\)</h4>
+</div>
+<div id="outline-container-orgb1aefa2" class="outline-4">
+<h4 id="orgb1aefa2"><span class="todo TODO">TODO</span> Two-way ANOVA model</h4>
+</div>
+<div id="outline-container-org20c4ea1" class="outline-4">
+<h4 id="org20c4ea1"><span class="todo TODO">TODO</span> Simultaneous confidence interval for estimable linear functions</h4>
+</div>
+<div id="outline-container-org97ef215" class="outline-4">
+<h4 id="org97ef215"><span class="todo TODO">TODO</span> Bonferroni's intervals</h4>
+</div>
+<div id="outline-container-org418dac7" class="outline-4">
+<h4 id="org418dac7"><span class="todo TODO">TODO</span> Sidaks Intervals</h4>
+</div>
+<div id="outline-container-org4f7e5dc" class="outline-4">
+<h4 id="org4f7e5dc"><span class="todo TODO">TODO</span> Simultaneous C.I. <code>[0/3]</code></h4>
+<div class="outline-text-4" id="text-org4f7e5dc">
+<dl class="org-dl">
+<dt class="off">&#x2610; Based on Scheffes method</dt><dd></dd>
+
+<dt class="off">&#x2610; Based on Bonferronis Inequality</dt><dd></dd>
+
+<dt class="off">&#x2610; Based on Confidence Regions</dt><dd></dd>
+</dl>
+</div>
+</div>
+</div>
+<div id="outline-container-org5fcbff5" class="outline-3">
+<h3 id="org5fcbff5"><span class="section-number-3">1.7</span> <span class="todo TODO">TODO</span> Distributional properties of quadratic forms <code>[0/9]</code></h3>
+<div class="outline-text-3" id="text-1-7">
+</div>
+<div id="outline-container-orgbada736" class="outline-4">
+<h4 id="orgbada736"><span class="todo TODO">TODO</span> Lemma 1</h4>
+</div>
+<div id="outline-container-org268a916" class="outline-4">
+<h4 id="org268a916"><span class="todo TODO">TODO</span> Theorem 1</h4>
+</div>
+<div id="outline-container-orgc244519" class="outline-4">
+<h4 id="orgc244519"><span class="todo TODO">TODO</span> Moment generating function</h4>
+</div>
+<div id="outline-container-orgcfa1465" class="outline-4">
+<h4 id="orgcfa1465"><span class="todo TODO">TODO</span> Corollary \(A \in \mathbb{R}^{n \times n}\)</h4>
+<div class="outline-text-4" id="text-orgcfa1465">
+<ol class="org-ol">
+<li>\(Y \sim N(0, \Sigma)\)</li>
+<li>\(Y \sim N(\mu, \Sigma)\)</li>
+<li>\(Y \sim N(\mu, \sigma^2I)\)</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-orgd7b7d04" class="outline-4">
+<h4 id="orgd7b7d04"><span class="todo TODO">TODO</span> Theorem 2 (Craig's Theorem)</h4>
+</div>
+<div id="outline-container-org945e2b6" class="outline-4">
+<h4 id="org945e2b6"><span class="todo TODO">TODO</span> Theorem 3.9 Khuri</h4>
+</div>
+<div id="outline-container-org127fc38" class="outline-4">
+<h4 id="org127fc38"><span class="todo TODO">TODO</span> Theorem 3</h4>
+</div>
+<div id="outline-container-orga95f2ca" class="outline-4">
+<h4 id="orga95f2ca"><span class="todo TODO">TODO</span> Partitioning the sum of squares <code>[0/1]</code></h4>
+<div class="outline-text-4" id="text-orga95f2ca">
+<dl class="org-dl">
+<dt class="off">&#x2610; One-way ANOVA example</dt><dd></dd>
+</dl>
+</div>
+</div>
+<div id="outline-container-orgaac480a" class="outline-4">
+<h4 id="orgaac480a"><span class="todo TODO">TODO</span> Cochran's theorem</h4>
+</div>
+</div>
+<div id="outline-container-org5d04a9c" class="outline-3">
+<h3 id="org5d04a9c"><span class="section-number-3">1.8</span> <span class="todo TODO">TODO</span> Model selection and prediction <code>[0/10]</code></h3>
+<div class="outline-text-3" id="text-1-8">
+</div>
+<div id="outline-container-org358ec7b" class="outline-4">
+<h4 id="org358ec7b"><span class="todo TODO">TODO</span> Expected prediction error</h4>
+</div>
+<div id="outline-container-org75d3156" class="outline-4">
+<h4 id="org75d3156"><span class="todo TODO">TODO</span> Prediction <code>[0/2]</code></h4>
+<div class="outline-text-4" id="text-org75d3156">
+<dl class="org-dl">
+<dt class="off">&#x2610; Using only \(p_1\) variables</dt><dd></dd>
+
+<dt class="off">&#x2610; Using all the variables</dt><dd></dd>
+</dl>
+</div>
+</div>
+<div id="outline-container-orgf5c450b" class="outline-4">
+<h4 id="orgf5c450b"><span class="todo TODO">TODO</span> Bias-variance tradeoff</h4>
+</div>
+<div id="outline-container-orgbb29f57" class="outline-4">
+<h4 id="orgbb29f57"><span class="todo TODO">TODO</span> Goodness of Fit <code>[0/2]</code></h4>
+<div class="outline-text-4" id="text-orgbb29f57">
+<dl class="org-dl">
+<dt class="off">&#x2610; Coefficient of Determination</dt><dd></dd>
+
+<dt class="off">&#x2610; Adjusted \(R^2\)</dt><dd></dd>
+</dl>
+</div>
+</div>
+<div id="outline-container-org1bdc07f" class="outline-4">
+<h4 id="org1bdc07f"><span class="todo TODO">TODO</span> Predicition error <code>[0/2]</code></h4>
+<div class="outline-text-4" id="text-org1bdc07f">
+<dl class="org-dl">
+<dt class="off">&#x2610; Expected in-sample prediction error</dt><dd></dd>
+
+<dt class="off">&#x2610; Mallon's Cp</dt><dd></dd>
+</dl>
+</div>
+</div>
+<div id="outline-container-org0ddf1af" class="outline-4">
+<h4 id="org0ddf1af"><span class="todo TODO">TODO</span> Degrees of freedom of given prediction method</h4>
+</div>
+<div id="outline-container-orga2f87d9" class="outline-4">
+<h4 id="orga2f87d9"><span class="todo TODO">TODO</span> Cross validation</h4>
+</div>
+<div id="outline-container-org6ff278a" class="outline-4">
+<h4 id="org6ff278a"><span class="todo TODO">TODO</span> Information Criterion <code>[0/6]</code></h4>
+<div class="outline-text-4" id="text-org6ff278a">
+<dl class="org-dl">
+<dt class="off">&#x2610; Akaike Information Criterion</dt><dd></dd>
+
+<dt class="off">&#x2610; Kullback - Leibler divergence</dt><dd></dd>
+
+<dt class="off">&#x2610; Takeuchi's Information Criterion</dt><dd></dd>
+
+<dt class="off">&#x2610; AIC For Linear Regression Model</dt><dd></dd>
+
+<dt class="off">&#x2610; Bayesian Information Criterion</dt><dd></dd>
+
+<dt class="off">&#x2610; Laplace's Approximation</dt><dd></dd>
+</dl>
+</div>
+</div>
+<div id="outline-container-orgf5a2cbd" class="outline-4">
+<h4 id="orgf5a2cbd"><span class="todo TODO">TODO</span> Comparison of model selection criteria for linear regression model</h4>
+</div>
+<div id="outline-container-orgce6512a" class="outline-4">
+<h4 id="orgce6512a"><span class="todo TODO">TODO</span> Subset selection</h4>
+</div>
+</div>
+<div id="outline-container-org85be723" class="outline-3">
+<h3 id="org85be723"><span class="section-number-3">1.9</span> <span class="todo TODO">TODO</span> Shrinkage methods <code>[0/3]</code></h3>
+<div class="outline-text-3" id="text-1-9">
+</div>
+<div id="outline-container-org5082485" class="outline-4">
+<h4 id="org5082485"><span class="todo TODO">TODO</span> James-Stein estimator</h4>
+</div>
+<div id="outline-container-org7780a0c" class="outline-4">
+<h4 id="org7780a0c"><span class="todo TODO">TODO</span> Ridge Regression</h4>
+</div>
+<div id="outline-container-orgef649ed" class="outline-4">
+<h4 id="orgef649ed"><span class="todo TODO">TODO</span> The Lasso</h4>
+</div>
+</div>
+</div>
+<div id="outline-container-org8b68e57" class="outline-2">
+<h2 id="org8b68e57"><span class="section-number-2">2</span> STT 868 <code>[46%]</code></h2>
+<div class="outline-text-2" id="text-2">
+</div>
+<div id="outline-container-orgdffb59b" class="outline-3">
+<h3 id="orgdffb59b"><span class="section-number-3">2.1</span> <span class="done DONE">DONE</span> Model Identifiability <code>[10/10]</code></h3>
+<div class="outline-text-3" id="text-2-1">
+</div>
+<div id="outline-container-orgc49a331" class="outline-4">
+<h4 id="orgc49a331"><span class="done DONE">DONE</span> One-way ANOVA model</h4>
+<div class="outline-text-4" id="text-orgc49a331">
+\begin{equation*}
+y_{ij} = \mu + \alpha_i + \varepsilon_{ij}, \\
+ i = 1 \ldots k, j = 1, \dots n_i, \\
+\mu_i = \mu + \alpha_i
+\end{equation*}
+
+<p>
+\(\mu_i\) are fixed effects. They are estimable.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgfa29bbc" class="outline-4">
+<h4 id="orgfa29bbc"><span class="done DONE">DONE</span> Variance componenets models</h4>
+<div class="outline-text-4" id="text-orgfa29bbc">
+<p>
+Same model as one-way ANOVA, but \(\mu_i \overset{\text{iid}}{\sim} N(\mu, \sigma^2) \Leftrightarrow \alpha_i \overset{\text{iid}}{\sim} N(0, \sigma^2)\)
+</p>
+
+<p>
+The \(\mu_i\) are random effects
+</p>
+</div>
+</div>
+
+<div id="outline-container-org1245833" class="outline-4">
+<h4 id="org1245833"><span class="done DONE">DONE</span> Properties of random effects</h4>
+<div class="outline-text-4" id="text-org1245833">
+<ol class="org-ol">
+<li>induce dependency structure</li>
+<li>bring fewer parameters to the model</li>
+<li>different estimation and inference</li>
+</ol>
+</div>
+</div>
+
+<div id="outline-container-org612c381" class="outline-4">
+<h4 id="org612c381"><span class="done DONE">DONE</span> Random intercept model</h4>
+<div class="outline-text-4" id="text-org612c381">
+\begin{equation*}
+Y_{ij} = \mu_i + X_{ij} \beta + \varepsilon_{ij} \\
+i = 1, \ldots N, j = 1, \ldots n_i \\
+\mu_i \overset{\text{iid}}{\sim} N(\mu, \sigma_a^2)
+\end{equation*}
+</div>
+</div>
+
+<div id="outline-container-orgfdfb36d" class="outline-4">
+<h4 id="orgfdfb36d"><span class="done DONE">DONE</span> Linear mixed model</h4>
+<div class="outline-text-4" id="text-orgfdfb36d">
+\begin{equation*}
+Y_i = X_i \beta + Z_ib_i + \varepsilon_i \\
+i = 1, \ldots N
+\end{equation*}
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<tbody>
+<tr>
+<td class="org-left">\(Y_i \in \mathcal{R}^{n_i}\)</td>
+<td class="org-left">the response of the \(i^\text{th}\) group/cluster/subject</td>
+</tr>
+
+<tr>
+<td class="org-left">\(X_i \in \mathcal{R}^{n_i \times m}\)</td>
+<td class="org-left">the design matrix for the \(i^\text{th}\) group/cluster/subject</td>
+</tr>
+
+<tr>
+<td class="org-left">\(\beta \in \mathcal{R}^m\)</td>
+<td class="org-left">fixed effects coefficients</td>
+</tr>
+
+<tr>
+<td class="org-left">\(Z_i \in \mathcal{R}^{n_i \times k}\)</td>
+<td class="org-left">design matrix of random effects for the \(i^\text{th}\) group/cluster/subject</td>
+</tr>
+
+<tr>
+<td class="org-left">\(b_i \in \mathcal{R}^k\)</td>
+<td class="org-left">random effects</td>
+</tr>
+
+<tr>
+<td class="org-left">\(\varepsilon_i \in \mathcal{R}^{n_i}\)</td>
+<td class="org-left">error term</td>
+</tr>
+</tbody>
+</table>
+
+<dl class="org-dl">
+<dt class="on">&#x2611; Basic assumptions</dt><dd><ol class="org-ol">
+<li>Random effects and errors are mutually indpendent.</li>
+<li>\(E(\varepsilon_i) = 0\) and  \(\text{Cov}(\varepsilon_i) = \sigma^2 I_{n_i}\)</li>
+<li>\(E(b_i) = 0\) and  \(\text{Cov}(b_i) = \sigma^2 D\)</li>
+</ol></dd>
+</dl>
+</div>
+</div>
+
+<div id="outline-container-org9e06589" class="outline-4">
+<h4 id="org9e06589"><span class="done DONE">DONE</span> Identifiability definition</h4>
+<div class="outline-text-4" id="text-org9e06589">
+<p>
+A model is identifiable if \(P_{\theta_1} = P_{\theta_2} \Rightarrow \theta_1 = \theta_2\).
+</p>
+
+<p>
+We must have one-to-one mapping from parameter space to model space.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgf331da4" class="outline-4">
+<h4 id="orgf331da4"><span class="done DONE">DONE</span> Identifiability theorem for LMM</h4>
+<div class="outline-text-4" id="text-orgf331da4">
+<p>
+LMM is identifiable if
+</p>
+
+<ol class="org-ol">
+<li>\(X = (X_1, X_2, \ldots, X_N)^\prime\) has full column rank</li>
+<li>At least one \(Z_i\) has full column rank</li>
+<li>\(\sum_{i = 1}^N (n_i - k) > 0\)</li>
+</ol>
+</div>
+</div>
+
+<div id="outline-container-orgac59f79" class="outline-4">
+<h4 id="orgac59f79"><span class="done DONE">DONE</span> Kronecker Product</h4>
+<div class="outline-text-4" id="text-orgac59f79">
+<p>
+Just remember that \(A \otimes B\) means each element of \(A\) gets multiplied by matrix \(B\). 
+</p>
+</div>
+</div>
+
+<div id="outline-container-org905c9d5" class="outline-4">
+<h4 id="org905c9d5"><span class="done DONE">DONE</span> Vectorization</h4>
+<div class="outline-text-4" id="text-org905c9d5">
+<p>
+Just stack up columns, starting with first column. 
+</p>
+
+\begin{equation*}
+\text{Vec}(ABC) = (B^\prime \otimes A) \text{Vec}(C)
+\end{equation*}
+</div>
+</div>
+
+<div id="outline-container-org0f279db" class="outline-4">
+<h4 id="org0f279db"><span class="done DONE">DONE</span> Schur Complement Condition</h4>
+<div class="outline-text-4" id="text-org0f279db">
+\begin{equation*}
+{\begin{pmatrix}
+A & B\\
+B^\prime & C
+\end{pmatrix} \succ 0} \Leftrightarrow {A \succ 0 \\ C - B^\prime A^{-1} B \succ 0}
+\end{equation*}
+</div>
+</div>
+</div>
+
+<div id="outline-container-org7a55a58" class="outline-3">
+<h3 id="org7a55a58"><span class="section-number-3">2.2</span> <span class="done DONE">DONE</span> MLE, ANOVA estimation, MINQUE, RMLE <code>[7/7]</code></h3>
+<div class="outline-text-3" id="text-2-2">
+</div>
+<div id="outline-container-org580998c" class="outline-4">
+<h4 id="org580998c"><span class="done DONE">DONE</span> Log-likelihood of LMM</h4>
+<div class="outline-text-4" id="text-org580998c">
+<p>
+Under normaility assumptions, 
+</p>
+
+\begin{equation*}
+Y_i \sim N(X_i \beta, \sigma^2 (I + Z_i D Z_i^\prime)) \\
+i = 1, \ldots, N
+\end{equation*}
+
+<p>
+The log-likelihood function is given by
+</p>
+
+\begin{equation*}
+\sum_{i = 1}^{N} \left[ \frac{-n_i}{2} \log \sigma^2 - \frac{1}{2} \log |Z_i D Z_i^\prime + I_{n_i} | - \frac{\sigma^2}{2} (Y_i - X_i \beta)^\prime (Z_i D Z_i^\prime + I_{n_i})^{-1} (Y_i - X_i \beta) \right]
+\end{equation*}
+</div>
+</div>
+
+<div id="outline-container-org33b221d" class="outline-4">
+<h4 id="org33b221d"><span class="done DONE">DONE</span> MLE \(\hat{\beta}\) <code>[2/2]</code></h4>
+<div class="outline-text-4" id="text-org33b221d">
+\begin{equation*}
+\hat{\beta} = \left[ \sum_{i = 1}^{n} X_i^\prime (Z_i \hat{D} Z_i^\prime + I_{n_i})^{-1} X_i \right]^{-1} \left[ \sum_{i = 1}^{n} X_i^\prime (Z_i \hat{D} Z_i^\prime + I_{n_i})^{-1} Y_i \right]
+\end{equation*}
+
+<dl class="org-dl">
+<dt class="on">&#x2611; when \(\hat{D} = 0\)</dt><dd></dd>
+</dl>
+
+\begin{equation*}
+\hat{\beta} = \text{OLS}
+\end{equation*}
+
+<dl class="org-dl">
+<dt class="on">&#x2611; when \(\hat{D} = d I\) and \(d \to \infty\)</dt><dd></dd>
+</dl>
+<p>
+Do SVD of \(Z_i\) as \(U_i \Sigma_i V_i^\top\)
+</p>
+
+\begin{equation*}
+\underset{\beta}{\mathrm{argmin}} \sum_{i = 1}^{n} (Y_i - X_i \beta)^\prime (I_{n_i} - U_i U_i^\prime) (Y_i - X_i \beta) = \underset{\beta}{\mathrm{argmin}} ||Y_i - X_i \beta - Z_i b_i||_2^2
+\end{equation*}
+
+<p>
+Here we are basically assuming the \(b_i\) are fixed effects. Then we get linear model and we claim \(\hat{\beta}\) in this scenario is equivalent to \(\hat{\beta}\) in LMM when \(\hat{D} \rightarrow \infty\).
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgb198389" class="outline-4">
+<h4 id="orgb198389"><span class="done DONE">DONE</span> MLE \(\hat{\sigma}^2\)</h4>
+<div class="outline-text-4" id="text-orgb198389">
+<p>
+Use profile log-likelihood
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgd4889a4" class="outline-4">
+<h4 id="orgd4889a4"><span class="done DONE">DONE</span> Derivatives of log-likelihood function</h4>
+<div class="outline-text-4" id="text-orgd4889a4">
+<p>
+We can have derivatives for \(\beta\), \(\sigma^2\) or \(D\). These are called the maximum likelihood equations. 
+</p>
+
+<p>
+Can use helpful identities from the <a href="https://www.math.uwaterloo.ca/~hwolkowi/matrixcookbook.pdf">Matrix Cookbook</a>
+</p>
+</div>
+</div>
+
+<div id="outline-container-org389c9c2" class="outline-4">
+<h4 id="org389c9c2"><span class="done DONE">DONE</span> Balanced random coefficient model <code>[3/3]</code></h4>
+<div class="outline-text-4" id="text-org389c9c2">
+<p>
+<i>Balanced</i> means each group has the same number of data points. 
+</p>
+
+<p>
+There is fixed part and random part. 
+</p>
+
+<p>
+BRCM is LMM with \(Z_i = X_i = Z\), \(i = 1, 2, \ldots, N\), \(n_1 = n_2 = \ldots = n_N = n\).
+</p>
+
+<dl class="org-dl">
+<dt class="on">&#x2611; MLE for \(\beta\)</dt><dd></dd>
+</dl>
+<p>
+OLS
+</p>
+<dl class="org-dl">
+<dt class="on">&#x2611; MLE for \(\sigma^2\)</dt><dd></dd>
+</dl>
+<p>
+Solving the maximum likelihood equation, we get something like SSR. 
+</p>
+<dl class="org-dl">
+<dt class="on">&#x2611; MLE for \(D\)</dt><dd></dd>
+</dl>
+<p>
+Solving the maximum likelihood equation, we get a solution. 
+</p>
+
+<p>
+The solutions for \(\sigma^2\) and \(D\) may not be the true solutions, since there are constraints on them (\(D \geq 0\) and \(\sigma^2 > 0\)). 
+</p>
+
+<p>
+If global mimizer/maximizer occurs at boundary of the constraint, then gradient may not be zero at that point. 
+</p>
+</div>
+</div>
+
+<div id="outline-container-org7909bbf" class="outline-4">
+<h4 id="org7909bbf"><span class="done DONE">DONE</span> Existence of MLE</h4>
+<div class="outline-text-4" id="text-org7909bbf">
+<p>
+The failure of an algorithm does not mean that the MLE does not exist. 
+</p>
+
+<p>
+The MLE in the LME model exists with probability \(1\) if the total number of observations is sufficiently large, particularly if \(\sum (n_i - k) - m > 0\). 
+</p>
+
+<p>
+If the MLE exists, the estimate of \(\sigma^2\) must be strictly positive.
+</p>
+
+<p>
+The MLE may exist but make no sense for matrix \(D\).
+</p>
+
+\begin{equation*}
+\text{MLE exists } \Leftrightarrow S_\text{min} \triangleq \sum_{i = 1}^{N} ||Y_i - X_i\beta - Z_i b_i ||_2^2 > 0
+\end{equation*}
+</div>
+</div>
+
+<div id="outline-container-org00d8c18" class="outline-4">
+<h4 id="org00d8c18"><span class="done DONE">DONE</span> LMM with random intercept <code>[3/3]</code></h4>
+<div class="outline-text-4" id="text-org00d8c18">
+\begin{equation*}
+y_{ij} = u_{ij}^\prime \gamma + \alpha + b_i + \varepsilon_{ij} \\
+i = 1, \ldots, N \\
+j = 1, \ldots, n_i \\
+b_i \sim N(0, \sigma^2 d), \varepsilon_{ij} \sim N(0, \sigma^2)
+\end{equation*}
+
+<p>
+\(b_i\)'s and \(\varepsilon_{ij}\)'s are mutually independent. 
+</p>
+
+<p>
+\(\gamma\) and \(\alpha\) are regression parameters. \(u_{ij}\)'s are covariates.
+</p>
+
+<dl class="org-dl">
+<dt class="on">&#x2611; MLE for \(\hat{\beta}\)</dt><dd></dd>
+</dl>
+<p>
+Ends up being OLS.
+</p>
+<dl class="org-dl">
+<dt class="on">&#x2611; MLE for \(\sigma^2\)</dt><dd></dd>
+</dl>
+<p>
+Get two cases.
+</p>
+<dl class="org-dl">
+<dt class="on">&#x2611; MLE for \(d\)</dt><dd></dd>
+</dl>
+<p>
+Get two cases.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org1908f97" class="outline-3">
+<h3 id="org1908f97"><span class="section-number-3">2.3</span> <span class="done DONE">DONE</span> Computation and optimization <code>[9/9]</code></h3>
+<div class="outline-text-3" id="text-2-3">
+<p>
+MLE in LMM may not have closed form.
+</p>
+</div>
+<div id="outline-container-orgec526c6" class="outline-4">
+<h4 id="orgec526c6"><span class="done DONE">DONE</span> Gradient methods <code>[4/4]</code></h4>
+<div class="outline-text-4" id="text-orgec526c6">
+<p>
+<i>Iterative descent</i>: start with an initial guess, successivley generate more samples such that each sample increases the function value. 
+</p>
+<dl class="org-dl">
+<dt class="on">&#x2611; Steepest descent</dt><dd></dd>
+</dl>
+
+\begin{equation*}
+x^{k+1} = x^{k} - \alpha^k \nabla f(x^k) \\
+\alpha^k > 0 \text{ is the step size} \\
+\nabla f(x^k) \text{ is the direction chosen}
+\end{equation*}
+
+<p>
+So we are basically moving in the direction of the steepest decrease based on the gradient. 
+</p>
+
+<dl class="org-dl">
+<dt class="on">&#x2611; Newton's method</dt><dd></dd>
+</dl>
+<p>
+Gradient descent is guided by local information. It may be improved if we use MORE local information, such as Hessian. 
+</p>
+
+\begin{equation*}
+x^{k+1} = x^{k} - \alpha^k \left[\nabla^2 f(x^k)\right]^{-1} \nabla f(x^k) \\
+\left[\nabla^2 f(x^k)\right]^{-1} \text{ is the Hessian}
+\end{equation*}
+
+<dl class="org-dl">
+<dt class="on">&#x2611; Pure Newton iteration</dt><dd></dd>
+</dl>
+<p>
+This is just Newton's method with \(\alpha^k = 1\).
+</p>
+<dl class="org-dl">
+<dt class="on">&#x2611; Armijo rule</dt><dd></dd>
+</dl>
+<p>
+This rule basically guarantees that we will make progress at each iteration given a small enough step size.
+</p>
+</div>
+</div>
+<div id="outline-container-orgca5eea0" class="outline-4">
+<h4 id="orgca5eea0"><span class="done DONE">DONE</span> Convergence issues</h4>
+<div class="outline-text-4" id="text-orgca5eea0">
+<p>
+We may stop at a stationary point instead of the global minimizer. 
+</p>
+
+<p>
+The sequence may also not converge given a bad initialization. 
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgb351158" class="outline-4">
+<h4 id="orgb351158"><span class="done DONE">DONE</span> Rate of Convergence</h4>
+<div class="outline-text-4" id="text-orgb351158">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<tbody>
+<tr>
+<td class="org-left">Gradient descent</td>
+<td class="org-left">Linear convergence</td>
+</tr>
+
+<tr>
+<td class="org-left">Newton's method</td>
+<td class="org-left">Quadratic convergence</td>
+</tr>
+</tbody>
+</table>
+
+<p>
+There is a trade-off between convergence rate and computation time. 
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgbd0b36e" class="outline-4">
+<h4 id="orgbd0b36e"><span class="done DONE">DONE</span> Expectation-Maximization algorithm</h4>
+<div class="outline-text-4" id="text-orgbd0b36e">
+<p>
+<b>E Step</b>: calculate conditional expectation of latent parameters given data and parameter values from previous iteration.
+</p>
+
+<p>
+<b>M step</b>: solve the maximization problem to maximize this expectation with respect to parameters.
+</p>
+
+<p>
+In LMM, distribution of latent parameters (random effects) given data and parameters is Gaussian.
+</p>
+
+<p>
+<span class="underline"><b>SPEND MORE TIME ON THIS</b></span>
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgf1b7942" class="outline-4">
+<h4 id="orgf1b7942"><span class="done DONE">DONE</span> Fisher Scoring Algorithm</h4>
+<div class="outline-text-4" id="text-orgf1b7942">
+<p>
+We use this to solve maximization of \(P(Y; \theta)\) with respect to \(\theta\).
+</p>
+
+\begin{equation*}
+I(\theta^k) = E\left[-\nabla^2 \log P(Y;\theta^k) \right] \\
+\theta^{k+1} = \theta^k + \alpha^k I^{-1}(\theta^k) \nabla \log P(Y ; \theta^k)
+\end{equation*}
+
+<p>
+\(I(\theta^k)\) is the <i>Fisher information matrix</i>.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orge944873" class="outline-4">
+<h4 id="orge944873"><span class="done DONE">DONE</span> RMLE in LMM</h4>
+<div class="outline-text-4" id="text-orge944873">
+<p>
+RMLE is the MLE of transformed data. We transform the data to get rid of nuisance parameters. RMLE can reduce the bias of MLE.
+</p>
+
+<p>
+For example, MLE of \(\sigma^2\) is \(\text{SSE} / n\), which is biased. RMLE of \(\sigma^2\) is MSE, which is unbiased. 
+</p>
+
+<p>
+The data transformation is of the form \(\tilde{Y} = A^\prime Y\). RMLE will not depend on the choice of A. 
+</p>
+</div>
+</div>
+<div id="outline-container-org80bdcd1" class="outline-4">
+<h4 id="org80bdcd1"><span class="done DONE">DONE</span> MINQUE in LMM</h4>
+<div class="outline-text-4" id="text-org80bdcd1">
+<p>
+This is similar to idea of BLUE (best linear unbiased estimator).
+</p>
+
+<p>
+Now we are interested in the Minimum norm quadratic unbiased estimator. We use this because \(\hat{\sigma}^2 = \text{MSE}\) is not a linear esitmator, but a quadratic estimator. It takes the form
+</p>
+
+\begin{equation*}
+Y^\prime AY \\
+A \succeq 0
+\end{equation*}
+
+<p>
+Which quadratic forms are unbiased? <span class="underline">In LM setting</span> \(Y = X\beta + \varepsilon\), we have three conditions to make sure \(Y^\prime AY\) is unbiased. 
+</p>
+
+\begin{equation*}
+X^\prime A X = 0 \\
+\text{tr}(A) = 1 \\
+A \succeq 0
+\end{equation*}
+
+<p>
+The we find the MINQUE by solving \(\text{argmin} ||A||_\text{F}^2\) under these conditions.
+</p>
+
+<p>
+In the gaussian case, solving for MINQUE is actually just reducing the variance of the quadratic form. 
+</p>
+
+<p>
+<span class="underline">In LMM case</span>, we have different conditions for \(Y^\prime A Y\) to be unbiased.
+</p>
+
+\begin{equation*}
+X^\prime A X = 0 \\
+\text{tr}(A) = 1 \\
+Z^\prime A Z = 0 \\
+A \succeq 0
+\end{equation*}
+
+<p>
+In this case, MINQUE is like MSE under linear model with \(Zb\) treated as fixed effects. 
+</p>
+</div>
+</div>
+
+<div id="outline-container-org37555b7" class="outline-4">
+<h4 id="org37555b7"><span class="done DONE">DONE</span> ANOVA Estimation</h4>
+<div class="outline-text-4" id="text-org37555b7">
+<p>
+Use expectations of different sums of squares and solve for the parameters of interest. The hardest part is coming up with the relevant sums of squares. 
+</p>
+</div>
+</div>
+<div id="outline-container-org2db18cf" class="outline-4">
+<h4 id="org2db18cf"><span class="done DONE">DONE</span> A general method of moments</h4>
+<div class="outline-text-4" id="text-org2db18cf">
+<p>
+Construct sample moments, match to population moments, and solve the system of equations. 
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgf5c60bd" class="outline-3">
+<h3 id="orgf5c60bd"><span class="section-number-3">2.4</span> <span class="todo TODO">TODO</span> Hypothesis testing and confidence intervals <code>[0/6]</code></h3>
+<div class="outline-text-3" id="text-2-4">
+</div>
+<div id="outline-container-org75f32b8" class="outline-4">
+<h4 id="org75f32b8"><span class="todo TODO">TODO</span> F test</h4>
+</div>
+<div id="outline-container-org1b08d0f" class="outline-4">
+<h4 id="org1b08d0f"><span class="todo TODO">TODO</span> Likelihood ratio test</h4>
+</div>
+<div id="outline-container-org22bf62a" class="outline-4">
+<h4 id="org22bf62a"><span class="todo TODO">TODO</span> C.I. for \(\sigma^2\) in LMM</h4>
+</div>
+<div id="outline-container-orgfe70afb" class="outline-4">
+<h4 id="orgfe70afb"><span class="todo TODO">TODO</span> Confidence region for \(D \in \mathbb{R}^{k \times k}\)</h4>
+</div>
+<div id="outline-container-orgbb5b603" class="outline-4">
+<h4 id="orgbb5b603"><span class="todo TODO">TODO</span> C.I. for functions of \(\sigma^2\) and \(D\)</h4>
+</div>
+<div id="outline-container-orgc223a8f" class="outline-4">
+<h4 id="orgc223a8f"><span class="todo TODO">TODO</span> Approximate C.I. for variance components <code>[0/2]</code></h4>
+<div class="outline-text-4" id="text-orgc223a8f">
+<dl class="org-dl">
+<dt class="off">&#x2610; Sattertheuaite's Approximation</dt><dd></dd>
+
+<dt class="off">&#x2610; Large-sample approximation</dt><dd></dd>
+</dl>
+</div>
+</div>
+</div>
+<div id="outline-container-orgf6e13fb" class="outline-3">
+<h3 id="orgf6e13fb"><span class="section-number-3">2.5</span> <span class="todo TODO">TODO</span> Generalized linear models <code>[0/7]</code></h3>
+<div class="outline-text-3" id="text-2-5">
+</div>
+<div id="outline-container-orgf8b7d75" class="outline-4">
+<h4 id="orgf8b7d75"><span class="todo TODO">TODO</span> GLM Setup</h4>
+</div>
+<div id="outline-container-org25ae46a" class="outline-4">
+<h4 id="org25ae46a"><span class="todo TODO">TODO</span> Exponential family distribution <code>[0/4]</code></h4>
+<div class="outline-text-4" id="text-org25ae46a">
+<dl class="org-dl">
+<dt class="off">&#x2610; Gaussian</dt><dd></dd>
+
+<dt class="off">&#x2610; Poisson</dt><dd></dd>
+
+<dt class="off">&#x2610; Binomial</dt><dd></dd>
+
+<dt class="off">&#x2610; Gamma</dt><dd></dd>
+</dl>
+</div>
+</div>
+<div id="outline-container-org249dc65" class="outline-4">
+<h4 id="org249dc65"><span class="todo TODO">TODO</span> Link Functions <code>[0/4]</code></h4>
+<div class="outline-text-4" id="text-org249dc65">
+<dl class="org-dl">
+<dt class="off">&#x2610; Logit</dt><dd></dd>
+
+<dt class="off">&#x2610; Probit</dt><dd></dd>
+
+<dt class="off">&#x2610; Complementary log-log</dt><dd></dd>
+
+<dt class="off">&#x2610; Canonical links</dt><dd></dd>
+</dl>
+</div>
+</div>
+<div id="outline-container-org9243383" class="outline-4">
+<h4 id="org9243383"><span class="todo TODO">TODO</span> log-likelihood for GLM</h4>
+</div>
+<div id="outline-container-orgd798551" class="outline-4">
+<h4 id="orgd798551"><span class="todo TODO">TODO</span> Fisher scoring algorithm</h4>
+</div>
+<div id="outline-container-org674f918" class="outline-4">
+<h4 id="org674f918"><span class="todo TODO">TODO</span> Inference in GLM <code>[0/4]</code></h4>
+<div class="outline-text-4" id="text-org674f918">
+<dl class="org-dl">
+<dt class="off">&#x2610; Likelihood ratio test</dt><dd></dd>
+
+<dt class="off">&#x2610; Wald Test</dt><dd></dd>
+
+<dt class="off">&#x2610; Score Test</dt><dd></dd>
+
+<dt class="off">&#x2610; Confidence Intervals</dt><dd></dd>
+</dl>
+</div>
+</div>
+</div>
+<div id="outline-container-org510e552" class="outline-3">
+<h3 id="org510e552"><span class="section-number-3">2.6</span> <span class="todo TODO">TODO</span> Quasi-likelihood estimation <code>[0/3]</code></h3>
+<div class="outline-text-3" id="text-2-6">
+</div>
+<div id="outline-container-org83218e2" class="outline-4">
+<h4 id="org83218e2"><span class="todo TODO">TODO</span> Review of MLE</h4>
+</div>
+<div id="outline-container-orgd928836" class="outline-4">
+<h4 id="orgd928836"><span class="todo TODO">TODO</span> Construction of Quasi-likelihood function</h4>
+</div>
+<div id="outline-container-orgcc4fd64" class="outline-4">
+<h4 id="orgcc4fd64"><span class="todo TODO">TODO</span> Maximum quasi-likelihood estimation</h4>
+</div>
+</div>
+<div id="outline-container-org53d98c5" class="outline-3">
+<h3 id="org53d98c5"><span class="section-number-3">2.7</span> <span class="todo TODO">TODO</span> Generalized linear mixed models <code>[0/10]</code></h3>
+<div class="outline-text-3" id="text-2-7">
+</div>
+<div id="outline-container-orge863495" class="outline-4">
+<h4 id="orge863495"><span class="todo TODO">TODO</span> General setup</h4>
+</div>
+<div id="outline-container-org9909d33" class="outline-4">
+<h4 id="org9909d33"><span class="todo TODO">TODO</span> Mean</h4>
+</div>
+<div id="outline-container-orgd7760fc" class="outline-4">
+<h4 id="orgd7760fc"><span class="todo TODO">TODO</span> Variance</h4>
+</div>
+<div id="outline-container-org79c5d78" class="outline-4">
+<h4 id="org79c5d78"><span class="todo TODO">TODO</span> Covariance</h4>
+</div>
+<div id="outline-container-org30e4382" class="outline-4">
+<h4 id="org30e4382"><span class="todo TODO">TODO</span> Likelihood function</h4>
+</div>
+<div id="outline-container-orgdf0b0e1" class="outline-4">
+<h4 id="orgdf0b0e1"><span class="todo TODO">TODO</span> log-likelihood function</h4>
+</div>
+<div id="outline-container-orga76aac4" class="outline-4">
+<h4 id="orga76aac4"><span class="todo TODO">TODO</span> Gauss-hermite quadrecture</h4>
+</div>
+<div id="outline-container-org6bea595" class="outline-4">
+<h4 id="org6bea595"><span class="todo TODO">TODO</span> EM algorithm for GLMM</h4>
+</div>
+<div id="outline-container-org6bc8056" class="outline-4">
+<h4 id="org6bc8056"><span class="todo TODO">TODO</span> Markov Chain Monte Carlo algorithm</h4>
+</div>
+<div id="outline-container-orgc34c093" class="outline-4">
+<h4 id="orgc34c093"><span class="todo TODO">TODO</span> Metropolis-Hastings algorithm</h4>
+</div>
+</div>
+<div id="outline-container-org8b0c57c" class="outline-3">
+<h3 id="org8b0c57c"><span class="section-number-3">2.8</span> <span class="todo TODO">TODO</span> Generalized estimation equations <code>[0/4]</code></h3>
+<div class="outline-text-3" id="text-2-8">
+</div>
+<div id="outline-container-org0a05992" class="outline-4">
+<h4 id="org0a05992"><span class="todo TODO">TODO</span> Estimating functions</h4>
+</div>
+<div id="outline-container-org7d72135" class="outline-4">
+<h4 id="org7d72135"><span class="todo TODO">TODO</span> Class of linear estimating functions</h4>
+</div>
+<div id="outline-container-org977ce02" class="outline-4">
+<h4 id="org977ce02"><span class="todo TODO">TODO</span> Optimal linear estimating equation</h4>
+</div>
+<div id="outline-container-orgd9fa29b" class="outline-4">
+<h4 id="orgd9fa29b"><span class="todo TODO">TODO</span> Generalized estimating equation</h4>
+</div>
+</div>
+</div>
+<div id="outline-container-org5c9afb5" class="outline-2">
+<h2 id="org5c9afb5"><span class="section-number-2">3</span> STT 872 <code>[50%]</code></h2>
+<div class="outline-text-2" id="text-3">
+</div>
+<div id="outline-container-org45a705a" class="outline-3">
+<h3 id="org45a705a"><span class="section-number-3">3.1</span> <span class="done DONE">DONE</span> Preparations <code>[9/9]</code></h3>
+<div class="outline-text-3" id="text-3-1">
+</div>
+<div id="outline-container-orgb771a63" class="outline-4">
+<h4 id="orgb771a63"><span class="done DONE">DONE</span> Measure Theory <code>[4/4]</code></h4>
+<div class="outline-text-4" id="text-orgb771a63">
+<dl class="org-dl">
+<dt class="on">&#x2611; Definition 1.3</dt><dd>Keener</dd>
+<dt class="on">&#x2611; Definition 1.4</dt><dd>Keener</dd>
+<dt class="on">&#x2611; Example 1.2.1</dt><dd>Lehmann and Casella</dd>
+<dt class="on">&#x2611; Example 1.2.2</dt><dd>Lehmann and Casella</dd>
+</dl>
+</div>
+</div>
+<div id="outline-container-orgdd03064" class="outline-4">
+<h4 id="orgdd03064"><span class="done DONE">DONE</span> Integration <code>[8/8]</code></h4>
+<div class="outline-text-4" id="text-orgdd03064">
+<dl class="org-dl">
+<dt class="on">&#x2611; Definition 1.7</dt><dd>Keener</dd>
+<dt class="on">&#x2611; Theorem 1.8</dt><dd>Keener</dd>
+</dl>
+<p>
+We can take limit of non-negative simple functions to get any non-negative measurable function.
+</p>
+<dl class="org-dl">
+<dt class="on">&#x2611; Example 1.2.3</dt><dd>Lehmann and Casella</dd>
+<dt class="on">&#x2611; Theorem 1.2.5</dt><dd>Lehmann and Casella (Dominated Convergence Theorem)</dd>
+</dl>
+<p>
+If \(f\) is the limit of measurable functions \(f_n\), and if a function \(g(x) \geq |f_n(x)|\) for all \(x\), then \(f\) and \(f_n\) are integrable and the integral of \(f\) is the limit of the integrals of \(f_n\).
+</p>
+<dl class="org-dl">
+<dt class="on">&#x2611; Lemma 1.2.6</dt><dd>Lehmann and Casella (Fatou's Lemma)</dd>
+</dl>
+<p>
+Cannot pull limsup/liminf out of integral of sequence of non-negative functions, get \(\geq\) or \(\leq\).
+</p>
+<dl class="org-dl">
+<dt class="on">&#x2611; Section 1.4</dt><dd>Keener</dd>
+</dl>
+<p>
+Null sets have measure zero.
+</p>
+
+<p>
+A statement holding <i>almost everywhere</i> means it holds for all sets minus null sets.  
+</p>
+<dl class="org-dl">
+<dt class="on">&#x2611; Definition 1.9</dt><dd>Keener (Absolue continuous)</dd>
+<dt class="on">&#x2611; Theorem 1.10</dt><dd>Keener (<a href="https://en.wikipedia.org/wiki/Radon%E2%80%93Nikodym_theorem">Radon-Nikodym Theorem</a>)</dd>
+</dl>
+</div>
+</div>
+<div id="outline-container-org393ef0c" class="outline-4">
+<h4 id="org393ef0c"><span class="done DONE">DONE</span> Probability Spaces <code>[11/11]</code></h4>
+<div class="outline-text-4" id="text-org393ef0c">
+<dl class="org-dl">
+<dt class="on">&#x2611; Example 1.11</dt><dd>Keener</dd>
+</dl>
+
+\begin{equation*}
+F_X(x) = P(X \leq x) = P_X((- \infty, x]) = \int_{- \infty}^x p(u) du
+\end{equation*}
+
+<dl class="org-dl">
+<dt class="on">&#x2611; Example 1.12 </dt><dd>Keener</dd>
+</dl>
+
+\begin{equation*}
+P(X \in A) = P_X(A) = \int_A p d\mu = \sum_{x \in \mathcal{X}_0} p(x) 1_A(x)
+\end{equation*}
+
+<dl class="org-dl">
+<dt class="on">&#x2611; Section 1.7</dt><dd>Keener</dd>
+<dt class="on">&#x2611; Statistics</dt><dd>p. 16 Keener</dd>
+</dl>
+<p>
+<span class="underline">Smoothing identity</span>
+</p>
+
+\begin{equation*}
+Ef(X, Y) = EE[f(X, Y) | X]
+\end{equation*}
+
+<p>
+In particular, when \(f(X, Y) = Y\), then \(EY = EE(Y|X)\)
+</p>
+
+<dl class="org-dl">
+<dt class="on">&#x2611; Example 1.13</dt><dd>Keener (Expectation, Variance, Covariance)</dd>
+</dl>
+
+\begin{equation*}
+Ef(X) = \int f(x)p(x)dx \\
+Ef(X) = \sum_{x \in \mathcal{X}_0} f(x)p(x) \\
+E(aX + bY) = aE(X) + bE(Y) \\
+\text{Var}(X) = E(X - EX)^2 \\
+\text{Cov}(X, Y) = E(X - EX)(Y - EY)
+\end{equation*}
+
+<dl class="org-dl">
+<dt class="on">&#x2611; Section 1.9 intro</dt><dd>Keener</dd>
+<dt class="on">&#x2611; Example 1.15</dt><dd>Keener</dd>
+</dl>
+<p>
+Product measure of Lebesgue measures is Lebesgue measure.
+</p>
+<dl class="org-dl">
+<dt class="on">&#x2611; Example 1.16</dt><dd>Keener</dd>
+</dl>
+<p>
+Product measure of counting measures is counting measure. 
+</p>
+<dl class="org-dl">
+<dt class="on">&#x2611; Theorem 1.17</dt><dd>Keener (Fubini's Theorem)</dd>
+</dl>
+<p>
+Integration with respect to product measure can be taken in either order. 
+</p>
+<dl class="org-dl">
+<dt class="on">&#x2611; Definition 1.18</dt><dd>Keener (Independence)</dd>
+</dl>
+
+\begin{equation*}
+P(X \in A, Y \in B) = P(X \in A) P(Y \in B)
+\end{equation*}
+
+<dl class="org-dl">
+<dt class="on">&#x2611; Proposition 1.19</dt><dd>Keener</dd>
+</dl>
+<p>
+Measurable functions taken on independent random vectors are still independent. 
+</p>
+</div>
+</div>
+<div id="outline-container-org344dd20" class="outline-4">
+<h4 id="org344dd20"><span class="done DONE">DONE</span> Group families <code>[5/5]</code></h4>
+<div class="outline-text-4" id="text-org344dd20">
+<dl class="org-dl">
+<dt class="on">&#x2611; Example 1.4.1</dt><dd>Lehmann and Casella</dd>
+</dl>
+<p>
+Can add a constant \(a\) to a random variable \(U\) and get another random variable with \(P(X \leq x) = F(x - a)\), where \(F\) is the distribution of \(U\). The totality of these distributions are said to constitute a <i>location family</i>.
+</p>
+
+<p>
+A <i>scale family</i> is same thing but multiply a random variable \(U\) by a constant \(b\) and get \(P(X \leq x) = F(x/b)\).
+</p>
+
+<p>
+Combine both to get <i>location-scale family</i>, where \(P(X \leq x) = F(\frac{x - a}{b})\).
+</p>
+
+<p>
+Location-scale families include <b>normal</b>, <b>double exponential</b>, <b>cauchy</b>, <b>logistic</b>, <b>exponential</b>, and <b>uniform</b>. See p. 18 Table 1.4.1 in Lehmann and Casella.
+</p>
+<dl class="org-dl">
+<dt class="on">&#x2611; Definition 1.4.2</dt><dd>Lehmann and Casella</dd>
+</dl>
+<p>
+A <i>group</i> must satisfy
+</p>
+
+<ol class="org-ol">
+<li>you can have multiplication of any two elements (product, \(ab\))</li>
+<li>\((ab)c = a(bc)\) (associative law)</li>
+<li>\(ea = ae = a\), here \(e\) is called <i>identity</i> and it is in the group</li>
+<li>\(aa^{-1} = a^{-1}a = e\), where \(a^{-1}\) is called <i>inverse</i></li>
+</ol>
+<dl class="org-dl">
+<dt class="on">&#x2611; Definition 1.4.3</dt><dd>Lehmann and Casella</dd>
+</dl>
+<p>
+A <i>transformation group</i> is closed under both composition and inversion. 
+</p>
+
+<dl class="org-dl">
+<dt class="on">&#x2611; Example 1.4.4</dt><dd>Lehmann and Casella</dd>
+</dl>
+<p>
+Can extend group and scale families to vectors of random variables. 
+</p>
+
+<dl class="org-dl">
+<dt class="on">&#x2611; Example 1.4.5</dt><dd>Lehmann and Casella</dd>
+</dl>
+<p>
+Multivariate normal distribution can be thought of as location-scale family for vector of standard normals. 
+</p>
+</div>
+</div>
+<div id="outline-container-org1f4cb1e" class="outline-4">
+<h4 id="org1f4cb1e"><span class="done DONE">DONE</span> Exponential families <code>[5/5]</code></h4>
+<div class="outline-text-4" id="text-org1f4cb1e">
+<dl class="org-dl">
+<dt class="on">&#x2611; Section 2.1</dt><dd>intro Keener</dd>
+</dl>
+<p>
+Exponential family in canonical form:
+</p>
+
+\begin{equation*}
+p_\eta(x) = \text{exp}\left[\sum_{i = 1}^s \eta_i T_i(x) - A(\eta) \right] h(x), \\
+x \in \mathcal{R}^n \\
+A(\eta) < \infty\end{equation*}
+
+<p>
+\(\eta\) is called <i>canonical parameter</i>.
+</p>
+
+<p>
+Exponential family in alternative form:
+</p>
+
+\begin{equation*}
+p_\theta(x) = \text{exp}\left[\sum_{i = 1}^s \eta_i(\theta) T_i(x) - B(\theta) \right] h(x), \\
+x \in \mathcal{R}^n
+\end{equation*}
+
+<dl class="org-dl">
+<dt class="on">&#x2611; Example 2.1</dt><dd>Keener</dd>
+
+<dt class="on">&#x2611; Example 2.3</dt><dd>Keener</dd>
+</dl>
+<p>
+Normal distribution is exponential family.
+</p>
+
+<p>
+Multivariate normal is exponential family. 
+</p>
+
+<p>
+In fact, joint density of any exponential family gives exponential family of specific form.
+</p>
+
+\begin{equation*}
+\text{exp}\left[\sum_{i = 1}^s \eta_i(\theta) (\sum_{j = 1}^n T_i(x_j) - nB(\theta) \right] \prod_{j = 1}^n h(x_j)
+\end{equation*}
+
+<dl class="org-dl">
+<dt class="on">&#x2611; Theorem 2.4</dt><dd>Keener</dd>
+</dl>
+<p>
+Exponential families are guaranteed to have nice-playing integrals for computing moments and expectations
+</p>
+
+<dl class="org-dl">
+<dt class="on">&#x2611; Theorem 1.5.8</dt><dd>Lehmann and Casella</dd>
+</dl>
+<p>
+This theorem gives us a shortcut for calculating expected values in exponential families. 
+</p>
+</div>
+</div>
+<div id="outline-container-orga2fa529" class="outline-4">
+<h4 id="orga2fa529"><span class="done DONE">DONE</span> Moment and cumulant generating functions <code>[7/7]</code></h4>
+<div class="outline-text-4" id="text-orga2fa529">
+<p>
+Moment generating function for exponential family distribution is
+</p>
+
+\begin{equation*}
+M_T(u) = \frac{e^{A(\eta + u)}}{e^{A(\eta})} = Ee^{uT}
+\end{equation*}
+
+<p>
+To get \(k^\text{th}\) central moment, take \(k^\text{th}\) derivative of MGF and evaluate at \(u = 0\). 
+</p>
+
+<dl class="org-dl">
+<dt class="on">&#x2611; Section 2.4 intro</dt><dd>Keener</dd>
+<dt class="on">&#x2611; Expectations of powers of \(T_1, T_2, \ldots, T_s\),</dt><dd>p. 28 Lehmann and Casella</dd>
+<dt class="on">&#x2611; Lemma 2.7</dt><dd>Keener</dd>
+</dl>
+<p>
+The MGF determines the distribution of \(X\), at least if it is finite in some open interval.
+</p>
+<dl class="org-dl">
+<dt class="on">&#x2611; Theorem 2.8</dt><dd>Keener</dd>
+</dl>
+<p>
+MGF has continous derivatives of all orders at the origin, which allows us to calculate <i>cumulants</i>.
+</p>
+<dl class="org-dl">
+<dt class="on">&#x2611; Lemma 2.9</dt><dd>Keener</dd>
+</dl>
+<p>
+For independent \(X\) and \(Y\), if \(X\) and \(X\) are both positive, or if \(E|X|\) and \(E|Y|\) are both finite, then 
+</p>
+
+\begin{equation*}
+EXY = EX \times EY
+\end{equation*}
+
+<dl class="org-dl">
+<dt class="on">&#x2611; Example 1.5.11</dt><dd>Lehmann and Casella</dd>
+</dl>
+<p>
+Binomial Moments
+</p>
+<dl class="org-dl">
+<dt class="on">&#x2611; Example 1.5.14</dt><dd>Lehmann and Casella</dd>
+</dl>
+<p>
+Gamma moments
+</p>
+</div>
+</div>
+<div id="outline-container-orge7f636d" class="outline-4">
+<h4 id="orge7f636d"><span class="done DONE">DONE</span> Sufficient Statistics <code>[22/22]</code></h4>
+<div class="outline-text-4" id="text-orge7f636d">
+<dl class="org-dl">
+<dt class="on">&#x2611; Section 1.10</dt><dd>Keener</dd>
+</dl>
+<p>
+Conditional probability in discrete case:
+</p>
+
+\begin{equation*}
+P(Y \in B | X = x) = \frac{P(Y \in B, X = x)}{P(X = x)}
+\end{equation*}
+
+<p>
+<i>Smoothing identity</i>
+</p>
+
+\begin{equation*}
+Ef(X, Y) = EE \left[ f(X, Y) | X \right]
+\end{equation*}
+
+<p>
+When \(f(X, Y) = Y\), we get
+</p>
+
+\begin{equation*}
+EY = EE(Y|X)
+\end{equation*}
+
+<dl class="org-dl">
+<dt class="on">&#x2611; Section 3.2 intro</dt><dd>Keener</dd>
+</dl>
+<p>
+A <i>sufficient statistic</i> \(T\) provides just as much information about \(\theta\) as the data \(X_1, \ldots, X_n\), as we could construct fake data \(\tilde{X}_1, \ldots, \tilde{X}_n\) equivalent to \(X_1, \ldots, X_n\) using any convenient variable \(U\) that is uniformly distributed on \((0, 1)\).
+</p>
+
+<dl class="org-dl">
+<dt class="on">&#x2611; Definition 3.2</dt><dd>Keener</dd>
+</dl>
+<p>
+\(X\) has distribution from a family \(\mathcal{P} = \{ P_\theta : \theta \in \Omega \}\).
+</p>
+
+<p>
+\(T = T(X)\) is a sufficient statistic for \(\mathcal{P}\) if for every \(t\) and \(\theta\), the conditional distribution of \(X\) under \(P_\theta\) given \(T = t\) does not depend on \(\theta\).
+</p>
+<dl class="org-dl">
+<dt class="on">&#x2611; Theorem 3.3</dt><dd>Keener</dd>
+</dl>
+<p>
+Can have a randomized estimator based on sufficient statistic \(T\) that has the same risk function as any estimator \(\delta(X)\) of \(g(\theta)\). 
+</p>
+<dl class="org-dl">
+<dt class="on">&#x2611; Example 1.6.2</dt><dd>Lehmann and Casella</dd>
+</dl>
+<p>
+For sufficient statistic, calculate joint distribution, condition on statistic \(T(X)\), then show it is independent of parameter of interest. 
+</p>
+<dl class="org-dl">
+<dt class="on">&#x2611; Theorem 3.6</dt><dd>Keener (Factorization Theorem)</dd>
+</dl>
+
+<p>
+Write density as 
+</p>
+
+\begin{equation*}
+p_\theta(x) = g_\theta(T(x))h(x) \\
+g_\theta \geq 0 \\
+h \geq 0
+\end{equation*}
+
+<p>
+to show that \(T\) is a sufficient statistic.
+</p>
+
+<dl class="org-dl">
+<dt class="on">&#x2611; Example 3.8</dt><dd>Keener</dd>
+</dl>
+<p>
+Sometimes have to use indicator functions to use factorization theorem. For example, in the case of \(X_1, \ldots, X_n \sim U(\theta, \theta + 1)\).
+</p>
+
+<dl class="org-dl">
+<dt class="on">&#x2611; Definition 3.9</dt><dd>Keener (Minimal sufficient)</dd>
+</dl>
+<p>
+From the factorization theorem, if \(T\) is a sufficient statistic for a familiy of distributions \(\mathcal{P}\), and if \(T = f(\tilde{T})\), the \(\tilde{T}\) is also sufficient.
+</p>
+
+<p>
+A statistic \(T\) is <i>minimal sufficient</i> if it is sufficient and for every sufficient statistic \(\tilde{T}\), there exists a function \(f\) such that \(T = f(\tilde{T})\).
+</p>
+
+<dl class="org-dl">
+<dt class="on">&#x2611; Example 3.10</dt><dd>Keener</dd>
+</dl>
+<p>
+In this example, we have a sample from $N(&theta;, 1), and we have the sum of the first half of the data and the sum of the second half of the data are together sufficient. However, they are not minimal sufficient. Minimal sufficient would be the full sum of all the data.
+</p>
+
+<dl class="org-dl">
+<dt class="on">&#x2611; Theorem 3.11</dt><dd>Keener</dd>
+</dl>
+<p>
+Let \(\mathcal{P} = \{ P_\theta : \theta \in \Omega \}\) with densities \(p_\theta (x) = g_\theta(T(x))h(x)\). If \(p_\theta(x) \propto_\theta p_\theta(y)\) implies \(T(x) = T(y)\), then \(T\) is minimal sufficient. 
+</p>
+
+<p>
+\(\propto_\theta\) means that the two expressions are proportional when viewed as functions of \(\theta\). So here it means that \(p_\theta(x) = c(x, y) p_\theta(y)\)
+</p>
+
+<p>
+It basically says that the shape of the likelihood is minimal sufficient, and so a minimal sufficient "statistic" exists for dominated families. 
+</p>
+
+<dl class="org-dl">
+<dt class="on">&#x2611; Example 3.12</dt><dd>Keener</dd>
+
+<dt class="on">&#x2611; Example 3.13</dt><dd>Keener</dd>
+</dl>
+<p>
+Order statistics are \(X_{(1)} \leq X_{(2)} \leq \ldots \leq X_{(n)}\). Get order statistics by listing \(X_1, \ldots X_n\) in increasing order. Order statistics are sufficient by factorization theorem. 
+</p>
+
+<dl class="org-dl">
+<dt class="on">&#x2611; Definition 3.14</dt><dd>Keener</dd>
+</dl>
+<p>
+Completeness is a technical condition that strengthens sufficiency in a useful fashion. 
+</p>
+
+<p>
+A statistic \(T\) is <i>complete</i> for a family \(\mathcal{P}\) if 
+</p>
+
+\begin{equation*}
+E_\theta f(T) = c, \text{ for all } \theta
+\end{equation*}
+
+<p>
+implies \(f(T) = c\). 
+</p>
+
+<p>
+We typically take \(c = 0\) for convenience. 
+</p>
+
+<dl class="org-dl">
+<dt class="on">&#x2611; Example 3.16</dt><dd>Keener</dd>
+</dl>
+<p>
+TO show completeness, get sufficient statistic \(T\), figure out it's distribution, calculate expectation of \(f(T)\) for generic \(f\) and set equal to \(0\). Show that \(f\) must be \(0\). 
+</p>
+
+<dl class="org-dl">
+<dt class="on">&#x2611; Theorem 3.17</dt><dd>Keener</dd>
+</dl>
+<p>
+If \(T\) is complete and sufficient, then \(T\) is minimal sufficient.
+Being complete is the best thing you can do. 
+</p>
+
+<dl class="org-dl">
+<dt class="on">&#x2611; Definition 3.18</dt><dd>Keener</dd>
+</dl>
+<p>
+Full rank exponential family.
+</p>
+
+<dl class="org-dl">
+<dt class="on">&#x2611; Theorem 3.19</dt><dd>Keener</dd>
+</dl>
+<p>
+In an exponential family of full rank, \(T\) is complete (and is therefore also minimal). 
+</p>
+
+<p>
+Recall, 
+</p>
+
+\begin{equation*}
+p_\theta(x) = \exp\{\eta(\theta) \cdot T(x) - B(\theta) \}h(x), \theta \in \Omega
+\end{equation*}
+
+<dl class="org-dl">
+<dt class="on">&#x2611; Definition 3.20</dt><dd>Keener</dd>
+</dl>
+<p>
+A statistic \(V\) is called <i>ancillary</i> if its distribution does not depend on \(\theta\). So \(V\) by itself provides no information about \(\theta\).
+</p>
+
+<p>
+For example, distances between order statistics are usually ancillary. 
+</p>
+
+<dl class="org-dl">
+<dt class="on">&#x2611; Theorem 3.21</dt><dd>Keener (Basu)</dd>
+</dl>
+<p>
+If \(T\) is complete and \(V\) is ancillary, then \(T\) and \(V\) are independent under \(P_\theta\).
+</p>
+
+<dl class="org-dl">
+<dt class="on">&#x2611; Example 3.22</dt><dd>Keener</dd>
+</dl>
+<p>
+Sample mean is complete for joint normals. Sample variance is ancillary for the mean parameter. So sample mean and sample variance are independent by Basu. 
+</p>
+
+<dl class="org-dl">
+<dt class="on">&#x2611; Example 1.6.25 (i)</dt><dd>Lehmann and Casella</dd>
+</dl>
+<p>
+If you have a minimal sufficient statistic, but a function of it equals a constant and is not a constant function, then it is not complete. This is basically a way of generating a counterexample to show not complete. A statistic can therefore be minimal sufficient but not complete. 
+</p>
+
+<dl class="org-dl">
+<dt class="on">&#x2611; Example 1.6.26</dt><dd>Lehmann and Casella</dd>
+</dl>
+</div>
+</div>
+
+
+<div id="outline-container-org8c29d30" class="outline-4">
+<h4 id="org8c29d30"><span class="done DONE">DONE</span> Convexity <code>[10/10]</code></h4>
+<div class="outline-text-4" id="text-org8c29d30">
+<p>
+Examples of convex functions are
+</p>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Function</th>
+<th scope="col" class="org-left">Interval</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">\(\vert x \vert\)</td>
+<td class="org-left">\(-\infty < x < \infty\)</td>
+</tr>
+
+<tr>
+<td class="org-left">\(x^2\)</td>
+<td class="org-left">\(-\infty < x < \infty\)</td>
+</tr>
+
+<tr>
+<td class="org-left">\(x^p, p > 1\)</td>
+<td class="org-left">\(0 < x\)</td>
+</tr>
+
+<tr>
+<td class="org-left">\(1/x^p, p > 0\)</td>
+<td class="org-left">\(0 < x\)</td>
+</tr>
+
+<tr>
+<td class="org-left">\(e^x\)</td>
+<td class="org-left">\(-\infty < x < \infty\)</td>
+</tr>
+
+<tr>
+<td class="org-left">\(- \log x\)</td>
+<td class="org-left">\(0 < x < \infty\)</td>
+</tr>
+</tbody>
+</table>
+
+<dl class="org-dl">
+<dt class="on">&#x2611; Definition 3.23</dt><dd>Keener (convex function)</dd>
+</dl>
+<p>
+For any two points \(x\) and \(y\), the straight line connecting the points \(f(x)\) and \(f(y)\) should be above the function \(f\) between \(x\) and \(y\). 
+</p>
+
+<p>
+Convex functions are U-shaped. 
+</p>
+
+<dl class="org-dl">
+<dt class="on">&#x2611; Theorem 1.7.2</dt><dd>Lehmann and Casella</dd>
+</dl>
+<p>
+For convex functions, the derivative should be non-decreasing. If the derivative is increasing, then it is strictly convex. 
+</p>
+
+<p>
+The second derivative of a convex function should be non-negative. It should be positive for a strictly convex function. 
+</p>
+<dl class="org-dl">
+<dt class="on">&#x2611; Theorem 3.24</dt><dd>Keener</dd>
+</dl>
+<p>
+We can always find a "support line" under any point \(x\) such that the function is above the line but the line touches \(f\) at \(x\). 
+</p>
+<dl class="org-dl">
+<dt class="on">&#x2611; Theorem 3.25</dt><dd>Keener (Jensen's Inequaltiy)</dd>
+</dl>
+<p>
+For convex function \(f\) with \(EX\) finite, we have 
+</p>
+
+\begin{equation*}
+f(EX) \leq Ef(X)
+\end{equation*}
+
+<p>
+If \(f\) is strictly convex, the inequality is strict unless \(X\) is almost surely constant. 
+</p>
+
+<dl class="org-dl">
+<dt class="on">&#x2611; Example 3.27</dt><dd>Keener</dd>
+<dt class="on">&#x2611; Example 1.7.7</dt><dd>Lehmann and Casella</dd>
+</dl>
+<p>
+KL distance between density functions \(f\) and \(g\) is
+</p>
+
+\begin{equation*}
+E_f \left[ \log(f(X) / g(X)) \right] = \int \log \left[f(x)/g(x) \right] f(x) dx
+\end{equation*}
+
+<p>
+KL distance is always \(\geq 0\).
+</p>
+
+<dl class="org-dl">
+<dt class="on">&#x2611; Theorem 3.28</dt><dd>Keener (Rao-Blackwell)</dd>
+</dl>
+<p>
+Recall that is \(\delta(X)\) is an estimator of \(g(\theta)\), then the risk of \(\delta\) for a loss function \(L(\theta, \delta)\) is \(R(\delta, \theta) = E_\theta L(\theta, \delta(X))\). Suppose \(T\) is a sufficient statistic. Then we know there is a randomized estimator based on \(T\) with the same risk as \(\delta\). 
+</p>
+
+<p>
+The Rao-Blackwell theorem shows that for convex loss functions, there is generally a non-randomized estiamtor based on \(T\) that has smaller risk than \(\delta\). 
+</p>
+
+<dl class="org-dl">
+<dt class="on">&#x2611; Corollary 1.7.9</dt><dd>Lehmann and Casella</dd>
+</dl>
+<p>
+Randomized estimators may be useful in reducing maximum risk, but this can never be the case when the loss function is convex. 
+</p>
+<dl class="org-dl">
+<dt class="on">&#x2611; Theorem 1.7.13</dt><dd>Lehmann and Casella</dd>
+</dl>
+<p>
+Hessian matrix is positive semidefinite for convex function in $k$-dimensional space. 
+</p>
+
+<p>
+Strictly convex comes when the Hessian matrix is positive definite.  
+</p>
+<dl class="org-dl">
+<dt class="on">&#x2611; Theorem 1.7.21</dt><dd>Lehmann and Casella</dd>
+</dl>
+<p>
+For higher-dimension convex function, we can find "support plane" rather than support line. This allows us to generalize Jensen's inequality. ]
+</p>
+</div>
+</div>
+
+<div id="outline-container-org0c45c87" class="outline-4">
+<h4 id="org0c45c87"><span class="done DONE">DONE</span> Large sample theory <code>[18/18]</code></h4>
+<div class="outline-text-4" id="text-org0c45c87">
+<p>
+We use this to study and compare the performance of various estimators in large samples. 
+</p>
+<dl class="org-dl">
+<dt class="on">&#x2611; Definition 8.1</dt><dd>Keener</dd>
+</dl>
+<p>
+<i>Convergence in probability</i>, written as \(Y_n \overset{p}{\rightarrow} Y\), if for every \(\epsilon > 0\),
+</p>
+
+\begin{equation*}
+P(|Y_n - Y| \geq \epsilon) \rightarrow 0
+\end{equation*}
+
+<p>
+as \(n \rightarrow \infty\).
+</p>
+
+<dl class="org-dl">
+<dt class="on">&#x2611; Theorem 8.2</dt><dd>Keener (Chebychev's Inequality)</dd>
+</dl>
+<p>
+For random variable \(X\) and constant \(a > 0\),
+</p>
+
+\begin{equation*}
+P(|X| \geq a) \leq \frac{EX^2}{a^2}
+\end{equation*}
+
+<dl class="org-dl">
+<dt class="on">&#x2611; Definition 8.6</dt><dd>Keener</dd>
+</dl>
+<p>
+In statistics, there is a family of distributions of interest, indexed by a parameter \(\theta \in \Omega\), and the symbol \(\overset{P_\theta}{\rightarrow}\) is used to denote convergence in probability with \(P_\theta\) as the underlying probability measure. 
+</p>
+
+<p>
+A sequence of estimators \(\delta_n\), \(n \geq 1\), is <i>consistent</i> for \(g(\theta)\) if for any \(\theta \in \Omega\),
+</p>
+
+\begin{equation*}
+\delta_n \overset{P_\theta}{\rightarrow} g(\theta)
+\end{equation*}
+
+<p>
+as \(n \rightarrow \infty\).
+</p>
+
+<dl class="org-dl">
+<dt class="on">&#x2611; Theorem 1.8.2</dt><dd>Lehmann and Casella</dd>
+</dl>
+<p>
+If MSE goes to zero for all \(\theta\), then you have a consistent estimator. 
+</p>
+
+<p>
+Equivalenetly, if bias and variance both go to zero asymptotically. 
+</p>
+<dl class="org-dl">
+<dt class="on">&#x2611; Example 1.8.3</dt><dd>Lehmann and Casella (Weak Law of Large Numbers)</dd>
+</dl>
+<p>
+Sample mean is consistent for true mean as long as we have finite variance. 
+</p>
+
+<p>
+We can see this because variance of the sample mean has \(n\) in the denominator, so variance goes to zero as \(n \rightarrow \infty\).
+</p>
+<dl class="org-dl">
+<dt class="on">&#x2611; Proposition 8.5</dt><dd>Keener</dd>
+</dl>
+<p>
+For continuous function \(f\) at \(c\), if \(Y_n \overset{p}{\rightarrow} c\), then \(f(Y_n) \overset{p}{\rightarrow} f(c)\).
+</p>
+<dl class="org-dl">
+<dt class="on">&#x2611; Definition 8.7</dt><dd>Keener</dd>
+</dl>
+<p>
+<i>Convergence in distribution</i> (or law) means that the CDFs converge to the CDF of the target. 
+</p>
+
+<p>
+For notation we use \(\Rightarrow\).
+</p>
+<dl class="org-dl">
+<dt class="on">&#x2611; Example 8.8</dt><dd>Keener</dd>
+</dl>
+<p>
+Definition of convergence in distribution only requires pointwise convergence of the CDFs at continuity points of the target CDF. 
+</p>
+<dl class="org-dl">
+<dt class="on">&#x2611; Theorem 8.9</dt><dd>Keener</dd>
+</dl>
+<p>
+\(Y_n \Rightarrow Y\) holds <i>if and only if</i> \(Ef(Y_n) \rightarrow Ef(Y)\) for all bounded continuous functions \(f\).
+</p>
+
+<p>
+This generalizes easily to random vectors.
+</p>
+<dl class="org-dl">
+<dt class="on">&#x2611; Corollary 8.11</dt><dd>Keener</dd>
+</dl>
+<p>
+If \(g\) is a continuous function and \(Y_n \Rightarrow Y\), then
+</p>
+
+\begin{equation*}
+g(Y_n) \Rightarrow g(Y)
+\end{equation*}
+
+<dl class="org-dl">
+<dt class="on">&#x2611; Theorem 8.12</dt><dd>Keener (Central Limit Theorem)</dd>
+</dl>
+<p>
+Suppose \(X_1, X_2, \ldots, X_n\) are i.i.d. with common mean \(\mu\) and variance \(\sigma^2\). Then
+</p>
+
+\begin{equation*}
+\sqrt{n} (\bar{X}_n - \mu) \Rightarrow N(0, \sigma^2)
+\end{equation*}
+
+<dl class="org-dl">
+<dt class="on">&#x2611; Theorem 8.13</dt><dd>Keener (Slutsky's Theorem)</dd>
+</dl>
+<p>
+If \(Y_n \Rightarrow Y\), \(A_n \overset{p}{\rightarrow} a\), and \(B_n \overset{p}{\rightarrow} b\), then
+</p>
+
+\begin{equation*}
+A_n + B_n Y_n \Rightarrow a + bY
+\end{equation*}
+
+<dl class="org-dl">
+<dt class="on">&#x2611; Proposition 8.14</dt><dd>Keener (Delta Method)</dd>
+</dl>
+<p>
+If \(f\) is differentiable at \(\mu\), then 
+</p>
+
+\begin{equation*}
+\sqrt{n} (f(\bar{X}_n) - f(\mu)) \Rightarrow N(0, [f^\prime (\mu)]^2 \sigma^2)
+\end{equation*}
+
+<dl class="org-dl">
+<dt class="on">&#x2611; Theorem 1.8.14</dt><dd>Lehmann and Casella</dd>
+</dl>
+<p>
+If \(\sqrt{n} [T_n - \theta] \Rightarrow N(0, \tau^2)\) and if \(h^\prime(\theta) = 0\), then
+</p>
+
+\begin{equation*}
+n[h(T_n) - h(\theta)] \rightarrow \frac{1}{2} h^{\prime \prime} (\theta) \chi_1^2
+\end{equation*}
+
+<dl class="org-dl">
+<dt class="on">&#x2611; Example 1.8.13</dt><dd>Lehmann and Casella</dd>
+<dt class="on">&#x2611; Section 8.3</dt><dd>Keener</dd>
+</dl>
+<p>
+Maximum likelihood estimators may be biased.
+</p>
+<dl class="org-dl">
+<dt class="on">&#x2611; Theorem 1.8.22</dt><dd>Lehmann and Casella (Multivariate Delta Method)</dd>
+<dt class="on">&#x2611; Theorem 1.8.21</dt><dd>Lehmann and Casella (Multivariate Central Limit Theorem)</dd>
+</dl>
+<p>
+Converges in distribution to multivariate normal. Makes sense. 
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org7363b34" class="outline-3">
+<h3 id="org7363b34"><span class="section-number-3">3.2</span> <span class="done DONE">DONE</span> Unbiasedness <code>[5/5]</code></h3>
+<div class="outline-text-3" id="text-3-2">
+</div>
+<div id="outline-container-orge464dc8" class="outline-4">
+<h4 id="orge464dc8"><span class="done DONE">DONE</span> Minimum Variance Unbiased Estimator <code>[9/9]</code></h4>
+<div class="outline-text-4" id="text-orge464dc8">
+<dl class="org-dl">
+<dt class="on">&#x2611; Definition 2.1.1</dt><dd>Lehmann and Casella</dd>
+</dl>
+<p>
+An estimator \(\delta(X)\) of \(g(\theta)\) is <i>unbiased</i> if
+</p>
+
+\begin{equation*}
+E_\theta \left[ \delta(X) \right] = g(\theta) \text{ for all } \theta \in \Omega
+\end{equation*}
+
+<p>
+If there exists an unbiased estimator of \(g\), then the estimand \(g\) will be called <i>U-estimable</i>.
+</p>
+
+<dl class="org-dl">
+<dt class="on">&#x2611; Example 4.1</dt><dd>Keener</dd>
+<dt class="on">&#x2611; Lemma 2.1.4</dt><dd>Lehmann and Casella</dd>
+</dl>
+<p>
+In the search for an unbiased estimator with uniformly minimum risk, a natural approach is to minimize the risk for some particular value of \(\theta_0\) and then see whether the result is independent of \(\theta_0\).
+</p>
+
+<p>
+This lemma gives us the totality of unbiased estimators, which are given by \(\delta = \delta_0 - U\) where \(U\) is any unbiased estimator of \(0\) and \(\delta_0\) is any unbiased estimator of \(g(\theta)\).
+</p>
+
+<dl class="org-dl">
+<dt class="on">&#x2611; Example 2.1.5</dt><dd>Lehmann and Casella</dd>
+
+<dt class="on">&#x2611; Definition 2.1.6</dt><dd>Lehmann and Casella</dd>
+</dl>
+<p>
+An unbiased estimator is the <i>uniform minimum variance unbiased</i> (UMVU) estimator if it's variance is \(\leq\) the variance of any other unbiased estimator, for all \(\theta\). 
+</p>
+
+<p>
+An unbiased estimator is the <i>locally minimum variance unbiased</i> (LMVU) estimator if it's variance is \(\leq\) the variance of any other unbiased estimator, for \(\theta = \theta_0\).
+</p>
+
+<p>
+<span class="underline">UMVU estimators are unique</span>. 
+</p>
+
+<dl class="org-dl">
+<dt class="on">&#x2611; Theorem 2.1.7</dt><dd>Lehmann and Casella</dd>
+</dl>
+<p>
+Denote the class of estimators \(\delta\) with \(E_\theta \delta^2 < \infty\) for all \(\theta\) by \(\Delta\).
+</p>
+
+<p>
+Let \(\delta\) be an estimator in \(\Delta\), and let \(\mathcal{U}\) denote the est of all unbiased estimators of zero which are in \(\Delta\). Then, a necessary and sufficient condition for \(\delta\) to be a UMVU estimator of its expectation \(g(\theta)\) is that 
+</p>
+
+\begin{equation*}
+E_\theta(\delta U) = 0 \text{ for all } U \in \mathcal{U} \text{ and all } \theta \in \Omega
+\end{equation*}
+
+<dl class="org-dl">
+<dt class="on">&#x2611; Theorem 4.4</dt><dd>Keener</dd>
+</dl>
+<p>
+If a family has a complete sufficient statistic, a UMVU will exist, at least when \(g\) is U-estimable. 
+</p>
+
+<p>
+Suppose \(g\) is I-estimable and \(T\) is complete sufficient. Then there is an essentially unique unbiased estimator based on \(T\) that is UMVU.
+</p>
+
+<dl class="org-dl">
+<dt class="on">&#x2611; UMVU Method One: Solving for \(\delta\),</dt><dd>Lehmann and Casella p. 88</dd>
+</dl>
+<p>
+If \(T\) is a complete sufficient statistic, the UMVU estimator of any U-estimable function \(g(\theta)\) is uniquely determined by the set of equations
+</p>
+
+\begin{equation*}
+E_\theta \delta(T) = g(\theta) \text{ for all } \theta \in \Omega
+\end{equation*}
+
+<p>
+Basically is we find a function of a complete sufficient statistic whose expectation is \(g(\theta)\), then it will be UMVUE. 
+</p>
+
+<dl class="org-dl">
+<dt class="on">&#x2611; UMVU Method Two: Conditioning,</dt><dd>Lehmann and Casella p. 89</dd>
+</dl>
+<p>
+If we take the conditional expectation of any unbiased estimator \(\delta(X)\) given a complete sufficient statistic \(T\), then it will be UMVUE. 
+</p>
+
+<p>
+It doesn't matter which unbiased estimator \(\delta\) is being conditioned, we should choose whichever one makes our lives easiest. 
+</p>
+</div>
+</div>
+
+<div id="outline-container-org48d38fa" class="outline-4">
+<h4 id="org48d38fa"><span class="done DONE">DONE</span> Continuous distributions and UMVU <code>[4/4]</code></h4>
+<div class="outline-text-4" id="text-org48d38fa">
+<dl class="org-dl">
+<dt class="on">&#x2611; Section 4.3</dt><dd>Keener</dd>
+</dl>
+<p>
+Standard normal is \(Z \sim N(0, 1)\). 
+</p>
+
+<p>
+More generally, for \(X \sim N(\mu, \sigma^2)\), \(aX + b \sim N(a\mu + b, a^2 \sigma^2)\)
+</p>
+
+<p>
+Sum of normals is normal with mean equal to sum of means and variance equal to sum of variances. 
+</p>
+<dl class="org-dl">
+<dt class="on">&#x2611; Example 2.2.1</dt><dd>Lehmann and Casella</dd>
+<dt class="on">&#x2611; Example 2.2.2</dt><dd>Lehmann and Casella</dd>
+<dt class="on">&#x2611; Example 2.2.5</dt><dd>Lehmann and Casella</dd>
+</dl>
+</div>
+</div>
+
+<div id="outline-container-orgc3c0f7c" class="outline-4">
+<h4 id="orgc3c0f7c"><span class="done DONE">DONE</span> UMVU for discrete distributions <code>[8/8]</code></h4>
+<div class="outline-text-4" id="text-orgc3c0f7c">
+<dl class="org-dl">
+<dt class="on">&#x2611; Example 2.3.1</dt><dd>Lehmann and Casella</dd>
+<dt class="on">&#x2611; Power series distributions p. 104</dt><dd>Lehmann and Casella</dd>
+</dl>
+
+\begin{equation*}
+P(X = x) = \frac{a(x) \theta^x}{C(\theta)} \\
+x = 0, 1, \ldots , \\
+\theta > 0
+\end{equation*}
+
+<p>
+Binomial distribution is an example. 
+</p>
+
+<dl class="org-dl">
+<dt class="on">&#x2611; Lemma 2.3.6</dt><dd>Lehmann and Casella</dd>
+</dl>
+<p>
+If \(X_1, \ldots, X_n\) are from a power series family, then \(X_1 + \cdots + X_n\) is sufficient for \(\theta\), and the distribution of \(T = X_1 + \cdots + X_n\) is the power series family
+</p>
+
+\begin{equation*}
+P(T = t) = \frac{A(t, n) \theta^t}{[C(\theta)]^n}
+\end{equation*}
+
+<p>
+where \(A(t, n)\) is the coefficient of \(\theta^t\) in the power series expansion of \([C(\theta)]^n\).
+</p>
+
+<p>
+It follows that \(T\) is complete and that the UMVU estimator of \(\theta^r\) on the basis of a sample of \(n\) is
+</p>
+
+\begin{equation*}
+\frac{A(t - r, n)}{A(t, n)} \text{ if } t \geq r \\
+0 \text{ otherwise }
+\end{equation*}
+
+
+<dl class="org-dl">
+<dt class="on">&#x2611; Example 2.3.7</dt><dd>Lehmann and Casella</dd>
+<dt class="on">&#x2611; Example 2.3.8</dt><dd>Lehmann and Casella</dd>
+<dt class="on">&#x2611; Example 2.3.9</dt><dd>Lehmann and Casella</dd>
+<dt class="on">&#x2611; Example 2.3.10</dt><dd>Lehmann and Casella</dd>
+<dt class="on">&#x2611; Example 2.3.11</dt><dd>Lehmann and Casella</dd>
+</dl>
+</div>
+</div>
+<div id="outline-container-orgdbf0782" class="outline-4">
+<h4 id="orgdbf0782"><span class="done DONE">DONE</span> Information inequality <code>[12/12]</code></h4>
+<div class="outline-text-4" id="text-orgdbf0782">
+<dl class="org-dl">
+<dt class="on">&#x2611; Section 4.5</dt><dd>Keener</dd>
+</dl>
+
+\begin{equation*}
+\text{Cov}(X, Y) = E(X - EX)(Y - EY) = EXY - (EX)(EY)
+\end{equation*}
+
+<p>
+So if either \(X\) or \(Y\) have mean \(0\), then \(\text{Cov}(X, Y) = EXY\).
+</p>
+
+<p>
+<i>Covariance inequality</i> is
+</p>
+
+\begin{equation*}
+\text{Cov}^2(X, Y) \leq \text{Var}(X) \text{Var}(Y)
+\end{equation*}
+
+<dl class="org-dl">
+<dt class="on">&#x2611; Equation 4.13</dt><dd>p. 72 Keener (Hammersley-Chapman-Robbins inequality)</dd>
+</dl>
+<p>
+This is a more general form of the Cramer Rao bound, which doesn't require differentiation under the integral sign. 
+</p>
+<dl class="org-dl">
+<dt class="on">&#x2611; Equation 4.14</dt><dd>p. 72 Keener (Fisher information)</dd>
+</dl>
+
+\begin{equation*}
+I(\theta) = E_\theta \left(\frac{\partial \log p_\theta(X)}{\partial \theta} \right)^2
+\end{equation*}
+
+<dl class="org-dl">
+<dt class="on">&#x2611; Equation 4.17</dt><dd>p. 73 Keener (Cramer Rao Bound)</dd>
+</dl>
+<p>
+Let \(\delta\) have mean \(g(\theta) = E_\theta \delta\) and take \(\psi = \partial \log p_\theta / \partial \theta\). Then with sufficient regularity,
+</p>
+
+\begin{equation*}
+g^\prime(\theta) = E_\theta \delta \psi
+\end{equation*}
+
+<dl class="org-dl">
+<dt class="on">&#x2611; Theorem 4.9</dt><dd>Keener (Cramer Rao Bound)</dd>
+</dl>
+
+<p>
+Let \(\mathcal{P} = \{P_\theta : \theta \in \Omega \}\) be a dominated family with \(\Omega\) an open set in \(\mathbb{R}\) and densities \(p_\theta\) differentiable with respect to \(\theta\). If \(E_\theta \psi = 0\), \(E_\theta \delta^2 < \infty\), and \(g^\prime (\theta) = E_\theta \delta \psi\) hold for all \(\theta \in \Omega\), then 
+</p>
+
+\begin{equation*}
+\text{Var}_\theta (\delta) \geq \frac{\left[g^\prime (\theta) \right]^2}{I(\theta)} \\
+\theta \in \Omega
+\end{equation*}
+
+
+<dl class="org-dl">
+<dt class="on">&#x2611; Equation 4.18</dt><dd>p. 74 Keener (Reparameterization)</dd>
+</dl>
+
+<p>
+You can reparameterize if you have a one-to-one mapping from \(\Xi\) to \(\Omega\).
+</p>
+
+<dl class="org-dl">
+<dt class="on">&#x2611; Example 4.12</dt><dd>Keener</dd>
+<dt class="on">&#x2611; Example 2.5.5</dt><dd>Lehmann and Casella</dd>
+</dl>
+<p>
+If \(X\) is distributed according to an exponential family with \(s = 1\), then 
+</p>
+
+\begin{equation*}
+I(E_\theta(T)) = \frac{1}{\text{Var}_\theta(T)}
+\end{equation*}
+
+<dl class="org-dl">
+<dt class="on">&#x2611; Example 2.5.6</dt><dd>Lehmann and Casella</dd>
+<dt class="on">&#x2611; Example 4.11</dt><dd>Keener</dd>
+</dl>
+
+<p>
+For location families, \(I(\theta)\) is constant and does not vary with \(\theta\).
+</p>
+<dl class="org-dl">
+<dt class="on">&#x2611; Theorem 2.5.12</dt><dd>Lehmann and Casella (Attainment)</dd>
+</dl>
+<p>
+Gives conditions under which exponential families attain the information bound. 
+</p>
+<dl class="org-dl">
+<dt class="on">&#x2611; Example 2.5.13</dt><dd>Lehmann and Casella</dd>
+</dl>
+</div>
+</div>
+
+<div id="outline-container-org466e108" class="outline-4">
+<h4 id="org466e108"><span class="done DONE">DONE</span> Multiparameter information inequality <code>[5/5]</code></h4>
+<div class="outline-text-4" id="text-org466e108">
+<dl class="org-dl">
+<dt class="on">&#x2611; Theorem 2.6.1</dt><dd>Lehmann and Casella</dd>
+</dl>
+<p>
+<i>Information matrix</i> is \(s \times s\) matrix
+</p>
+
+\begin{equation*}
+I(\theta) = ||I_{ij}(\theta)||
+\end{equation*}
+
+<p>
+where 
+</p>
+
+\begin{equation*}
+I_{ij}(\theta) = E_\theta \left[ \frac{\partial}{\partial \theta_i} \log p_\theta(X) \cdot \frac{\partial}{\partial \theta_j} \log p_\theta(X) \right]
+\end{equation*}
+
+<dl class="org-dl">
+<dt class="on">&#x2611; Theorem 2.6.2</dt><dd>Lehmann and Casella</dd>
+<dt class="on">&#x2611; Example 2.6.3</dt><dd>Lehmann and Casella</dd>
+<dt class="on">&#x2611; Theorem 2.6.6</dt><dd>Lehmann and Casella</dd>
+<dt class="on">&#x2611; Equation 2.6.27</dt><dd>p. 128 Lehmann and Casella</dd>
+</dl>
+</div>
+</div>
+</div>
+<div id="outline-container-org6e0a1f4" class="outline-3">
+<h3 id="org6e0a1f4"><span class="section-number-3">3.3</span> <span class="done DONE">DONE</span> Equivariance <code>[1/1]</code></h3>
+<div class="outline-text-3" id="text-3-3">
+</div>
+<div id="outline-container-org0b5712b" class="outline-4">
+<h4 id="org0b5712b"><span class="done DONE">DONE</span> First Examples <code>[26/26]</code></h4>
+<div class="outline-text-4" id="text-org0b5712b">
+<dl class="org-dl">
+<dt class="on">&#x2611; Example 3.1.1</dt><dd>Lehmann and Casella</dd>
+</dl>
+<p>
+This is an interesting example to motivate the location equivariant problem. If we have \(n\) draws from a binomial, and we are trying to estimate \(p\), we may use the estimator \(\frac{1}{n} \sum X_i\). If, however, we find out that \(p\) is actually the probability of failure, and we want to estimate \(1 -p\), then we can just use \(1 - \frac{1}{n} \sum X_i\). The estimation is <i>invariant</i> under the transormation \(d^\prime = 1 - d\).
+</p>
+<dl class="org-dl">
+<dt class="on">&#x2611; Definition 3.1.2</dt><dd>Lehmann and Casella</dd>
+</dl>
+<p>
+A family of densities is <i>location invariant</i> if you can add a value to the parameter, and add that same value to the data, and it is equivalent to the originial problem.
+</p>
+<dl class="org-dl">
+<dt class="on">&#x2611; Definition 3.1.3</dt><dd>Lehmann and Casella</dd>
+</dl>
+<p>
+<i>Location equivariant estimator</i> is
+</p>
+
+\begin{equation*}
+\delta(X_1 + a, X_2 + a, \ldots, X_n + a) = \delta(X_1, X_2, \ldots, X_n) + a \text{ for all } a
+\end{equation*}
+
+<dl class="org-dl">
+<dt class="on">&#x2611; Theorem 3.1.4</dt><dd>Lehmann and Casella</dd>
+</dl>
+<p>
+Bias, risk, and variance are constant for location equivariant family (they do not depend on the location parameter \(\xi\).
+</p>
+<dl class="org-dl">
+<dt class="on">&#x2611; Definition 3.1.5</dt><dd>Lehmann and Casella</dd>
+</dl>
+<p>
+<i>Minimum risk equivariant</i> (MRE) estimator is location equivariant estimator that minimizes the constant risk. 
+</p>
+<dl class="org-dl">
+<dt class="on">&#x2611; Lemma 3.1.6</dt><dd>Lehmann and Casella</dd>
+</dl>
+<p>
+This gives a general representation for a location equivariant estimator, as a family made up of functions of a given equivariant estimator. 
+</p>
+<dl class="org-dl">
+<dt class="on">&#x2611; Lemma 3.1.7</dt><dd>Lehmann and Casella</dd>
+</dl>
+<p>
+How do we come up with the function to get family of equivariant estimators. Needs to be function of the differences \(x_i - x_n\) for \(n \geq 2\).
+</p>
+<dl class="org-dl">
+<dt class="on">&#x2611; Theorem 3.1.8</dt><dd>Lehmann and Casella</dd>
+</dl>
+<p>
+Characterization of equivariant estimators.
+</p>
+<dl class="org-dl">
+<dt class="on">&#x2611; Example 3.1.9</dt><dd>Lehmann and Casella</dd>
+</dl>
+<p>
+If \(n = 1\), then the only equivariant estimators are \(X + c\) for some constant \(c\).
+</p>
+<dl class="org-dl">
+<dt class="on">&#x2611; Theorem 3.1.10</dt><dd>Lehmann and Casella</dd>
+</dl>
+<p>
+This gives way to determine equivariant estimator with minimum risk.
+</p>
+<dl class="org-dl">
+<dt class="on">&#x2611; Corollary 3.1.11</dt><dd>Lehmann and Casella</dd>
+</dl>
+<p>
+Gives conditions for MRE to exist and be unique. Depends on the shape of the loss function. Needs to be convex and not monotone for existence, and strictly convex for uniquenes. 
+</p>
+<dl class="org-dl">
+<dt class="on">&#x2611; Corollary 3.1.12</dt><dd>Lehmann and Casella</dd>
+</dl>
+<p>
+Characterizes the MRE under squared error loss and abolute error loss.
+</p>
+<dl class="org-dl">
+<dt class="on">&#x2611; Example 3.1.15</dt><dd>Lehmann and Casella (MRE under 0-1 loss)</dd>
+</dl>
+<p>
+In this case, there are two MRE. Not unique. 
+</p>
+<dl class="org-dl">
+<dt class="on">&#x2611; Example 3.1.16</dt><dd>Lehmann and Casella</dd>
+</dl>
+<p>
+\(\bar{X}\) is MRE for estimating mean of normals with known variance. 
+</p>
+<dl class="org-dl">
+<dt class="on">&#x2611; Theorem 3.1.17</dt><dd>Lehmann and Casella</dd>
+</dl>
+<p>
+"least favorable" property of the normal distribution
+</p>
+<dl class="org-dl">
+<dt class="on">&#x2611; Example 3.1.18</dt><dd>Lehmann and Casella</dd>
+</dl>
+<p>
+An MRE estimator need not be unbiased.
+</p>
+<dl class="org-dl">
+<dt class="on">&#x2611; Example 3.1.19</dt><dd>Lehmann and Casella</dd>
+<dt class="on">&#x2611; Theorem 3.1.20</dt><dd>Lehmann and Casella</dd>
+</dl>
+<p>
+Use <i>pitman estimator</i> under squared error loss
+</p>
+
+\begin{equation*}
+\frac{\int_{-\infty}^{\infty} u f(x_1 - u, \ldots, x_n - u) du}{\int_{-\infty}^{\infty} f(x_1 - u, \ldots, x_n - u) du}
+\end{equation*}
+
+<dl class="org-dl">
+<dt class="on">&#x2611; Example 3.1.21</dt><dd>Lehmann and Casella</dd>
+<dt class="on">&#x2611; Example 3.1.22</dt><dd>Lehmann and Casella</dd>
+<dt class="on">&#x2611; Randomized estimators for equivariant estimation</dt><dd>p. 155 Lehmann and Casella</dd>
+<dt class="on">&#x2611; Lemma 3.1.23</dt><dd>Lehmann and Casella</dd>
+</dl>
+<p>
+Under squared error loss, we have
+</p>
+<ol class="org-ol">
+<li>When \(\delta(\mathbf{X})\) is any equivariant estimator with constant bias \(b\), then \(\delta(\mathbf{X}) - b\) is equivariant, unbiased, and has smaller risk than \(\delta(\mathbf{X})\).</li>
+<li>The unique MRE estimator is unbiased.</li>
+<li>If a UMVU estimator exists and is equivariant, it is MRE.</li>
+</ol>
+<dl class="org-dl">
+<dt class="on">&#x2611; Definition 3.1.24</dt><dd>Lehmann and Casella</dd>
+<dt class="on">&#x2611; Example 3.1.25</dt><dd>Lehmann and Casella</dd>
+<dt class="on">&#x2611; Example 3.1.26</dt><dd>Lehmann and Casella</dd>
+<dt class="on">&#x2611; Theorem 3.1.27</dt><dd>Lehmann and Casella</dd>
+</dl>
+<p>
+If \(\delta\) is MRE for estimating \(\xi\) in a location invariant model with a loss function \(\rho(\delta - \xi)\), then it is risk-unbiased. 
+</p>
+
+<p>
+This means that it has lower risk than for any other value of the parameter \(\theta\). 
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org14754af" class="outline-3">
+<h3 id="org14754af"><span class="section-number-3">3.4</span> <span class="todo TODO">TODO</span> Average risk optimality <code>[0/5]</code></h3>
+<div class="outline-text-3" id="text-3-4">
+</div>
+<div id="outline-container-orgf98e8a6" class="outline-4">
+<h4 id="orgf98e8a6"><span class="todo TODO">TODO</span> Introduction <code>[0/6]</code></h4>
+<div class="outline-text-4" id="text-orgf98e8a6">
+<dl class="org-dl">
+<dt class="off">&#x2610; Theorem 4.1.1</dt><dd>Lehmann and Casella</dd>
+<dt class="off">&#x2610; Corollary 4.1.2</dt><dd>Lehmann and Casella</dd>
+<dt class="off">&#x2610; Example 4.1.3</dt><dd>Lehmann and Casella</dd>
+<dt class="off">&#x2610; Corollary 4.1.4</dt><dd>Lehmann and Casella</dd>
+<dt class="off">&#x2610; Example 4.1.5</dt><dd>Lehmann and Casella</dd>
+</dl>
+</div>
+</div>
+<div id="outline-container-org44b3162" class="outline-4">
+<h4 id="org44b3162"><span class="todo TODO">TODO</span> First examples <code>[0/8]</code></h4>
+<div class="outline-text-4" id="text-org44b3162">
+<dl class="org-dl">
+<dt class="off">&#x2610; Example 4.2.2</dt><dd>Lehmann and Casella</dd>
+<dt class="off">&#x2610; Theorem 4.2.3</dt><dd>Lehmann and Casella</dd>
+<dt class="off">&#x2610; Example 4.2.4</dt><dd>Lehmann and Casella</dd>
+<dt class="off">&#x2610; Example 4.2.5</dt><dd>Lehmann and Casella</dd>
+<dt class="off">&#x2610; Example 4.2.6</dt><dd>Lehmann and Casella</dd>
+<dt class="off">&#x2610; Example 4.2.8</dt><dd>Lehmann and Casella</dd>
+<dt class="off">&#x2610; Definition 4.2.10</dt><dd>Lehmann and Casella</dd>
+</dl>
+</div>
+</div>
+<div id="outline-container-org79cd029" class="outline-4">
+<h4 id="org79cd029"><span class="todo TODO">TODO</span> Single Prior Bayes <code>[0/4]</code></h4>
+<div class="outline-text-4" id="text-org79cd029">
+<dl class="org-dl">
+<dt class="off">&#x2610; Example 4.3.1</dt><dd>Lehmann and Casella</dd>
+<dt class="off">&#x2610; Conjugate exponential family</dt><dd>p. 244 Lehmann and Casella</dd>
+<dt class="off">&#x2610; Example 4.3.7</dt><dd>Lehmann and Casella</dd>
+</dl>
+</div>
+</div>
+<div id="outline-container-org5aff500" class="outline-4">
+<h4 id="org5aff500">Hierarchical Bayes <code>[0/5]</code></h4>
+<div class="outline-text-4" id="text-org5aff500">
+<dl class="org-dl">
+<dt class="off">&#x2610; Section 4.5 intro</dt><dd>Lehmann and Casella</dd>
+<dt class="off">&#x2610; Example 4.5.1 &amp; 4.5.2</dt><dd>Lehmann and Casella</dd>
+<dt class="off">&#x2610; Example 4.5.3</dt><dd>Lehmann and Casella</dd>
+<dt class="off">&#x2610; Gibbs sampling</dt><dd>p. 256 Lehmann and Casella</dd>
+<dt class="off">&#x2610; Example 4.5.4</dt><dd>Lehmann and Casella</dd>
+</dl>
+</div>
+</div>
+<div id="outline-container-orgd8c96b8" class="outline-4">
+<h4 id="orgd8c96b8"><span class="todo TODO">TODO</span> Empirical Bayes <code>[0/5]</code></h4>
+<div class="outline-text-4" id="text-orgd8c96b8">
+<dl class="org-dl">
+<dt class="off">&#x2610; Section 4.6 intro</dt><dd>Lehmann and Casella</dd>
+<dt class="off">&#x2610; Example 4.6.1</dt><dd>Lehmann and Casella</dd>
+<dt class="off">&#x2610; Example 4.6.2</dt><dd>Lehmann and Casella</dd>
+<dt class="off">&#x2610; Example 4.6.4</dt><dd>Lehmann and Casella</dd>
+<dt class="off">&#x2610; Example 4.6.5</dt><dd>Lehmann and Casella</dd>
+</dl>
+</div>
+</div>
+<div id="outline-container-org3e9331f" class="outline-4">
+<h4 id="org3e9331f"><span class="todo TODO">TODO</span> Shrinkage Estimators <code>[0/4]</code></h4>
+<div class="outline-text-4" id="text-org3e9331f">
+<dl class="org-dl">
+<dt class="off">&#x2610; Example 4.7.1</dt><dd>Lehmann and Casella</dd>
+<dt class="off">&#x2610; Lemma 11.1</dt><dd>Keener (Stein's Identity)</dd>
+<dt class="off">&#x2610; Corollary 4.7.2</dt><dd>Lehmann and Casella</dd>
+<dt class="off">&#x2610; Example 4.7.3</dt><dd>Lehmann and Casella</dd>
+</dl>
+</div>
+</div>
+</div>
+<div id="outline-container-org83f8b78" class="outline-3">
+<h3 id="org83f8b78"><span class="section-number-3">3.5</span> <span class="todo TODO">TODO</span> Minimaxity and admissibility <code>[0/3]</code></h3>
+<div class="outline-text-3" id="text-3-5">
+</div>
+<div id="outline-container-org4a40875" class="outline-4">
+<h4 id="org4a40875"><span class="todo TODO">TODO</span> Admissibility <code>[0/5]</code></h4>
+<div class="outline-text-4" id="text-org4a40875">
+<dl class="org-dl">
+<dt class="off">&#x2610; Inadmissible definintion</dt><dd>p. 213 Keener</dd>
+<dt class="off">&#x2610; Theorem 11.6</dt><dd>Keener</dd>
+<dt class="off">&#x2610; Theorem 11.7</dt><dd>Keener</dd>
+<dt class="off">&#x2610; Theorem 11.9</dt><dd>Keener</dd>
+<dt class="off">&#x2610; Example 11.10</dt><dd>Keener</dd>
+</dl>
+</div>
+</div>
+<div id="outline-container-orgb0d72ca" class="outline-4">
+<h4 id="orgb0d72ca"><span class="todo TODO">TODO</span> Minimax Estimation <code>[0/11]</code></h4>
+<div class="outline-text-4" id="text-orgb0d72ca">
+<dl class="org-dl">
+<dt class="off">&#x2610; Definition 5.1.1</dt><dd>Lehmann and Casella</dd>
+<dt class="off">&#x2610; Definition 5.1.3</dt><dd>Lehmann and Casella</dd>
+<dt class="off">&#x2610; Theorem 5.1.4</dt><dd>Lehmann and Casella</dd>
+<dt class="off">&#x2610; Corollary 5.1.5</dt><dd>Lehmann and Casella</dd>
+<dt class="off">&#x2610; Example 5.1.7</dt><dd>Lehmann and Casella</dd>
+<dt class="off">&#x2610; Example 5.1.8</dt><dd>Lehmann and Casella</dd>
+<dt class="off">&#x2610; Example 5.1.9</dt><dd>Lehmann and Casella</dd>
+<dt class="off">&#x2610; Definition 5.1.11</dt><dd>Lehmann and Casella</dd>
+<dt class="off">&#x2610; Theorem 5.1.12</dt><dd>Lehmann and Casella</dd>
+<dt class="off">&#x2610; Lemma 5.1.13</dt><dd>Lehmann and Casella</dd>
+<dt class="off">&#x2610; Example 5.1.14</dt><dd>Lehmann and Casella</dd>
+</dl>
+</div>
+</div>
+<div id="outline-container-org4a2a2f1" class="outline-4">
+<h4 id="org4a2a2f1"><span class="todo TODO">TODO</span> Admissibility and minimaxity in exponential families <code>[2/12]</code></h4>
+<div class="outline-text-4" id="text-org4a2a2f1">
+<dl class="org-dl">
+<dt class="off">&#x2610; Lemma 5.2.1</dt><dd>Lehmann and Casella</dd>
+<dt class="off">&#x2610; Example 5.2.2</dt><dd>Lehmann and Casella</dd>
+<dt class="off">&#x2610; Example 5.2.5</dt><dd>Lehmann and Casella</dd>
+<dt class="off">&#x2610; Theorem 5.2.6</dt><dd>Lehmann and Casella</dd>
+<dt class="off">&#x2610; Example 5.2.8</dt><dd>Lehmann and Casella</dd>
+<dt class="off">&#x2610; Lemma 5.2.12</dt><dd>Lehmann and Casella</dd>
+<dt class="off">&#x2610; Example 5.2.13</dt><dd>Lehmann and Casella</dd>
+<dt class="off">&#x2610; Theorem 5.2.14</dt><dd>Lehmann and Casella (Karlin's Theorem)</dd>
+<dt class="off">&#x2610; Corollary 5.2.18</dt><dd>Lehmann and Casella</dd>
+<dt class="on">&#x2611; Lemma 5.2.19</dt><dd>Lehmann and Casella</dd>
+</dl>
+<p>
+If an estimator has constant risk and is admissible, it is minimax. 
+</p>
+<dl class="org-dl">
+<dt class="off">&#x2610; Corollary 5.2.20</dt><dd>Lehmann and Casella</dd>
+<dt class="on">&#x2611; Lemma 5.2.21</dt><dd>Lehmann and Casella</dd>
+</dl>
+<p>
+If an estimator is unique minimax, it is admissible. 
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org787c56c" class="outline-3">
+<h3 id="org787c56c"><span class="section-number-3">3.6</span> <span class="todo TODO">TODO</span> Uniformly most powerful tests <code>[0/6]</code></h3>
+<div class="outline-text-3" id="text-3-6">
+</div>
+<div id="outline-container-org706a86f" class="outline-4">
+<h4 id="org706a86f"><span class="todo TODO">TODO</span> Stating the problem <code>[0/1]</code></h4>
+<div class="outline-text-4" id="text-org706a86f">
+<dl class="org-dl">
+<dt class="off">&#x2610; Chapter 3 Section 1</dt><dd>Lehmann</dd>
+</dl>
+</div>
+</div>
+<div id="outline-container-org265210a" class="outline-4">
+<h4 id="org265210a"><span class="todo TODO">TODO</span> Neyman-Pearson Fundamental Lemma <code>[0/4]</code></h4>
+<div class="outline-text-4" id="text-org265210a">
+<dl class="org-dl">
+<dt class="off">&#x2610; Chapter 3 Section 2</dt><dd>Lehmann</dd>
+<dt class="off">&#x2610; Theorem 3.1</dt><dd>Lehmann</dd>
+<dt class="off">&#x2610; Corollary 3.1</dt><dd>Lehmann</dd>
+<dt class="off">&#x2610; Example 12.6</dt><dd>Keener</dd>
+</dl>
+</div>
+</div>
+<div id="outline-container-org9005309" class="outline-4">
+<h4 id="org9005309"><span class="todo TODO">TODO</span> Distributions with monotone likelihood ratio <code>[0/8]</code></h4>
+<div class="outline-text-4" id="text-org9005309">
+<dl class="org-dl">
+<dt class="off">&#x2610; Theorem 3.2</dt><dd>Lehmann</dd>
+<dt class="off">&#x2610; Example 3.1</dt><dd>Lehmann</dd>
+<dt class="off">&#x2610; Corollary 3.2</dt><dd>Lehmann</dd>
+<dt class="off">&#x2610; Example 3.2</dt><dd>Lehmann</dd>
+<dt class="off">&#x2610; Example 3.3</dt><dd>Lehmann</dd>
+<dt class="off">&#x2610; Example 12.10</dt><dd>Keener</dd>
+<dt class="off">&#x2610; Lemma 3.1</dt><dd>Lehmann</dd>
+<dt class="off">&#x2610; Lemma 3.2</dt><dd>Lehmann</dd>
+</dl>
+</div>
+</div>
+<div id="outline-container-org63adf3b" class="outline-4">
+<h4 id="org63adf3b"><span class="todo TODO">TODO</span> Confidence bounds <code>[0/6]</code></h4>
+<div class="outline-text-4" id="text-org63adf3b">
+<dl class="org-dl">
+<dt class="off">&#x2610; Chapter 3 Section 5</dt><dd>Lehmann</dd>
+<dt class="off">&#x2610; Theorem 3.4</dt><dd>Lehmann</dd>
+<dt class="off">&#x2610; Corollary 3.3</dt><dd>Lehmann</dd>
+<dt class="off">&#x2610; Example 3.6</dt><dd>Lehmann</dd>
+<dt class="off">&#x2610; Discrete Distributions</dt><dd>p. 93 Lehmann</dd>
+<dt class="off">&#x2610; Example 3.7</dt><dd>Lehmann</dd>
+</dl>
+</div>
+</div>
+<div id="outline-container-org6aae637" class="outline-4">
+<h4 id="org6aae637"><span class="todo TODO">TODO</span> A generalization of the fundamental lemma <code>[0/3]</code></h4>
+<div class="outline-text-4" id="text-org6aae637">
+<dl class="org-dl">
+<dt class="off">&#x2610; Theorem 3.5</dt><dd>Lehmann</dd>
+<dt class="off">&#x2610; Corollary 3.4</dt><dd>Lehmann</dd>
+<dt class="off">&#x2610; Lemma 3.3</dt><dd>Lehmann</dd>
+</dl>
+</div>
+</div>
+<div id="outline-container-org307edc1" class="outline-4">
+<h4 id="org307edc1"><span class="todo TODO">TODO</span> Two-sided hypotheses <code>[0/2]</code></h4>
+<div class="outline-text-4" id="text-org307edc1">
+<dl class="org-dl">
+<dt class="off">&#x2610; Theorem 3.6</dt><dd>Lehmann</dd>
+<dt class="off">&#x2610; Lemma 3.4</dt><dd>Lehmann</dd>
+</dl>
+</div>
+</div>
+</div>
+<div id="outline-container-org03ea48b" class="outline-3">
+<h3 id="org03ea48b"><span class="section-number-3">3.7</span> <span class="todo TODO">TODO</span> Unbiased tests <code>[0/5]</code></h3>
+<div class="outline-text-3" id="text-3-7">
+<dl class="org-dl">
+<dt class="off">&#x2610; Definition 12.25</dt><dd>Keener</dd>
+<dt class="off">&#x2610; Lemma 4.1</dt><dd>Lehmann</dd>
+<dt class="off">&#x2610; Chapter 4 Section 2</dt><dd>Lehmann</dd>
+<dt class="off">&#x2610; Example 4.1</dt><dd>Lehmann</dd>
+<dt class="off">&#x2610; Example 4.2</dt><dd>Lehmann</dd>
+</dl>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Elliot Shannon</p>
+<p class="date">Created: 2024-05-06 Mon 14:30</p>
+<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>
