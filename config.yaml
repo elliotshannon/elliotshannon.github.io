@@ -1,6 +1,6 @@
 baseurl: /
 languageCode: en-us
-title: A Hugo website
+title: Elliot Shannon
 theme: hugo-lithium
 publishdir: docs
 googleAnalytics: ''
@@ -15,12 +15,10 @@ permalinks:
   post: /:year/:month/:day/:slug/
 menu:
   main:
-    - name: About
-      url: /about/
-    - name: GitHub
-      url: https://github.com/rstudio/blogdown
-    - name: Twitter
-      url: https://twitter.com/rstudio
+    - name: Prelim Study Guide
+      url: /prelims/
+    - name: My GitHub
+      url: https://github.com/elliotshannon
 params:
   MathJaxCDN: //cdnjs.cloudflare.com/ajax/libs
   MathJaxVersion: 2.7.5
@@ -35,7 +33,7 @@ params:
   logo:
     alt: Logo
     height: 50
-    url: logo.png
+    url: logo.jpg
     width: 50
 markup:
   defaultMarkdownHandler: goldmark
