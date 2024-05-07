@@ -17,6 +17,8 @@ menu:
   main:
     - name: Prelim Study Guide
       url: /prelims/
+    - name: Class Notes
+      url: /notes/
     - name: My GitHub
       url: https://github.com/elliotshannon
 params:
