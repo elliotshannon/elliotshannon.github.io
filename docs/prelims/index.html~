@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2024-06-05 Wed 13:49 -->
+<!-- 2024-06-07 Fri 12:09 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>STT Prelim Study Guide</title>
@@ -338,262 +338,311 @@ for the JavaScript code in this tag.
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#orga6b3c04">1. Linear Algebra</a>
+<li><a href="#org2ddb13c">1. Linear Algebra</a>
 <ul>
-<li><a href="#orgf9538d1">1.1. Basic Elements of Linear Algebra</a></li>
-<li><a href="#org26d16f7">1.2. Basic Concepts in Matrix Algebra</a></li>
-<li><a href="#orgb53370c">1.3. Matrix Cookbook</a></li>
+<li><a href="#orgf3c52b7">1.1. Basic Elements of Linear Algebra</a></li>
+<li><a href="#org218af7e">1.2. Basic Concepts in Matrix Algebra</a></li>
+<li><a href="#org3e8020a">1.3. Matrix Cookbook</a></li>
 </ul>
 </li>
-<li><a href="#orgb346433">2. STT 867 <code>[57%]</code></a>
+<li><a href="#orgeba39c6">2. STT 867 <code>[57%]</code></a>
 <ul>
-<li><a href="#org951ad40">2.1. <span class="done DONE">DONE</span> Least Squares, Gauss-Markov Theorem and extensions <code>[8/8]</code></a>
+<li><a href="#org99178fa">2.1. <span class="done DONE">DONE</span> Least Squares, Gauss-Markov Theorem and extensions <code>[8/8]</code></a>
 <ul>
-<li><a href="#org9a1e130"><span class="done DONE">DONE</span> Mulitple linear regression model</a></li>
-<li><a href="#org8d3b213"><span class="done DONE">DONE</span> Error-in-variables linear regression</a></li>
-<li><a href="#org501b8e5"><span class="done DONE">DONE</span> Ordinary least squares</a></li>
-<li><a href="#org94f5d71"><span class="done DONE">DONE</span> Properties of \(\hat{\beta}\)</a></li>
-<li><a href="#org7ff70ae"><span class="done DONE">DONE</span> Guass-Markov Theorem</a></li>
-<li><a href="#org76bf688"><span class="done DONE">DONE</span> Method of Lagrange Multplier</a></li>
-<li><a href="#org0b5ef1e"><span class="done DONE">DONE</span> Generalization of Gauss-Markov</a></li>
-<li><a href="#org780f73b"><span class="done DONE">DONE</span> Estimation of \(\sigma^2\)</a></li>
+<li><a href="#orgc607289"><span class="done DONE">DONE</span> Mulitple linear regression model</a></li>
+<li><a href="#orgf5d4cfa"><span class="done DONE">DONE</span> Error-in-variables linear regression</a></li>
+<li><a href="#orgd7434c3"><span class="done DONE">DONE</span> Ordinary least squares</a></li>
+<li><a href="#orgdda1012"><span class="done DONE">DONE</span> Properties of \(\hat{\beta}\)</a></li>
+<li><a href="#org3a71a11"><span class="done DONE">DONE</span> Guass-Markov Theorem</a></li>
+<li><a href="#org1fdc370"><span class="done DONE">DONE</span> Method of Lagrange Multplier</a></li>
+<li><a href="#orge010689"><span class="done DONE">DONE</span> Generalization of Gauss-Markov</a></li>
+<li><a href="#org0346cf0"><span class="done DONE">DONE</span> Estimation of \(\sigma^2\)</a></li>
 </ul>
 </li>
-<li><a href="#orgbb38172">2.2. <span class="done DONE">DONE</span> Hypothesis testing and confidence regions <code>[5/5]</code></a>
+<li><a href="#orgfa8aea1">2.2. <span class="done DONE">DONE</span> Hypothesis testing and confidence regions <code>[5/5]</code></a>
 <ul>
-<li><a href="#org7d4f6c3"><span class="done DONE">DONE</span> Testing \(H_0 : A\beta = m\) vs \(H_1 : A\beta \neq m\)</a></li>
-<li><a href="#orge218aa2"><span class="done DONE">DONE</span> Singular value decomposition</a></li>
-<li><a href="#org7c26bda"><span class="done DONE">DONE</span> Power of \(H_0 : A\beta = m\) vs \(H_1 : A\beta \neq m\)</a></li>
-<li><a href="#orgdef081b"><span class="done DONE">DONE</span> Likelihood ratio test</a></li>
-<li><a href="#orga21c4c6"><span class="done DONE">DONE</span> Confidence region for \(A\beta \in \mathbb{R}^r\) with coverage level \(1 - \alpha\)</a></li>
+<li><a href="#org49e343d"><span class="done DONE">DONE</span> Testing \(H_0 : A\beta = m\) vs \(H_1 : A\beta \neq m\)</a></li>
+<li><a href="#orga2cfbaf"><span class="done DONE">DONE</span> Singular value decomposition</a></li>
+<li><a href="#org4c34051"><span class="done DONE">DONE</span> Power of \(H_0 : A\beta = m\) vs \(H_1 : A\beta \neq m\)</a></li>
+<li><a href="#orgf3523a6"><span class="done DONE">DONE</span> Likelihood ratio test</a></li>
+<li><a href="#orgf459bf6"><span class="done DONE">DONE</span> Confidence region for \(A\beta \in \mathbb{R}^r\) with coverage level \(1 - \alpha\)</a></li>
 </ul>
 </li>
-<li><a href="#org49a721e">2.3. <span class="done DONE">DONE</span> Simultaneous confidence intervals <code>[2/2]</code></a>
+<li><a href="#org138742b">2.3. <span class="done DONE">DONE</span> Simultaneous confidence intervals <code>[2/2]</code></a>
 <ul>
-<li><a href="#org3210e8a"><span class="done DONE">DONE</span> Lemma A</a></li>
-<li><a href="#org20d4ed0"><span class="done DONE">DONE</span> Scheffes Simultaneous C.I. for \(l'\beta\)</a></li>
+<li><a href="#org92032e5"><span class="done DONE">DONE</span> Lemma A</a></li>
+<li><a href="#org3fadc6f"><span class="done DONE">DONE</span> Scheffes Simultaneous C.I. for \(l'\beta\)</a></li>
 </ul>
 </li>
-<li><a href="#orge88f95b">2.4. <span class="done DONE">DONE</span> Maximum Likelihood Estimation</a></li>
-<li><a href="#org6266541">2.5. <span class="done DONE">DONE</span> Less-than-full-rank linear models <code>[3/3]</code></a>
+<li><a href="#org76541fa">2.4. <span class="done DONE">DONE</span> Maximum Likelihood Estimation</a></li>
+<li><a href="#orgece0cb1">2.5. <span class="done DONE">DONE</span> Less-than-full-rank linear models <code>[3/3]</code></a>
 <ul>
-<li><a href="#org35c855a"><span class="done DONE">DONE</span> One-way ANOVA example</a></li>
-<li><a href="#org1d5fde8"><span class="done DONE">DONE</span> Generalized inverse of a matrix</a></li>
-<li><a href="#org146bbac"><span class="done DONE">DONE</span> Properties under less-than-full-rank model</a></li>
+<li><a href="#org3e7468a"><span class="done DONE">DONE</span> One-way ANOVA example</a></li>
+<li><a href="#org875ef9e"><span class="done DONE">DONE</span> Generalized inverse of a matrix</a></li>
+<li><a href="#org9441045"><span class="done DONE">DONE</span> Properties under less-than-full-rank model</a></li>
 </ul>
 </li>
-<li><a href="#org0dca777">2.6. <span class="done DONE">DONE</span> Estimable/Testable linear functions <code>[10/10]</code></a>
+<li><a href="#org6b384e4">2.6. <span class="done DONE">DONE</span> Estimable/Testable linear functions <code>[10/10]</code></a>
 <ul>
-<li><a href="#org5582c00"><span class="done DONE">DONE</span> Estimability</a></li>
-<li><a href="#org62268ab"><span class="done DONE">DONE</span> Identifiability</a></li>
-<li><a href="#org25073e6"><span class="done DONE">DONE</span> Estimable linear functions \(a'\beta\)</a></li>
-<li><a href="#org8a820eb"><span class="done DONE">DONE</span> Gauss-Markov theorem for \(a'\beta\)</a></li>
-<li><a href="#orga32e59d"><span class="done DONE">DONE</span> Testable hypothesis</a></li>
-<li><a href="#orgca1eb16"><span class="done DONE">DONE</span> Confidence region for \(A\beta\)</a></li>
-<li><a href="#orgd23cd08"><span class="done DONE">DONE</span> Two-way ANOVA model</a></li>
-<li><a href="#org0daa234"><span class="done DONE">DONE</span> Simultaneous confidence interval for estimable linear functions</a></li>
-<li><a href="#org960cdc1"><span class="done DONE">DONE</span> Bonferroni's intervals</a></li>
-<li><a href="#orge1498e0"><span class="done DONE">DONE</span> Sidaks Intervals</a></li>
+<li><a href="#org677486e"><span class="done DONE">DONE</span> Estimability</a></li>
+<li><a href="#orgbfac6c4"><span class="done DONE">DONE</span> Identifiability</a></li>
+<li><a href="#org4a23eff"><span class="done DONE">DONE</span> Estimable linear functions \(a'\beta\)</a></li>
+<li><a href="#orgb3dde1a"><span class="done DONE">DONE</span> Gauss-Markov theorem for \(a'\beta\)</a></li>
+<li><a href="#orgfde826f"><span class="done DONE">DONE</span> Testable hypothesis</a></li>
+<li><a href="#orgc14118d"><span class="done DONE">DONE</span> Confidence region for \(A\beta\)</a></li>
+<li><a href="#orgca489c6"><span class="done DONE">DONE</span> Two-way ANOVA model</a></li>
+<li><a href="#orgeac471e"><span class="done DONE">DONE</span> Simultaneous confidence interval for estimable linear functions</a></li>
+<li><a href="#org7cb0440"><span class="done DONE">DONE</span> Bonferroni's intervals</a></li>
+<li><a href="#orgba178ab"><span class="done DONE">DONE</span> Sidaks Intervals</a></li>
 </ul>
 </li>
-<li><a href="#org0c950c7">2.7. <span class="todo TODO">TODO</span> Distributional properties of quadratic forms <code>[0/9]</code></a>
+<li><a href="#org1d0bf5c">2.7. <span class="todo TODO">TODO</span> Distributional properties of quadratic forms <code>[0/9]</code></a>
 <ul>
-<li><a href="#org91ac504"><span class="todo TODO">TODO</span> Lemma 1</a></li>
-<li><a href="#org8d11ae1"><span class="todo TODO">TODO</span> Theorem 1</a></li>
-<li><a href="#orgceb0696"><span class="todo TODO">TODO</span> Moment generating function</a></li>
-<li><a href="#org83137c8"><span class="todo TODO">TODO</span> Corollary \(A \in \mathbb{R}^{n \times n}\)</a></li>
-<li><a href="#org6c4e517"><span class="todo TODO">TODO</span> Theorem 2 (Craig's Theorem)</a></li>
-<li><a href="#org8a7d17f"><span class="todo TODO">TODO</span> Theorem 3.9 Khuri</a></li>
-<li><a href="#orgfb4a88a"><span class="todo TODO">TODO</span> Theorem 3</a></li>
-<li><a href="#org7281c6e"><span class="todo TODO">TODO</span> Partitioning the sum of squares <code>[0/1]</code></a></li>
-<li><a href="#org6dcbd6b"><span class="todo TODO">TODO</span> Cochran's theorem</a></li>
+<li><a href="#org7437783"><span class="todo TODO">TODO</span> Lemma 1</a></li>
+<li><a href="#orgd80953a"><span class="todo TODO">TODO</span> Theorem 1</a></li>
+<li><a href="#org344dc40"><span class="todo TODO">TODO</span> Moment generating function</a></li>
+<li><a href="#org7a6ae0d"><span class="todo TODO">TODO</span> Corollary \(A \in \mathbb{R}^{n \times n}\)</a></li>
+<li><a href="#org46428c1"><span class="todo TODO">TODO</span> Theorem 2 (Craig's Theorem)</a></li>
+<li><a href="#orgecac5fb"><span class="todo TODO">TODO</span> Theorem 3.9 Khuri</a></li>
+<li><a href="#org155b24c"><span class="todo TODO">TODO</span> Theorem 3</a></li>
+<li><a href="#org7336bff"><span class="todo TODO">TODO</span> Partitioning the sum of squares <code>[0/1]</code></a></li>
+<li><a href="#org8ca4856"><span class="todo TODO">TODO</span> Cochran's theorem</a></li>
 </ul>
 </li>
-<li><a href="#org094e1f7">2.8. <span class="todo TODO">TODO</span> Model selection and prediction <code>[0/10]</code></a>
+<li><a href="#orga157030">2.8. <span class="todo TODO">TODO</span> Model selection and prediction <code>[0/10]</code></a>
 <ul>
-<li><a href="#org76bbaf5"><span class="todo TODO">TODO</span> Expected prediction error</a></li>
-<li><a href="#orgbf546ed"><span class="todo TODO">TODO</span> Prediction <code>[0/2]</code></a></li>
-<li><a href="#org6afc45a"><span class="todo TODO">TODO</span> Bias-variance tradeoff</a></li>
-<li><a href="#org44ef067"><span class="todo TODO">TODO</span> Goodness of Fit <code>[0/2]</code></a></li>
-<li><a href="#orgdc539ef"><span class="todo TODO">TODO</span> Predicition error <code>[0/2]</code></a></li>
-<li><a href="#org3f96574"><span class="todo TODO">TODO</span> Degrees of freedom of given prediction method</a></li>
-<li><a href="#org0a05325"><span class="todo TODO">TODO</span> Cross validation</a></li>
-<li><a href="#org3632e07"><span class="todo TODO">TODO</span> Information Criterion <code>[0/6]</code></a></li>
-<li><a href="#org111eb18"><span class="todo TODO">TODO</span> Comparison of model selection criteria for linear regression model</a></li>
-<li><a href="#org9f0e34a"><span class="todo TODO">TODO</span> Subset selection</a></li>
+<li><a href="#org1aee2d4"><span class="todo TODO">TODO</span> Expected prediction error</a></li>
+<li><a href="#orgac68d59"><span class="todo TODO">TODO</span> Prediction <code>[0/2]</code></a></li>
+<li><a href="#org289f7ea"><span class="todo TODO">TODO</span> Bias-variance tradeoff</a></li>
+<li><a href="#orgadb0804"><span class="todo TODO">TODO</span> Goodness of Fit <code>[0/2]</code></a></li>
+<li><a href="#org39c92e3"><span class="todo TODO">TODO</span> Predicition error <code>[0/2]</code></a></li>
+<li><a href="#orge6b0467"><span class="todo TODO">TODO</span> Degrees of freedom of given prediction method</a></li>
+<li><a href="#org971d5d2"><span class="todo TODO">TODO</span> Cross validation</a></li>
+<li><a href="#orgdcf641a"><span class="todo TODO">TODO</span> Information Criterion <code>[0/6]</code></a></li>
+<li><a href="#org0221696"><span class="todo TODO">TODO</span> Comparison of model selection criteria for linear regression model</a></li>
+<li><a href="#orgcc9d9c0"><span class="todo TODO">TODO</span> Subset selection</a></li>
 </ul>
 </li>
-<li><a href="#orgd881615">2.9. <span class="todo TODO">TODO</span> Shrinkage methods <code>[0/3]</code></a>
+<li><a href="#org9aa5ad8">2.9. <span class="todo TODO">TODO</span> Shrinkage methods <code>[0/3]</code></a>
 <ul>
-<li><a href="#org98a7355"><span class="todo TODO">TODO</span> James-Stein estimator</a></li>
-<li><a href="#orgdc59253"><span class="todo TODO">TODO</span> Ridge Regression</a></li>
-<li><a href="#org7a37349"><span class="todo TODO">TODO</span> The Lasso</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li><a href="#orge342ff6">3. STT 868 <code>[46%]</code></a>
-<ul>
-<li><a href="#orge067802">3.1. <span class="done DONE">DONE</span> Model Identifiability <code>[10/10]</code></a>
-<ul>
-<li><a href="#org514bfc3"><span class="done DONE">DONE</span> One-way ANOVA model</a></li>
-<li><a href="#orga14f99e"><span class="done DONE">DONE</span> Variance componenets models</a></li>
-<li><a href="#orgb56a418"><span class="done DONE">DONE</span> Properties of random effects</a></li>
-<li><a href="#orga5faf95"><span class="done DONE">DONE</span> Random intercept model</a></li>
-<li><a href="#orgfe72b74"><span class="done DONE">DONE</span> Linear mixed model</a></li>
-<li><a href="#orgaa5fafc"><span class="done DONE">DONE</span> Identifiability definition</a></li>
-<li><a href="#org11ae05c"><span class="done DONE">DONE</span> Identifiability theorem for LMM</a></li>
-<li><a href="#org1418543"><span class="done DONE">DONE</span> Kronecker Product</a></li>
-<li><a href="#orgcd45106"><span class="done DONE">DONE</span> Vectorization</a></li>
-<li><a href="#orgdd5d302"><span class="done DONE">DONE</span> Schur Complement Condition</a></li>
-</ul>
-</li>
-<li><a href="#org21bf1ba">3.2. <span class="done DONE">DONE</span> MLE, ANOVA estimation, MINQUE, RMLE <code>[7/7]</code></a>
-<ul>
-<li><a href="#orga27bbce"><span class="done DONE">DONE</span> Log-likelihood of LMM</a></li>
-<li><a href="#orge3ae288"><span class="done DONE">DONE</span> MLE \(\hat{\beta}\) <code>[2/2]</code></a></li>
-<li><a href="#org3fe99cd"><span class="done DONE">DONE</span> MLE \(\hat{\sigma}^2\)</a></li>
-<li><a href="#orgfe54f0a"><span class="done DONE">DONE</span> Derivatives of log-likelihood function</a></li>
-<li><a href="#org247114e"><span class="done DONE">DONE</span> Balanced random coefficient model <code>[3/3]</code></a></li>
-<li><a href="#org149728a"><span class="done DONE">DONE</span> Existence of MLE</a></li>
-<li><a href="#orgcbe2677"><span class="done DONE">DONE</span> LMM with random intercept <code>[3/3]</code></a></li>
-</ul>
-</li>
-<li><a href="#org3d8cbcf">3.3. <span class="done DONE">DONE</span> Computation and optimization <code>[9/9]</code></a>
-<ul>
-<li><a href="#org1e6830b"><span class="done DONE">DONE</span> Gradient methods <code>[4/4]</code></a></li>
-<li><a href="#org076b0ba"><span class="done DONE">DONE</span> Convergence issues</a></li>
-<li><a href="#org8f43efc"><span class="done DONE">DONE</span> Rate of Convergence</a></li>
-<li><a href="#org085f3a8"><span class="done DONE">DONE</span> Expectation-Maximization algorithm</a></li>
-<li><a href="#org156ed16"><span class="done DONE">DONE</span> Fisher Scoring Algorithm</a></li>
-<li><a href="#org1c55aff"><span class="done DONE">DONE</span> RMLE in LMM</a></li>
-<li><a href="#org89b3f18"><span class="done DONE">DONE</span> MINQUE in LMM</a></li>
-<li><a href="#org12e8646"><span class="done DONE">DONE</span> ANOVA Estimation</a></li>
-<li><a href="#org00c6947"><span class="done DONE">DONE</span> A general method of moments</a></li>
-</ul>
-</li>
-<li><a href="#org4460688">3.4. <span class="todo TODO">TODO</span> Hypothesis testing and confidence intervals <code>[0/6]</code></a>
-<ul>
-<li><a href="#org0ded542"><span class="todo TODO">TODO</span> F test</a></li>
-<li><a href="#org9fd5405"><span class="todo TODO">TODO</span> Likelihood ratio test</a></li>
-<li><a href="#org4b6438f"><span class="todo TODO">TODO</span> C.I. for \(\sigma^2\) in LMM</a></li>
-<li><a href="#orgff85f79"><span class="todo TODO">TODO</span> Confidence region for \(D \in \mathbb{R}^{k \times k}\)</a></li>
-<li><a href="#org7b1b509"><span class="todo TODO">TODO</span> C.I. for functions of \(\sigma^2\) and \(D\)</a></li>
-<li><a href="#org95af0eb"><span class="todo TODO">TODO</span> Approximate C.I. for variance components <code>[0/2]</code></a></li>
-</ul>
-</li>
-<li><a href="#org3064942">3.5. <span class="todo TODO">TODO</span> Generalized linear models <code>[0/7]</code></a>
-<ul>
-<li><a href="#org95957e3"><span class="todo TODO">TODO</span> GLM Setup</a></li>
-<li><a href="#org83b771b"><span class="todo TODO">TODO</span> Exponential family distribution <code>[0/4]</code></a></li>
-<li><a href="#org4effcb3"><span class="todo TODO">TODO</span> Link Functions <code>[0/4]</code></a></li>
-<li><a href="#orgc16c918"><span class="todo TODO">TODO</span> log-likelihood for GLM</a></li>
-<li><a href="#orge27c806"><span class="todo TODO">TODO</span> Fisher scoring algorithm</a></li>
-<li><a href="#org2d22140"><span class="todo TODO">TODO</span> Inference in GLM <code>[0/4]</code></a></li>
-</ul>
-</li>
-<li><a href="#org1aafdc6">3.6. <span class="todo TODO">TODO</span> Quasi-likelihood estimation <code>[0/3]</code></a>
-<ul>
-<li><a href="#org2556e0d"><span class="todo TODO">TODO</span> Review of MLE</a></li>
-<li><a href="#orge39ea00"><span class="todo TODO">TODO</span> Construction of Quasi-likelihood function</a></li>
-<li><a href="#orgbf4a641"><span class="todo TODO">TODO</span> Maximum quasi-likelihood estimation</a></li>
-</ul>
-</li>
-<li><a href="#org8212aba">3.7. <span class="todo TODO">TODO</span> Generalized linear mixed models <code>[0/10]</code></a>
-<ul>
-<li><a href="#org0b90c95"><span class="todo TODO">TODO</span> General setup</a></li>
-<li><a href="#org4560701"><span class="todo TODO">TODO</span> Mean</a></li>
-<li><a href="#orga77b50f"><span class="todo TODO">TODO</span> Variance</a></li>
-<li><a href="#orge506e86"><span class="todo TODO">TODO</span> Covariance</a></li>
-<li><a href="#org69ab1a0"><span class="todo TODO">TODO</span> Likelihood function</a></li>
-<li><a href="#orga5fd6f4"><span class="todo TODO">TODO</span> log-likelihood function</a></li>
-<li><a href="#org5443058"><span class="todo TODO">TODO</span> Gauss-hermite quadrecture</a></li>
-<li><a href="#orgcc21840"><span class="todo TODO">TODO</span> EM algorithm for GLMM</a></li>
-<li><a href="#orgf45256f"><span class="todo TODO">TODO</span> Markov Chain Monte Carlo algorithm</a></li>
-<li><a href="#org4209120"><span class="todo TODO">TODO</span> Metropolis-Hastings algorithm</a></li>
-</ul>
-</li>
-<li><a href="#orge54e52e">3.8. <span class="todo TODO">TODO</span> Generalized estimation equations <code>[0/4]</code></a>
-<ul>
-<li><a href="#org027cefb"><span class="todo TODO">TODO</span> Estimating functions</a></li>
-<li><a href="#org08bf86a"><span class="todo TODO">TODO</span> Class of linear estimating functions</a></li>
-<li><a href="#org4684bdd"><span class="todo TODO">TODO</span> Optimal linear estimating equation</a></li>
-<li><a href="#org7014ef5"><span class="todo TODO">TODO</span> Generalized estimating equation</a></li>
+<li><a href="#org6351e48"><span class="todo TODO">TODO</span> James-Stein estimator</a></li>
+<li><a href="#orga3e6f26"><span class="todo TODO">TODO</span> Ridge Regression</a></li>
+<li><a href="#orga98b7b0"><span class="todo TODO">TODO</span> The Lasso</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li><a href="#org4a07ed8">4. STT 872 <code>[56%]</code></a>
+<li><a href="#org608306f">3. STT 868 <code>[50%]</code></a>
 <ul>
-<li><a href="#orgd49e8d3">4.1. <span class="done DONE">DONE</span> Preparations <code>[9/9]</code></a>
+<li><a href="#orgf6d1510">3.1. <span class="done DONE">DONE</span> Model Identifiability <code>[10/10]</code></a>
 <ul>
-<li><a href="#orgeefb881"><span class="done DONE">DONE</span> Measure Theory <code>[4/4]</code></a></li>
-<li><a href="#org2f2d641"><span class="done DONE">DONE</span> Integration <code>[8/8]</code></a></li>
-<li><a href="#orgbc0f260"><span class="done DONE">DONE</span> Probability Spaces <code>[11/11]</code></a></li>
-<li><a href="#orgb8db8aa"><span class="done DONE">DONE</span> Group families <code>[5/5]</code></a></li>
-<li><a href="#org1e93c1b"><span class="done DONE">DONE</span> Exponential families <code>[5/5]</code></a></li>
-<li><a href="#org24ebdca"><span class="done DONE">DONE</span> Moment and cumulant generating functions <code>[7/7]</code></a></li>
-<li><a href="#orgd3a5322">Models, Estimators, and Risk Functions</a></li>
-<li><a href="#org55f8df8"><span class="done DONE">DONE</span> Sufficient Statistics <code>[22/22]</code></a></li>
-<li><a href="#org39b6d7e"><span class="done DONE">DONE</span> Convexity <code>[10/10]</code></a></li>
-<li><a href="#org4f9d821"><span class="done DONE">DONE</span> Large sample theory <code>[18/18]</code></a></li>
+<li><a href="#org6e4fb64"><span class="done DONE">DONE</span> One-way ANOVA model</a></li>
+<li><a href="#orgb663dce"><span class="done DONE">DONE</span> Variance componenets models</a></li>
+<li><a href="#orgcd00494"><span class="done DONE">DONE</span> Properties of random effects</a></li>
+<li><a href="#orgd9a1432">Deciding between fixed and random effects</a></li>
+<li><a href="#orgbd7cbb8"><span class="done DONE">DONE</span> Random intercept model</a></li>
+<li><a href="#orge48544c"><span class="done DONE">DONE</span> Linear mixed model</a></li>
+<li><a href="#orgce4e037"><span class="done DONE">DONE</span> Identifiability definition</a></li>
+<li><a href="#orgd30130d"><span class="done DONE">DONE</span> Identifiability theorem for LMM</a></li>
+<li><a href="#org239fea4"><span class="done DONE">DONE</span> Kronecker Product</a></li>
+<li><a href="#org10d5c2c"><span class="done DONE">DONE</span> Vectorization</a></li>
+<li><a href="#orge7c5e14"><span class="done DONE">DONE</span> Schur Complement Condition</a></li>
 </ul>
 </li>
-<li><a href="#orgbc36832">4.2. <span class="done DONE">DONE</span> Unbiasedness <code>[5/5]</code></a>
+<li><a href="#org37c74fe">3.2. <span class="done DONE">DONE</span> MLE, ANOVA estimation, MINQUE, RMLE <code>[7/7]</code></a>
 <ul>
-<li><a href="#org38670e0"><span class="done DONE">DONE</span> Minimum Variance Unbiased Estimator <code>[9/9]</code></a></li>
-<li><a href="#org201265d"><span class="done DONE">DONE</span> Continuous distributions and UMVU <code>[4/4]</code></a></li>
-<li><a href="#org28202af"><span class="done DONE">DONE</span> UMVU for discrete distributions <code>[8/8]</code></a></li>
-<li><a href="#orga703188"><span class="done DONE">DONE</span> Information inequality <code>[12/12]</code></a></li>
-<li><a href="#org5ad24fd"><span class="done DONE">DONE</span> Multiparameter information inequality <code>[5/5]</code></a></li>
+<li><a href="#org20421c8"><span class="done DONE">DONE</span> Log-likelihood of LMM</a></li>
+<li><a href="#orgb91b022"><span class="done DONE">DONE</span> MLE \(\hat{\beta}\) <code>[2/2]</code></a></li>
+<li><a href="#org3bcb137"><span class="done DONE">DONE</span> MLE \(\hat{\sigma}^2\)</a></li>
+<li><a href="#orgc4a760f"><span class="done DONE">DONE</span> Derivatives of log-likelihood function</a></li>
+<li><a href="#orga286e3c"><span class="done DONE">DONE</span> Balanced random coefficient model <code>[3/3]</code></a></li>
+<li><a href="#org75ca9d5"><span class="done DONE">DONE</span> Existence of MLE</a></li>
+<li><a href="#org051ed82"><span class="done DONE">DONE</span> LMM with random intercept <code>[3/3]</code></a></li>
 </ul>
 </li>
-<li><a href="#org146299f">4.3. <span class="done DONE">DONE</span> Equivariance <code>[1/1]</code></a>
+<li><a href="#orgcc3129a">3.3. <span class="done DONE">DONE</span> Computation and optimization <code>[9/9]</code></a>
 <ul>
-<li><a href="#org33fb807"><span class="done DONE">DONE</span> First Examples <code>[26/26]</code></a></li>
+<li><a href="#org803d7ec"><span class="done DONE">DONE</span> Gradient methods <code>[4/4]</code></a></li>
+<li><a href="#org6dca26f"><span class="done DONE">DONE</span> Convergence issues</a></li>
+<li><a href="#org973187d"><span class="done DONE">DONE</span> Rate of Convergence</a></li>
+<li><a href="#org2e8038d"><span class="done DONE">DONE</span> Expectation-Maximization algorithm</a></li>
+<li><a href="#org05d5488"><span class="done DONE">DONE</span> Fisher Scoring Algorithm</a></li>
+<li><a href="#org714d557"><span class="done DONE">DONE</span> RMLE in LMM</a></li>
+<li><a href="#org1f764e5"><span class="done DONE">DONE</span> MINQUE in LMM</a></li>
+<li><a href="#orge2a0146"><span class="done DONE">DONE</span> ANOVA Estimation</a></li>
+<li><a href="#orgd123740"><span class="done DONE">DONE</span> A general method of moments</a></li>
 </ul>
 </li>
-<li><a href="#org75cfb70">4.4. <span class="todo TODO">TODO</span> Average risk optimality <code>[3/6]</code></a>
+<li><a href="#orgeaf6c93">3.4. <span class="todo TODO">TODO</span> Hypothesis testing and confidence intervals <code>[3/6]</code></a>
 <ul>
-<li><a href="#orgf2e99be"><span class="done DONE">DONE</span> Introduction <code>[5/5]</code></a></li>
-<li><a href="#org7228ba3"><span class="done DONE">DONE</span> First examples <code>[7/7]</code></a></li>
-<li><a href="#orga7eab97"><span class="done DONE">DONE</span> Single Prior Bayes <code>[3/3]</code></a></li>
-<li><a href="#org4539717"><span class="todo TODO">TODO</span> Hierarchical Bayes <code>[0/5]</code></a></li>
-<li><a href="#orgf1fd9c6"><span class="todo TODO">TODO</span> Empirical Bayes <code>[0/5]</code></a></li>
-<li><a href="#org81f985a"><span class="todo TODO">TODO</span> Shrinkage Estimators <code>[0/4]</code></a></li>
+<li><a href="#orga936ec7"><span class="done DONE">DONE</span> F test</a></li>
+<li><a href="#orgc7335ca"><span class="done DONE">DONE</span> Likelihood ratio test</a></li>
+<li><a href="#org0e838b3"><span class="done DONE">DONE</span> C.I. for \(\sigma^2\) in LMM</a></li>
+<li><a href="#orgbdeafb6"><span class="todo TODO">TODO</span> Confidence region for \(D \in \mathbb{R}^{k \times k}\)</a></li>
+<li><a href="#org16c73c7"><span class="todo TODO">TODO</span> C.I. for functions of \(\sigma^2\) and \(D\)</a></li>
+<li><a href="#org60beae8"><span class="todo TODO">TODO</span> Approximate C.I. for variance components <code>[0/2]</code></a></li>
 </ul>
 </li>
-<li><a href="#orgaa2d1f2">4.5. <span class="todo TODO">TODO</span> Minimaxity and admissibility <code>[0/3]</code></a>
+<li><a href="#org8406380">3.5. <span class="todo TODO">TODO</span> Generalized linear models <code>[0/7]</code></a>
 <ul>
-<li><a href="#org0379066"><span class="todo TODO">TODO</span> Admissibility <code>[0/5]</code></a></li>
-<li><a href="#orge436424"><span class="todo TODO">TODO</span> Minimax Estimation <code>[0/11]</code></a></li>
-<li><a href="#org8c88ac1"><span class="todo TODO">TODO</span> Admissibility and minimaxity in exponential families <code>[2/12]</code></a></li>
+<li><a href="#orgcce2c07"><span class="todo TODO">TODO</span> GLM Setup</a></li>
+<li><a href="#org1f2b6d8"><span class="todo TODO">TODO</span> Exponential family distribution <code>[0/4]</code></a></li>
+<li><a href="#orge758999"><span class="todo TODO">TODO</span> Link Functions <code>[0/4]</code></a></li>
+<li><a href="#org9ab173e"><span class="todo TODO">TODO</span> log-likelihood for GLM</a></li>
+<li><a href="#orga55d694"><span class="todo TODO">TODO</span> Fisher scoring algorithm</a></li>
+<li><a href="#orgdb2f5e7"><span class="todo TODO">TODO</span> Inference in GLM <code>[0/4]</code></a></li>
 </ul>
 </li>
-<li><a href="#org1b69dbc">4.6. <span class="todo TODO">TODO</span> Uniformly most powerful tests <code>[0/6]</code></a>
+<li><a href="#orge3a5ab9">3.6. <span class="todo TODO">TODO</span> Quasi-likelihood estimation <code>[0/3]</code></a>
 <ul>
-<li><a href="#org57f30dd"><span class="todo TODO">TODO</span> Stating the problem <code>[0/1]</code></a></li>
-<li><a href="#org23d5cd0"><span class="todo TODO">TODO</span> Neyman-Pearson Fundamental Lemma <code>[0/4]</code></a></li>
-<li><a href="#org3aa782f"><span class="todo TODO">TODO</span> Distributions with monotone likelihood ratio <code>[0/8]</code></a></li>
-<li><a href="#org8dad3f1"><span class="todo TODO">TODO</span> Confidence bounds <code>[0/6]</code></a></li>
-<li><a href="#org6f4453d"><span class="todo TODO">TODO</span> A generalization of the fundamental lemma <code>[0/3]</code></a></li>
-<li><a href="#org6c2a7c2"><span class="todo TODO">TODO</span> Two-sided hypotheses <code>[0/2]</code></a></li>
+<li><a href="#orgd3f0429"><span class="todo TODO">TODO</span> Review of MLE</a></li>
+<li><a href="#org033a99e"><span class="todo TODO">TODO</span> Construction of Quasi-likelihood function</a></li>
+<li><a href="#orgd1bfcbb"><span class="todo TODO">TODO</span> Maximum quasi-likelihood estimation</a></li>
 </ul>
 </li>
-<li><a href="#org594eef9">4.7. <span class="todo TODO">TODO</span> Unbiased tests <code>[0/5]</code></a></li>
+<li><a href="#orgd5d6b6f">3.7. <span class="todo TODO">TODO</span> Generalized linear mixed models <code>[0/10]</code></a>
+<ul>
+<li><a href="#org5fc684a"><span class="todo TODO">TODO</span> General setup</a></li>
+<li><a href="#orgce860ff"><span class="todo TODO">TODO</span> Mean</a></li>
+<li><a href="#org2e3a4ca"><span class="todo TODO">TODO</span> Variance</a></li>
+<li><a href="#org92cd7ef"><span class="todo TODO">TODO</span> Covariance</a></li>
+<li><a href="#orgbe2571e"><span class="todo TODO">TODO</span> Likelihood function</a></li>
+<li><a href="#org1ee6583"><span class="todo TODO">TODO</span> log-likelihood function</a></li>
+<li><a href="#org611746c"><span class="todo TODO">TODO</span> Gauss-hermite quadrecture</a></li>
+<li><a href="#orga74c1fe"><span class="todo TODO">TODO</span> EM algorithm for GLMM</a></li>
+<li><a href="#org7eeb89f"><span class="todo TODO">TODO</span> Markov Chain Monte Carlo algorithm</a></li>
+<li><a href="#org21e9eec"><span class="todo TODO">TODO</span> Metropolis-Hastings algorithm</a></li>
+</ul>
+</li>
+<li><a href="#org4297c30">3.8. <span class="todo TODO">TODO</span> Generalized estimation equations <code>[0/4]</code></a>
+<ul>
+<li><a href="#org6316b0f"><span class="todo TODO">TODO</span> Estimating functions</a></li>
+<li><a href="#orgb30c5f6"><span class="todo TODO">TODO</span> Class of linear estimating functions</a></li>
+<li><a href="#org80ae9d3"><span class="todo TODO">TODO</span> Optimal linear estimating equation</a></li>
+<li><a href="#org7e8ec42"><span class="todo TODO">TODO</span> Generalized estimating equation</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#orgc8e985c">4. STT 872 <code>[56%]</code></a>
+<ul>
+<li><a href="#org5e564db">4.1. <span class="done DONE">DONE</span> Preparations <code>[9/9]</code></a>
+<ul>
+<li><a href="#orgaa522f2"><span class="done DONE">DONE</span> Measure Theory <code>[4/4]</code></a></li>
+<li><a href="#orgef253de"><span class="done DONE">DONE</span> Integration <code>[8/8]</code></a></li>
+<li><a href="#orgd7e46bd"><span class="done DONE">DONE</span> Probability Spaces <code>[11/11]</code></a></li>
+<li><a href="#orgcd1ae3a"><span class="done DONE">DONE</span> Group families <code>[5/5]</code></a></li>
+<li><a href="#org28023e1"><span class="done DONE">DONE</span> Exponential families <code>[5/5]</code></a></li>
+<li><a href="#orged58b23"><span class="done DONE">DONE</span> Moment and cumulant generating functions <code>[7/7]</code></a></li>
+<li><a href="#org9fb9d13">Models, Estimators, and Risk Functions</a></li>
+<li><a href="#orgc667688"><span class="done DONE">DONE</span> Sufficient Statistics <code>[22/22]</code></a></li>
+<li><a href="#org0ebeffb"><span class="done DONE">DONE</span> Convexity <code>[10/10]</code></a></li>
+<li><a href="#orgffec528"><span class="done DONE">DONE</span> Large sample theory <code>[18/18]</code></a></li>
+</ul>
+</li>
+<li><a href="#org63b79a9">4.2. <span class="done DONE">DONE</span> Unbiasedness <code>[5/5]</code></a>
+<ul>
+<li><a href="#orgd0c6a79"><span class="done DONE">DONE</span> Minimum Variance Unbiased Estimator <code>[9/9]</code></a></li>
+<li><a href="#org8fe31fb"><span class="done DONE">DONE</span> Continuous distributions and UMVU <code>[4/4]</code></a></li>
+<li><a href="#org3be95bd"><span class="done DONE">DONE</span> UMVU for discrete distributions <code>[8/8]</code></a></li>
+<li><a href="#org73e4e73"><span class="done DONE">DONE</span> Information inequality <code>[12/12]</code></a></li>
+<li><a href="#org5b4a884"><span class="done DONE">DONE</span> Multiparameter information inequality <code>[5/5]</code></a></li>
+</ul>
+</li>
+<li><a href="#org7b6fbe5">4.3. <span class="done DONE">DONE</span> Equivariance <code>[1/1]</code></a>
+<ul>
+<li><a href="#org9073d6a"><span class="done DONE">DONE</span> First Examples <code>[26/26]</code></a></li>
+</ul>
+</li>
+<li><a href="#org3a3fd20">4.4. <span class="todo TODO">TODO</span> Average risk optimality <code>[3/6]</code></a>
+<ul>
+<li><a href="#org503120c"><span class="done DONE">DONE</span> Introduction <code>[5/5]</code></a></li>
+<li><a href="#org2b3d56e"><span class="done DONE">DONE</span> First examples <code>[7/7]</code></a></li>
+<li><a href="#org20675f4"><span class="done DONE">DONE</span> Single Prior Bayes <code>[3/3]</code></a></li>
+<li><a href="#orge0a89d1"><span class="todo TODO">TODO</span> Hierarchical Bayes <code>[0/5]</code></a></li>
+<li><a href="#orgedde51b"><span class="todo TODO">TODO</span> Empirical Bayes <code>[0/5]</code></a></li>
+<li><a href="#orgc88e3a2"><span class="todo TODO">TODO</span> Shrinkage Estimators <code>[0/4]</code></a></li>
+</ul>
+</li>
+<li><a href="#orgd633165">4.5. <span class="todo TODO">TODO</span> Minimaxity and admissibility <code>[0/3]</code></a>
+<ul>
+<li><a href="#org240bebc"><span class="todo TODO">TODO</span> Admissibility <code>[0/5]</code></a></li>
+<li><a href="#orgf5e02c1"><span class="todo TODO">TODO</span> Minimax Estimation <code>[0/11]</code></a></li>
+<li><a href="#org665c557"><span class="todo TODO">TODO</span> Admissibility and minimaxity in exponential families <code>[2/12]</code></a></li>
+</ul>
+</li>
+<li><a href="#org8fe1110">4.6. <span class="todo TODO">TODO</span> Uniformly most powerful tests <code>[0/6]</code></a>
+<ul>
+<li><a href="#org985d4a1"><span class="todo TODO">TODO</span> Stating the problem <code>[0/1]</code></a></li>
+<li><a href="#orgf3c562c"><span class="todo TODO">TODO</span> Neyman-Pearson Fundamental Lemma <code>[0/4]</code></a></li>
+<li><a href="#org2ce5e45"><span class="todo TODO">TODO</span> Distributions with monotone likelihood ratio <code>[0/8]</code></a></li>
+<li><a href="#org082641d"><span class="todo TODO">TODO</span> Confidence bounds <code>[0/6]</code></a></li>
+<li><a href="#org3657bbb"><span class="todo TODO">TODO</span> A generalization of the fundamental lemma <code>[0/3]</code></a></li>
+<li><a href="#org4612224"><span class="todo TODO">TODO</span> Two-sided hypotheses <code>[0/2]</code></a></li>
+</ul>
+</li>
+<li><a href="#org81eca3e">4.7. <span class="todo TODO">TODO</span> Unbiased tests <code>[0/5]</code></a></li>
 </ul>
 </li>
 </ul>
 </div>
 </div>
+<!-- Scroll to top button -->
+<button onclick="topFunction()" id="scrollBtn" title="Go to top">&#9650;</button>
 
-<div id="outline-container-orga6b3c04" class="outline-2">
-<h2 id="orga6b3c04"><span class="section-number-2">1</span> Linear Algebra</h2>
+<style>
+  #scrollBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #95A5A6;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, box-shadow 0.3s;
+  }
+
+  #scrollBtn:hover {
+    background-color: #546E7A;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+  }
+</style>
+
+<script>
+  // Get the button
+  var mybutton = document.getElementById("scrollBtn");
+
+  // When the user scrolls down 20px from the top of the document, show the button
+  window.onscroll = function() {scrollFunction()};
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+
+  // When the user clicks on the button, scroll to the top of the document
+  function topFunction() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+  }
+</script>
+
+<div id="outline-container-org2ddb13c" class="outline-2">
+<h2 id="org2ddb13c"><span class="section-number-2">1</span> Linear Algebra</h2>
 <div class="outline-text-2" id="text-1">
 </div>
 
-<div id="outline-container-orgf9538d1" class="outline-3">
-<h3 id="orgf9538d1"><span class="section-number-3">1.1</span> Basic Elements of Linear Algebra</h3>
+<div id="outline-container-orgf3c52b7" class="outline-3">
+<h3 id="orgf3c52b7"><span class="section-number-3">1.1</span> Basic Elements of Linear Algebra</h3>
 <div class="outline-text-3" id="text-1-1">
 <p>
 <span class="underline">Chapter 2 in Khuri</span>
@@ -637,8 +686,8 @@ A function that maps one vector space to another vector space over \(\mathcal{R}
 </div>
 </div>
 
-<div id="outline-container-org26d16f7" class="outline-3">
-<h3 id="org26d16f7"><span class="section-number-3">1.2</span> Basic Concepts in Matrix Algebra</h3>
+<div id="outline-container-org218af7e" class="outline-3">
+<h3 id="org218af7e"><span class="section-number-3">1.2</span> Basic Concepts in Matrix Algebra</h3>
 <div class="outline-text-3" id="text-1-2">
 <p>
 <span class="underline">Chapter 3 in Khuri</span>
@@ -654,6 +703,10 @@ When we take the <b>transpose</b> of a matrix, the rows become columns and the c
 
 <p>
 The <b>trace</b> of a matrix is the sum of its diagonal elements. We have \(tr(A) = tr(A^\prime)\).
+</p>
+
+<p>
+Also \(tr(ABC) = tr(BCA) = tr(CAB)\)
 </p>
 
 <p>
@@ -685,30 +738,61 @@ A square matrix, \(A\), is <b>idempotent</b> if \(A^2 = A\).
 <p>
 A square matrix of order \(n \times n\) is <b>orthogonal</b> if \(A^{\prime}A = I_n\).
 </p>
+
+<p>
+To show a matrix \(D \in \mathbb{R}^{k \times k}\) is positive definite, show for any quadratic form \(d^{\prime}Dd\) with \(d \neq 0, d^{\prime}Dd > 0\).
+</p>
+
+<p>
+<b>Woodbury Formula</b>: 
+</p>
+
+\begin{equation*}
+A \in \mathbb{R}^{n \times n}, B \in \mathbb{R}^{n \times r}, C \in \mathbb{R}^{r \times r}, D \in \mathbb{R}^{r \times n} \\
+
+(A + BDC)^{-1} = A^{-1} - A^{-1} B (D^{-1} + CA^{-1}B)^{-1} C A^{-1}
+\end{equation*}
 </div>
 </div>
 
-<div id="outline-container-orgb53370c" class="outline-3">
-<h3 id="orgb53370c"><span class="section-number-3">1.3</span> Matrix Cookbook</h3>
+<div id="outline-container-org3e8020a" class="outline-3">
+<h3 id="org3e8020a"><span class="section-number-3">1.3</span> Matrix Cookbook</h3>
 <div class="outline-text-3" id="text-1-3">
 <p>
 <a href="https://www.math.uwaterloo.ca/~hwolkowi/matrixcookbook.pdf">Matrix Cookbook</a>
 </p>
+
+<p>
+For any square matrix \(X\), we have 
+</p>
+
+\begin{equation*}
+\frac{\partial \log |X|}{\partial X} = (X^{\prime})^{-1}
+\end{equation*}
+
+<p>
+For any square matrix \(X\) and vectors \(a, b\), we have
+</p>
+
+\begin{equation*}
+\frac{\partial (a^{\prime} X^{-1} b)}{\partial X} = -(X^{\prime})^{-1} a b^{\prime} (X^{\prime})^{-1}
+\end{equation*}
 </div>
 </div>
 </div>
 
-<div id="outline-container-orgb346433" class="outline-2">
-<h2 id="orgb346433"><span class="section-number-2">2</span> STT 867 <code>[57%]</code></h2>
+
+<div id="outline-container-orgeba39c6" class="outline-2">
+<h2 id="orgeba39c6"><span class="section-number-2">2</span> STT 867 <code>[57%]</code></h2>
 <div class="outline-text-2" id="text-2">
 </div>
-<div id="outline-container-org951ad40" class="outline-3">
-<h3 id="org951ad40"><span class="section-number-3">2.1</span> <span class="done DONE">DONE</span> Least Squares, Gauss-Markov Theorem and extensions <code>[8/8]</code></h3>
+<div id="outline-container-org99178fa" class="outline-3">
+<h3 id="org99178fa"><span class="section-number-3">2.1</span> <span class="done DONE">DONE</span> Least Squares, Gauss-Markov Theorem and extensions <code>[8/8]</code></h3>
 <div class="outline-text-3" id="text-2-1">
 </div>
-<div id="outline-container-org9a1e130" class="outline-4">
-<h4 id="org9a1e130"><span class="done DONE">DONE</span> Mulitple linear regression model</h4>
-<div class="outline-text-4" id="text-org9a1e130">
+<div id="outline-container-orgc607289" class="outline-4">
+<h4 id="orgc607289"><span class="done DONE">DONE</span> Mulitple linear regression model</h4>
+<div class="outline-text-4" id="text-orgc607289">
 \begin{equation*}
 Y_i = X_i ^\prime \beta + \varepsilon_i
 \end{equation*}
@@ -735,9 +819,9 @@ Y_i = X_i ^\prime \beta + \varepsilon_i
 </div>
 </div>
 
-<div id="outline-container-org8d3b213" class="outline-4">
-<h4 id="org8d3b213"><span class="done DONE">DONE</span> Error-in-variables linear regression</h4>
-<div class="outline-text-4" id="text-org8d3b213">
+<div id="outline-container-orgf5d4cfa" class="outline-4">
+<h4 id="orgf5d4cfa"><span class="done DONE">DONE</span> Error-in-variables linear regression</h4>
+<div class="outline-text-4" id="text-orgf5d4cfa">
 \begin{equation*}
 Y = \tilde{X}\beta + \varepsilon \\
 X = \tilde{X} + \tilde{\varepsilon}
@@ -749,9 +833,9 @@ We observe \(X\), not \(\tilde{X}\)
 </div>
 </div>
 
-<div id="outline-container-org501b8e5" class="outline-4">
-<h4 id="org501b8e5"><span class="done DONE">DONE</span> Ordinary least squares</h4>
-<div class="outline-text-4" id="text-org501b8e5">
+<div id="outline-container-orgd7434c3" class="outline-4">
+<h4 id="orgd7434c3"><span class="done DONE">DONE</span> Ordinary least squares</h4>
+<div class="outline-text-4" id="text-orgd7434c3">
 <p>
 Sum of squares (<b>Residuals</b>) \(|| Y - X\beta ||_2^2\)
 </p>
@@ -774,9 +858,9 @@ Compute gradient, set equal to zero, check Hessian matrix is positive definite \
 </div>
 </div>
 
-<div id="outline-container-org94f5d71" class="outline-4">
-<h4 id="org94f5d71"><span class="done DONE">DONE</span> Properties of \(\hat{\beta}\)</h4>
-<div class="outline-text-4" id="text-org94f5d71">
+<div id="outline-container-orgdda1012" class="outline-4">
+<h4 id="orgdda1012"><span class="done DONE">DONE</span> Properties of \(\hat{\beta}\)</h4>
+<div class="outline-text-4" id="text-orgdda1012">
 <p>
 Assuming \(\mathbb{E}(\varepsilon) = 0\) and \(\text{Cov}(\varepsilon) = \sigma^2 I_{n \times n}\), then \(E(Y) = X\beta\) and \(\text{Var}(Y) = \sigma^2 I_n\) and 
 </p>
@@ -798,9 +882,9 @@ If we also assume normallity of \(\varepsilon\), then we get
 </div>
 
 
-<div id="outline-container-org7ff70ae" class="outline-4">
-<h4 id="org7ff70ae"><span class="done DONE">DONE</span> Guass-Markov Theorem</h4>
-<div class="outline-text-4" id="text-org7ff70ae">
+<div id="outline-container-org3a71a11" class="outline-4">
+<h4 id="org3a71a11"><span class="done DONE">DONE</span> Guass-Markov Theorem</h4>
+<div class="outline-text-4" id="text-org3a71a11">
 <p>
 Among all the unbiased estimates of a linear function of the parameters which are expressible as linear combinations of the observations (elements of the response vector \(Y\)), the one produced by the least-squares procedure has the minimum variance.
 </p>
@@ -820,9 +904,9 @@ BLUE is unique if \(\sigma^2 > 0\)
 </div>
 </div>
 
-<div id="outline-container-org76bf688" class="outline-4">
-<h4 id="org76bf688"><span class="done DONE">DONE</span> Method of <a href="https://en.wikipedia.org/wiki/Lagrange_multiplier">Lagrange Multplier</a></h4>
-<div class="outline-text-4" id="text-org76bf688">
+<div id="outline-container-org1fdc370" class="outline-4">
+<h4 id="org1fdc370"><span class="done DONE">DONE</span> Method of <a href="https://en.wikipedia.org/wiki/Lagrange_multiplier">Lagrange Multplier</a></h4>
+<div class="outline-text-4" id="text-org1fdc370">
 <p>
 Use this to turn constrained optimization problem into unconstrained problem.
 </p>
@@ -876,9 +960,9 @@ we have \(m + n\) equations for m + n unknowns (namely the \(x\)'s and \(\lambda
 </div>
 </div>
 
-<div id="outline-container-org0b5ef1e" class="outline-4">
-<h4 id="org0b5ef1e"><span class="done DONE">DONE</span> Generalization of Gauss-Markov</h4>
-<div class="outline-text-4" id="text-org0b5ef1e">
+<div id="outline-container-orge010689" class="outline-4">
+<h4 id="orge010689"><span class="done DONE">DONE</span> Generalization of Gauss-Markov</h4>
+<div class="outline-text-4" id="text-orge010689">
 <p>
 This basically extends GM theorem to the case of \(C \beta\), where \(C \in \mathbb{R}^{q \times p}\) and \(\beta \in \mathbb{R}^p\)
 </p>
@@ -889,9 +973,9 @@ This basically extends GM theorem to the case of \(C \beta\), where \(C \in \mat
 </div>
 </div>
 
-<div id="outline-container-org780f73b" class="outline-4">
-<h4 id="org780f73b"><span class="done DONE">DONE</span> Estimation of \(\sigma^2\)</h4>
-<div class="outline-text-4" id="text-org780f73b">
+<div id="outline-container-org0346cf0" class="outline-4">
+<h4 id="org0346cf0"><span class="done DONE">DONE</span> Estimation of \(\sigma^2\)</h4>
+<div class="outline-text-4" id="text-org0346cf0">
 <p>
 Use sample variance to estimate \(\sigma^2\) based on the residuals
 </p>
@@ -911,13 +995,13 @@ Sample variance \(\frac{1}{n}\sum_{i = 1}^{n} \varepsilon_i^2\) is unbiased for 
 </div>
 </div>
 
-<div id="outline-container-orgbb38172" class="outline-3">
-<h3 id="orgbb38172"><span class="section-number-3">2.2</span> <span class="done DONE">DONE</span> Hypothesis testing and confidence regions <code>[5/5]</code></h3>
+<div id="outline-container-orgfa8aea1" class="outline-3">
+<h3 id="orgfa8aea1"><span class="section-number-3">2.2</span> <span class="done DONE">DONE</span> Hypothesis testing and confidence regions <code>[5/5]</code></h3>
 <div class="outline-text-3" id="text-2-2">
 </div>
-<div id="outline-container-org7d4f6c3" class="outline-4">
-<h4 id="org7d4f6c3"><span class="done DONE">DONE</span> Testing \(H_0 : A\beta = m\) vs \(H_1 : A\beta \neq m\)</h4>
-<div class="outline-text-4" id="text-org7d4f6c3">
+<div id="outline-container-org49e343d" class="outline-4">
+<h4 id="org49e343d"><span class="done DONE">DONE</span> Testing \(H_0 : A\beta = m\) vs \(H_1 : A\beta \neq m\)</h4>
+<div class="outline-text-4" id="text-org49e343d">
 <p>
 Assume \(A\) is of rank \(r\) and \(\varepsilon \sim N(0, \sigma^2 I_n)\).
 </p>
@@ -973,9 +1057,9 @@ Reject when \(> F_{r, n-p}(1 - \alpha)\). (A large value of the test statsitic \
 </div>
 </div>
 
-<div id="outline-container-orge218aa2" class="outline-4">
-<h4 id="orge218aa2"><span class="done DONE">DONE</span> Singular value decomposition</h4>
-<div class="outline-text-4" id="text-orge218aa2">
+<div id="outline-container-orga2cfbaf" class="outline-4">
+<h4 id="orga2cfbaf"><span class="done DONE">DONE</span> Singular value decomposition</h4>
+<div class="outline-text-4" id="text-orga2cfbaf">
 <p>
 For any given matrix \(Z \in \mathbb{R}^{m \times n}\) with rank \(r\), \(r \leq \text{min}(m, n)\), there exists
 </p>
@@ -999,9 +1083,9 @@ Since \(U^\prime U = I_{r \times r}\), there exists \(\tilde{U} \in \mathbb{R}^{
 </div>
 </div>
 
-<div id="outline-container-org7c26bda" class="outline-4">
-<h4 id="org7c26bda"><span class="done DONE">DONE</span> Power of \(H_0 : A\beta = m\) vs \(H_1 : A\beta \neq m\)</h4>
-<div class="outline-text-4" id="text-org7c26bda">
+<div id="outline-container-org4c34051" class="outline-4">
+<h4 id="org4c34051"><span class="done DONE">DONE</span> Power of \(H_0 : A\beta = m\) vs \(H_1 : A\beta \neq m\)</h4>
+<div class="outline-text-4" id="text-org4c34051">
 <p>
 Remember
 </p>
@@ -1045,9 +1129,9 @@ Then
 </div>
 </div>
 
-<div id="outline-container-orgdef081b" class="outline-4">
-<h4 id="orgdef081b"><span class="done DONE">DONE</span> Likelihood ratio test</h4>
-<div class="outline-text-4" id="text-orgdef081b">
+<div id="outline-container-orgf3523a6" class="outline-4">
+<h4 id="orgf3523a6"><span class="done DONE">DONE</span> Likelihood ratio test</h4>
+<div class="outline-text-4" id="text-orgf3523a6">
 <p>
 Likelihood ratio test statistic is
 </p>
@@ -1062,9 +1146,9 @@ The likelihood ratio test statistic and the \(F\) test statistic only differ by 
 </div>
 </div>
 
-<div id="outline-container-orga21c4c6" class="outline-4">
-<h4 id="orga21c4c6"><span class="done DONE">DONE</span> Confidence region for \(A\beta \in \mathbb{R}^r\) with coverage level \(1 - \alpha\)</h4>
-<div class="outline-text-4" id="text-orga21c4c6">
+<div id="outline-container-orgf459bf6" class="outline-4">
+<h4 id="orgf459bf6"><span class="done DONE">DONE</span> Confidence region for \(A\beta \in \mathbb{R}^r\) with coverage level \(1 - \alpha\)</h4>
+<div class="outline-text-4" id="text-orgf459bf6">
 <p>
 A <i>pivot</i> is a function of the data and the target quantity. 
 </p>
@@ -1108,16 +1192,16 @@ This is because
 </div>
 </div>
 
-<div id="outline-container-org49a721e" class="outline-3">
-<h3 id="org49a721e"><span class="section-number-3">2.3</span> <span class="done DONE">DONE</span> Simultaneous confidence intervals <code>[2/2]</code></h3>
+<div id="outline-container-org138742b" class="outline-3">
+<h3 id="org138742b"><span class="section-number-3">2.3</span> <span class="done DONE">DONE</span> Simultaneous confidence intervals <code>[2/2]</code></h3>
 <div class="outline-text-3" id="text-2-3">
 <p>
 We have discussed a confidence interval with coverage probability \(1 - \alpha\) for a particular linear function, \(a^{\prime}\beta\), of \(\beta\). In some cases, it may be desired to have confidence intervals on all linear functions of \(\beta\) of the form \(l^{\prime}\beta\), where \(l \in \mathbb{R}^p\), the \(p\) -dimensional Euclidean space, with a joint coverage probability of \(1 - \alpha\).
 </p>
 </div>
-<div id="outline-container-org3210e8a" class="outline-4">
-<h4 id="org3210e8a"><span class="done DONE">DONE</span> Lemma A</h4>
-<div class="outline-text-4" id="text-org3210e8a">
+<div id="outline-container-org92032e5" class="outline-4">
+<h4 id="org92032e5"><span class="done DONE">DONE</span> Lemma A</h4>
+<div class="outline-text-4" id="text-org92032e5">
 <p>
 For \(Z \in \mathbb{R}^m\),
 </p>
@@ -1132,9 +1216,9 @@ The proof follows from Cauchy-Schwarz
 </div>
 </div>
 
-<div id="outline-container-org20d4ed0" class="outline-4">
-<h4 id="org20d4ed0"><span class="done DONE">DONE</span> Scheffes Simultaneous C.I. for \(l'\beta\)</h4>
-<div class="outline-text-4" id="text-org20d4ed0">
+<div id="outline-container-org3fadc6f" class="outline-4">
+<h4 id="org3fadc6f"><span class="done DONE">DONE</span> Scheffes Simultaneous C.I. for \(l'\beta\)</h4>
+<div class="outline-text-4" id="text-org3fadc6f">
 \begin{equation*}
 l^\prime \hat{\beta} \pm \sqrt{p \cdot \text{MSE} \cdot F_{p, n-p}(1 - \alpha) \cdot l^\prime (X^\prime X)^{-1}l} \quad \forall l \in \mathbb{R}^p
 \end{equation*}
@@ -1142,8 +1226,8 @@ l^\prime \hat{\beta} \pm \sqrt{p \cdot \text{MSE} \cdot F_{p, n-p}(1 - \alpha) \
 </div>
 </div>
 
-<div id="outline-container-orge88f95b" class="outline-3">
-<h3 id="orge88f95b"><span class="section-number-3">2.4</span> <span class="done DONE">DONE</span> Maximum Likelihood Estimation</h3>
+<div id="outline-container-org76541fa" class="outline-3">
+<h3 id="org76541fa"><span class="section-number-3">2.4</span> <span class="done DONE">DONE</span> Maximum Likelihood Estimation</h3>
 <div class="outline-text-3" id="text-2-4">
 <p>
 Multivariate normal pdf for \(Y \sim N(\mu, \Sigma)\)
@@ -1159,16 +1243,16 @@ Review derivative theorems p. 53 Khuri
 </div>
 </div>
 
-<div id="outline-container-org6266541" class="outline-3">
-<h3 id="org6266541"><span class="section-number-3">2.5</span> <span class="done DONE">DONE</span> Less-than-full-rank linear models <code>[3/3]</code></h3>
+<div id="outline-container-orgece0cb1" class="outline-3">
+<h3 id="orgece0cb1"><span class="section-number-3">2.5</span> <span class="done DONE">DONE</span> Less-than-full-rank linear models <code>[3/3]</code></h3>
 <div class="outline-text-3" id="text-2-5">
 <p>
 In less-than-full rank setting, \(X^{\prime}X\) is no longer nonsingular so we can't have \(\hat{\beta}\) as we have calculated before (we can't estimate \(\beta\) with \(\hat{\beta}\)).
 </p>
 </div>
-<div id="outline-container-org35c855a" class="outline-4">
-<h4 id="org35c855a"><span class="done DONE">DONE</span> One-way ANOVA example</h4>
-<div class="outline-text-4" id="text-org35c855a">
+<div id="outline-container-org3e7468a" class="outline-4">
+<h4 id="org3e7468a"><span class="done DONE">DONE</span> One-way ANOVA example</h4>
+<div class="outline-text-4" id="text-org3e7468a">
 \begin{equation*}
 y_{ij} = \mu + \alpha_i + \varepsilon_{ij}, \quad i = 1, 2, \ldots, k, \quad j = 1, 2, \ldots, n_i
 \end{equation*}
@@ -1179,9 +1263,9 @@ In the one-way ANOVA model, the model matrix \(X\) is not full rank. The rank of
 </div>
 </div>
 
-<div id="outline-container-org1d5fde8" class="outline-4">
-<h4 id="org1d5fde8"><span class="done DONE">DONE</span> Generalized inverse of a matrix</h4>
-<div class="outline-text-4" id="text-org1d5fde8">
+<div id="outline-container-org875ef9e" class="outline-4">
+<h4 id="org875ef9e"><span class="done DONE">DONE</span> Generalized inverse of a matrix</h4>
+<div class="outline-text-4" id="text-org875ef9e">
 <p>
 Given a matrix \(A \in \mathbb{R}^{m \times n}\), a <b>generalized inverse</b> of \(A\) is any \(B \in \mathbb{R}^{n \times n}\) such that \(ABA = A\).
 </p>
@@ -1204,9 +1288,9 @@ If \(A\) is square and invertible, \(B = A^{-1}\).
 </div>
 </div>
 
-<div id="outline-container-org146bbac" class="outline-4">
-<h4 id="org146bbac"><span class="done DONE">DONE</span> Properties under less-than-full-rank model</h4>
-<div class="outline-text-4" id="text-org146bbac">
+<div id="outline-container-org9441045" class="outline-4">
+<h4 id="org9441045"><span class="done DONE">DONE</span> Properties under less-than-full-rank model</h4>
+<div class="outline-text-4" id="text-org9441045">
 <p>
 \(X \hat{\beta}\) is unique (recall \(\hat{\beta}\) is not unique). 
 </p>
@@ -1247,8 +1331,8 @@ is unbiased for \(\sigma^2\), where \(\text{rank}(X) = r < p, \quad X \in \mathb
 </div>
 
 
-<div id="outline-container-org0dca777" class="outline-3">
-<h3 id="org0dca777"><span class="section-number-3">2.6</span> <span class="done DONE">DONE</span> Estimable/Testable linear functions <code>[10/10]</code></h3>
+<div id="outline-container-org6b384e4" class="outline-3">
+<h3 id="org6b384e4"><span class="section-number-3">2.6</span> <span class="done DONE">DONE</span> Estimable/Testable linear functions <code>[10/10]</code></h3>
 <div class="outline-text-3" id="text-2-6">
 <p>
 Under less-than-full-rank linear model, the regression coefficient \(\beta\) is not estimable. This is because \(X\) is not full column rank. Therefore, we could come up with infinitely estimates for \(\beta\) such that \(X\beta^\ast = x\tilde{\beta}\). Both \(\beta^\ast\) and \(\tilde{\beta}\) give the same distribution for our data \((X, Y)\). 
@@ -1259,9 +1343,9 @@ Hence, not every linear function of \(\beta\) of the form \(a^{\prime}\beta\) ca
 </p>
 </div>
 
-<div id="outline-container-org5582c00" class="outline-4">
-<h4 id="org5582c00"><span class="done DONE">DONE</span> Estimability</h4>
-<div class="outline-text-4" id="text-org5582c00">
+<div id="outline-container-org677486e" class="outline-4">
+<h4 id="org677486e"><span class="done DONE">DONE</span> Estimability</h4>
+<div class="outline-text-4" id="text-org677486e">
 <p>
 We want to know if a linear function \(a^\prime \beta\) is estimable. We have
 </p>
@@ -1276,27 +1360,27 @@ If \(a^{\prime}\beta\) is estimable, then \(a^{\prime}\hat{\beta} = a^{\prime}(X
 </div>
 </div>
 
-<div id="outline-container-org62268ab" class="outline-4">
-<h4 id="org62268ab"><span class="done DONE">DONE</span> Identifiability</h4>
-<div class="outline-text-4" id="text-org62268ab">
+<div id="outline-container-orgbfac6c4" class="outline-4">
+<h4 id="orgbfac6c4"><span class="done DONE">DONE</span> Identifiability</h4>
+<div class="outline-text-4" id="text-orgbfac6c4">
 <p>
 If \(\beta\) is not estimable, then the model is not identifiable.
 </p>
 </div>
 </div>
 
-<div id="outline-container-org25073e6" class="outline-4">
-<h4 id="org25073e6"><span class="done DONE">DONE</span> Estimable linear functions \(a'\beta\)</h4>
-<div class="outline-text-4" id="text-org25073e6">
+<div id="outline-container-org4a23eff" class="outline-4">
+<h4 id="org4a23eff"><span class="done DONE">DONE</span> Estimable linear functions \(a'\beta\)</h4>
+<div class="outline-text-4" id="text-org4a23eff">
 <p>
 If \(a^\prime \beta\) is estimable, then \(a^\prime \hat{\beta}\) is unique. 
 </p>
 </div>
 </div>
 
-<div id="outline-container-org8a820eb" class="outline-4">
-<h4 id="org8a820eb"><span class="done DONE">DONE</span> Gauss-Markov theorem for \(a'\beta\)</h4>
-<div class="outline-text-4" id="text-org8a820eb">
+<div id="outline-container-orgb3dde1a" class="outline-4">
+<h4 id="orgb3dde1a"><span class="done DONE">DONE</span> Gauss-Markov theorem for \(a'\beta\)</h4>
+<div class="outline-text-4" id="text-orgb3dde1a">
 <p>
 Assume \(E(\varepsilon) = 0\), \(\text{Cov}(\varepsilon) = \sigma^2 I\).
 </p>
@@ -1315,9 +1399,9 @@ The proof of this uses a clever transformation to turn the problem into the full
 </div>
 </div>
 
-<div id="outline-container-orga32e59d" class="outline-4">
-<h4 id="orga32e59d"><span class="done DONE">DONE</span> Testable hypothesis</h4>
-<div class="outline-text-4" id="text-orga32e59d">
+<div id="outline-container-orgfde826f" class="outline-4">
+<h4 id="orgfde826f"><span class="done DONE">DONE</span> Testable hypothesis</h4>
+<div class="outline-text-4" id="text-orgfde826f">
 \begin{equation*}
 \text{A hypothesis is testable} \Longleftrightarrow A\beta \text{ is estimable}
 \end{equation*}
@@ -1362,9 +1446,9 @@ This generalization of the \(F\) test statistic recovers what we have shown in t
 </p>
 </div>
 </div>
-<div id="outline-container-orgca1eb16" class="outline-4">
-<h4 id="orgca1eb16"><span class="done DONE">DONE</span> Confidence region for \(A\beta\)</h4>
-<div class="outline-text-4" id="text-orgca1eb16">
+<div id="outline-container-orgc14118d" class="outline-4">
+<h4 id="orgc14118d"><span class="done DONE">DONE</span> Confidence region for \(A\beta\)</h4>
+<div class="outline-text-4" id="text-orgc14118d">
 <p>
 We have \(H_0 : A\beta = m\) versus \(H_1 : A\beta \neq m\), and we assume \(A\beta\) is estimable and \(\varepsilon \sim N(0, \sigma^2 I_n)\). We have that
 </p>
@@ -1407,9 +1491,9 @@ a^{\prime}\hat{\beta} \pm (a^{\prime}(X^{\prime}X)^- a \text{MSE})^{1/2} t_{\fra
 </div>
 </div>
 
-<div id="outline-container-orgd23cd08" class="outline-4">
-<h4 id="orgd23cd08"><span class="done DONE">DONE</span> Two-way ANOVA model</h4>
-<div class="outline-text-4" id="text-orgd23cd08">
+<div id="outline-container-orgca489c6" class="outline-4">
+<h4 id="orgca489c6"><span class="done DONE">DONE</span> Two-way ANOVA model</h4>
+<div class="outline-text-4" id="text-orgca489c6">
 <p>
 Two-way cross classification without interaction model is
 </p>
@@ -1428,9 +1512,9 @@ See example 7.2 in Khuri.
 </div>
 </div>
 
-<div id="outline-container-org0daa234" class="outline-4">
-<h4 id="org0daa234"><span class="done DONE">DONE</span> Simultaneous confidence interval for estimable linear functions</h4>
-<div class="outline-text-4" id="text-org0daa234">
+<div id="outline-container-orgeac471e" class="outline-4">
+<h4 id="orgeac471e"><span class="done DONE">DONE</span> Simultaneous confidence interval for estimable linear functions</h4>
+<div class="outline-text-4" id="text-orgeac471e">
 <p>
 Simultaneous \((1 - \alpha)100\%\) confidence intervals on all estimable linear functions \(l^{\prime}\hat{\beta}\), where \(l^{\prime}\) belongs to the rowspace of \(A\), are given by
 </p>
@@ -1449,9 +1533,9 @@ l^{\prime}\hat{\beta} \pm \sqrt{(\text{rank}(A) \text{MSE} F_{\text{rank}(A), n 
 </div>
 </div>
 
-<div id="outline-container-org960cdc1" class="outline-4">
-<h4 id="org960cdc1"><span class="done DONE">DONE</span> Bonferroni's intervals</h4>
-<div class="outline-text-4" id="text-org960cdc1">
+<div id="outline-container-org7cb0440" class="outline-4">
+<h4 id="org7cb0440"><span class="done DONE">DONE</span> Bonferroni's intervals</h4>
+<div class="outline-text-4" id="text-org7cb0440">
 <p>
 Bonferroni's Inequality is
 </p>
@@ -1470,9 +1554,9 @@ In some cases, simultaneous confidence intervals on only a fixed number, \(m\), 
 </div>
 </div>
 
-<div id="outline-container-orge1498e0" class="outline-4">
-<h4 id="orge1498e0"><span class="done DONE">DONE</span> Sidaks Intervals</h4>
-<div class="outline-text-4" id="text-orge1498e0">
+<div id="outline-container-orgba178ab" class="outline-4">
+<h4 id="orgba178ab"><span class="done DONE">DONE</span> Sidaks Intervals</h4>
+<div class="outline-text-4" id="text-orgba178ab">
 <p>
 This is an alternative set of intervals for a fixed number of contrasts. These intervals make use of a theorem that states the following.
 </p>
@@ -1508,22 +1592,22 @@ When we compare Sidaks intervals to Bonferronis intervals, we find that Sidaks a
 </div>
 </div>
 
-<div id="outline-container-org0c950c7" class="outline-3">
-<h3 id="org0c950c7"><span class="section-number-3">2.7</span> <span class="todo TODO">TODO</span> Distributional properties of quadratic forms <code>[0/9]</code></h3>
+<div id="outline-container-org1d0bf5c" class="outline-3">
+<h3 id="org1d0bf5c"><span class="section-number-3">2.7</span> <span class="todo TODO">TODO</span> Distributional properties of quadratic forms <code>[0/9]</code></h3>
 <div class="outline-text-3" id="text-2-7">
 </div>
-<div id="outline-container-org91ac504" class="outline-4">
-<h4 id="org91ac504"><span class="todo TODO">TODO</span> Lemma 1</h4>
+<div id="outline-container-org7437783" class="outline-4">
+<h4 id="org7437783"><span class="todo TODO">TODO</span> Lemma 1</h4>
 </div>
-<div id="outline-container-org8d11ae1" class="outline-4">
-<h4 id="org8d11ae1"><span class="todo TODO">TODO</span> Theorem 1</h4>
+<div id="outline-container-orgd80953a" class="outline-4">
+<h4 id="orgd80953a"><span class="todo TODO">TODO</span> Theorem 1</h4>
 </div>
-<div id="outline-container-orgceb0696" class="outline-4">
-<h4 id="orgceb0696"><span class="todo TODO">TODO</span> Moment generating function</h4>
+<div id="outline-container-org344dc40" class="outline-4">
+<h4 id="org344dc40"><span class="todo TODO">TODO</span> Moment generating function</h4>
 </div>
-<div id="outline-container-org83137c8" class="outline-4">
-<h4 id="org83137c8"><span class="todo TODO">TODO</span> Corollary \(A \in \mathbb{R}^{n \times n}\)</h4>
-<div class="outline-text-4" id="text-org83137c8">
+<div id="outline-container-org7a6ae0d" class="outline-4">
+<h4 id="org7a6ae0d"><span class="todo TODO">TODO</span> Corollary \(A \in \mathbb{R}^{n \times n}\)</h4>
+<div class="outline-text-4" id="text-org7a6ae0d">
 <ol class="org-ol">
 <li>\(Y \sim N(0, \Sigma)\)</li>
 <li>\(Y \sim N(\mu, \Sigma)\)</li>
@@ -1531,37 +1615,37 @@ When we compare Sidaks intervals to Bonferronis intervals, we find that Sidaks a
 </ol>
 </div>
 </div>
-<div id="outline-container-org6c4e517" class="outline-4">
-<h4 id="org6c4e517"><span class="todo TODO">TODO</span> Theorem 2 (Craig's Theorem)</h4>
+<div id="outline-container-org46428c1" class="outline-4">
+<h4 id="org46428c1"><span class="todo TODO">TODO</span> Theorem 2 (Craig's Theorem)</h4>
 </div>
-<div id="outline-container-org8a7d17f" class="outline-4">
-<h4 id="org8a7d17f"><span class="todo TODO">TODO</span> Theorem 3.9 Khuri</h4>
+<div id="outline-container-orgecac5fb" class="outline-4">
+<h4 id="orgecac5fb"><span class="todo TODO">TODO</span> Theorem 3.9 Khuri</h4>
 </div>
-<div id="outline-container-orgfb4a88a" class="outline-4">
-<h4 id="orgfb4a88a"><span class="todo TODO">TODO</span> Theorem 3</h4>
+<div id="outline-container-org155b24c" class="outline-4">
+<h4 id="org155b24c"><span class="todo TODO">TODO</span> Theorem 3</h4>
 </div>
-<div id="outline-container-org7281c6e" class="outline-4">
-<h4 id="org7281c6e"><span class="todo TODO">TODO</span> Partitioning the sum of squares <code>[0/1]</code></h4>
-<div class="outline-text-4" id="text-org7281c6e">
+<div id="outline-container-org7336bff" class="outline-4">
+<h4 id="org7336bff"><span class="todo TODO">TODO</span> Partitioning the sum of squares <code>[0/1]</code></h4>
+<div class="outline-text-4" id="text-org7336bff">
 <dl class="org-dl">
 <dt class="off">&#x2610; One-way ANOVA example</dt><dd></dd>
 </dl>
 </div>
 </div>
-<div id="outline-container-org6dcbd6b" class="outline-4">
-<h4 id="org6dcbd6b"><span class="todo TODO">TODO</span> Cochran's theorem</h4>
+<div id="outline-container-org8ca4856" class="outline-4">
+<h4 id="org8ca4856"><span class="todo TODO">TODO</span> Cochran's theorem</h4>
 </div>
 </div>
-<div id="outline-container-org094e1f7" class="outline-3">
-<h3 id="org094e1f7"><span class="section-number-3">2.8</span> <span class="todo TODO">TODO</span> Model selection and prediction <code>[0/10]</code></h3>
+<div id="outline-container-orga157030" class="outline-3">
+<h3 id="orga157030"><span class="section-number-3">2.8</span> <span class="todo TODO">TODO</span> Model selection and prediction <code>[0/10]</code></h3>
 <div class="outline-text-3" id="text-2-8">
 </div>
-<div id="outline-container-org76bbaf5" class="outline-4">
-<h4 id="org76bbaf5"><span class="todo TODO">TODO</span> Expected prediction error</h4>
+<div id="outline-container-org1aee2d4" class="outline-4">
+<h4 id="org1aee2d4"><span class="todo TODO">TODO</span> Expected prediction error</h4>
 </div>
-<div id="outline-container-orgbf546ed" class="outline-4">
-<h4 id="orgbf546ed"><span class="todo TODO">TODO</span> Prediction <code>[0/2]</code></h4>
-<div class="outline-text-4" id="text-orgbf546ed">
+<div id="outline-container-orgac68d59" class="outline-4">
+<h4 id="orgac68d59"><span class="todo TODO">TODO</span> Prediction <code>[0/2]</code></h4>
+<div class="outline-text-4" id="text-orgac68d59">
 <dl class="org-dl">
 <dt class="off">&#x2610; Using only \(p_1\) variables</dt><dd></dd>
 
@@ -1569,12 +1653,12 @@ When we compare Sidaks intervals to Bonferronis intervals, we find that Sidaks a
 </dl>
 </div>
 </div>
-<div id="outline-container-org6afc45a" class="outline-4">
-<h4 id="org6afc45a"><span class="todo TODO">TODO</span> Bias-variance tradeoff</h4>
+<div id="outline-container-org289f7ea" class="outline-4">
+<h4 id="org289f7ea"><span class="todo TODO">TODO</span> Bias-variance tradeoff</h4>
 </div>
-<div id="outline-container-org44ef067" class="outline-4">
-<h4 id="org44ef067"><span class="todo TODO">TODO</span> Goodness of Fit <code>[0/2]</code></h4>
-<div class="outline-text-4" id="text-org44ef067">
+<div id="outline-container-orgadb0804" class="outline-4">
+<h4 id="orgadb0804"><span class="todo TODO">TODO</span> Goodness of Fit <code>[0/2]</code></h4>
+<div class="outline-text-4" id="text-orgadb0804">
 <dl class="org-dl">
 <dt class="off">&#x2610; Coefficient of Determination</dt><dd></dd>
 
@@ -1582,9 +1666,9 @@ When we compare Sidaks intervals to Bonferronis intervals, we find that Sidaks a
 </dl>
 </div>
 </div>
-<div id="outline-container-orgdc539ef" class="outline-4">
-<h4 id="orgdc539ef"><span class="todo TODO">TODO</span> Predicition error <code>[0/2]</code></h4>
-<div class="outline-text-4" id="text-orgdc539ef">
+<div id="outline-container-org39c92e3" class="outline-4">
+<h4 id="org39c92e3"><span class="todo TODO">TODO</span> Predicition error <code>[0/2]</code></h4>
+<div class="outline-text-4" id="text-org39c92e3">
 <dl class="org-dl">
 <dt class="off">&#x2610; Expected in-sample prediction error</dt><dd></dd>
 
@@ -1592,15 +1676,15 @@ When we compare Sidaks intervals to Bonferronis intervals, we find that Sidaks a
 </dl>
 </div>
 </div>
-<div id="outline-container-org3f96574" class="outline-4">
-<h4 id="org3f96574"><span class="todo TODO">TODO</span> Degrees of freedom of given prediction method</h4>
+<div id="outline-container-orge6b0467" class="outline-4">
+<h4 id="orge6b0467"><span class="todo TODO">TODO</span> Degrees of freedom of given prediction method</h4>
 </div>
-<div id="outline-container-org0a05325" class="outline-4">
-<h4 id="org0a05325"><span class="todo TODO">TODO</span> Cross validation</h4>
+<div id="outline-container-org971d5d2" class="outline-4">
+<h4 id="org971d5d2"><span class="todo TODO">TODO</span> Cross validation</h4>
 </div>
-<div id="outline-container-org3632e07" class="outline-4">
-<h4 id="org3632e07"><span class="todo TODO">TODO</span> Information Criterion <code>[0/6]</code></h4>
-<div class="outline-text-4" id="text-org3632e07">
+<div id="outline-container-orgdcf641a" class="outline-4">
+<h4 id="orgdcf641a"><span class="todo TODO">TODO</span> Information Criterion <code>[0/6]</code></h4>
+<div class="outline-text-4" id="text-orgdcf641a">
 <dl class="org-dl">
 <dt class="off">&#x2610; Akaike Information Criterion</dt><dd></dd>
 
@@ -1616,39 +1700,47 @@ When we compare Sidaks intervals to Bonferronis intervals, we find that Sidaks a
 </dl>
 </div>
 </div>
-<div id="outline-container-org111eb18" class="outline-4">
-<h4 id="org111eb18"><span class="todo TODO">TODO</span> Comparison of model selection criteria for linear regression model</h4>
+<div id="outline-container-org0221696" class="outline-4">
+<h4 id="org0221696"><span class="todo TODO">TODO</span> Comparison of model selection criteria for linear regression model</h4>
 </div>
-<div id="outline-container-org9f0e34a" class="outline-4">
-<h4 id="org9f0e34a"><span class="todo TODO">TODO</span> Subset selection</h4>
+<div id="outline-container-orgcc9d9c0" class="outline-4">
+<h4 id="orgcc9d9c0"><span class="todo TODO">TODO</span> Subset selection</h4>
 </div>
 </div>
-<div id="outline-container-orgd881615" class="outline-3">
-<h3 id="orgd881615"><span class="section-number-3">2.9</span> <span class="todo TODO">TODO</span> Shrinkage methods <code>[0/3]</code></h3>
+<div id="outline-container-org9aa5ad8" class="outline-3">
+<h3 id="org9aa5ad8"><span class="section-number-3">2.9</span> <span class="todo TODO">TODO</span> Shrinkage methods <code>[0/3]</code></h3>
 <div class="outline-text-3" id="text-2-9">
 </div>
-<div id="outline-container-org98a7355" class="outline-4">
-<h4 id="org98a7355"><span class="todo TODO">TODO</span> James-Stein estimator</h4>
+<div id="outline-container-org6351e48" class="outline-4">
+<h4 id="org6351e48"><span class="todo TODO">TODO</span> James-Stein estimator</h4>
 </div>
-<div id="outline-container-orgdc59253" class="outline-4">
-<h4 id="orgdc59253"><span class="todo TODO">TODO</span> Ridge Regression</h4>
+<div id="outline-container-orga3e6f26" class="outline-4">
+<h4 id="orga3e6f26"><span class="todo TODO">TODO</span> Ridge Regression</h4>
 </div>
-<div id="outline-container-org7a37349" class="outline-4">
-<h4 id="org7a37349"><span class="todo TODO">TODO</span> The Lasso</h4>
+<div id="outline-container-orga98b7b0" class="outline-4">
+<h4 id="orga98b7b0"><span class="todo TODO">TODO</span> The Lasso</h4>
 </div>
 </div>
 </div>
-<div id="outline-container-orge342ff6" class="outline-2">
-<h2 id="orge342ff6"><span class="section-number-2">3</span> STT 868 <code>[46%]</code></h2>
+<div id="outline-container-org608306f" class="outline-2">
+<h2 id="org608306f"><span class="section-number-2">3</span> STT 868 <code>[50%]</code></h2>
 <div class="outline-text-2" id="text-3">
+<p>
+Often, data have a clustered structure. Classical statsitics assums that observations are independent and identically distrivuted (iid). Applied to clustered datam this assumption may lead to false results. Mixed effects model addresses this issue. 
+</p>
 </div>
-<div id="outline-container-orge067802" class="outline-3">
-<h3 id="orge067802"><span class="section-number-3">3.1</span> <span class="done DONE">DONE</span> Model Identifiability <code>[10/10]</code></h3>
+
+<div id="outline-container-orgf6d1510" class="outline-3">
+<h3 id="orgf6d1510"><span class="section-number-3">3.1</span> <span class="done DONE">DONE</span> Model Identifiability <code>[10/10]</code></h3>
 <div class="outline-text-3" id="text-3-1">
 </div>
-<div id="outline-container-org514bfc3" class="outline-4">
-<h4 id="org514bfc3"><span class="done DONE">DONE</span> One-way ANOVA model</h4>
-<div class="outline-text-4" id="text-org514bfc3">
+<div id="outline-container-org6e4fb64" class="outline-4">
+<h4 id="org6e4fb64"><span class="done DONE">DONE</span> One-way ANOVA model</h4>
+<div class="outline-text-4" id="text-org6e4fb64">
+<p>
+One-way ANOVA is an example of a fixed effects model. 
+</p>
+
 \begin{equation*}
 y_{ij} = \mu + \alpha_i + \varepsilon_{ij}, \\
  i = 1 \ldots k, j = 1, \dots n_i, \\
@@ -1661,9 +1753,13 @@ y_{ij} = \mu + \alpha_i + \varepsilon_{ij}, \\
 </div>
 </div>
 
-<div id="outline-container-orga14f99e" class="outline-4">
-<h4 id="orga14f99e"><span class="done DONE">DONE</span> Variance componenets models</h4>
-<div class="outline-text-4" id="text-orga14f99e">
+<div id="outline-container-orgb663dce" class="outline-4">
+<h4 id="orgb663dce"><span class="done DONE">DONE</span> Variance componenets models</h4>
+<div class="outline-text-4" id="text-orgb663dce">
+<p>
+This is a linear mixed effects (LME) model. 
+</p>
+
 <p>
 Same model as one-way ANOVA, but \(\mu_i \overset{\text{iid}}{\sim} N(\mu, \sigma^2) \Leftrightarrow \alpha_i \overset{\text{iid}}{\sim} N(0, \sigma^2)\)
 </p>
@@ -1674,9 +1770,9 @@ The \(\mu_i\) are random effects
 </div>
 </div>
 
-<div id="outline-container-orgb56a418" class="outline-4">
-<h4 id="orgb56a418"><span class="done DONE">DONE</span> Properties of random effects</h4>
-<div class="outline-text-4" id="text-orgb56a418">
+<div id="outline-container-orgcd00494" class="outline-4">
+<h4 id="orgcd00494"><span class="done DONE">DONE</span> Properties of random effects</h4>
+<div class="outline-text-4" id="text-orgcd00494">
 <ol class="org-ol">
 <li>induce dependency structure</li>
 <li>bring fewer parameters to the model</li>
@@ -1685,9 +1781,34 @@ The \(\mu_i\) are random effects
 </div>
 </div>
 
-<div id="outline-container-orga5faf95" class="outline-4">
-<h4 id="orga5faf95"><span class="done DONE">DONE</span> Random intercept model</h4>
-<div class="outline-text-4" id="text-orga5faf95">
+<div id="outline-container-orgd9a1432" class="outline-4">
+<h4 id="orgd9a1432">Deciding between fixed and random effects</h4>
+<div class="outline-text-4" id="text-orgd9a1432">
+<p>
+To decide whether a set of effects is fixed or random, the context of the daa, the manner in which they were gathered and the environment from which they came are the determining factors. The important question is: <b>are the levels of the factor going to be considered a random sample from a population of values which have a distribution</b>? If yes, then the effects should be considered random effects. 
+</p>
+
+<p>
+Other questions that can inform our decision are:
+</p>
+
+<p>
+Do the levels of a factor come from a probability distribution? If yes, random effects.
+</p>
+
+<p>
+Is there enough information about a factor to decide that the levels of it in the data are like a random sample? If yes, random effects.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgbd7cbb8" class="outline-4">
+<h4 id="orgbd7cbb8"><span class="done DONE">DONE</span> Random intercept model</h4>
+<div class="outline-text-4" id="text-orgbd7cbb8">
+<p>
+This may occur in the setting of a longitudinal study of \(N\) patients, where each patient has their own covariates, such as age, gender, weight, diet, and physical performance. A key assumption is that the relationship between the covariates and the response does not vary from patient to patient (no random coefficients). However, when the study begins, each patient may have a different baseline response value. A random intercept model allows us to handle these different baselines. 
+</p>
+
 \begin{equation*}
 Y_{ij} = \mu_i + X_{ij} \beta + \varepsilon_{ij} \\
 i = 1, \ldots N, j = 1, \ldots n_i \\
@@ -1696,9 +1817,9 @@ i = 1, \ldots N, j = 1, \ldots n_i \\
 </div>
 </div>
 
-<div id="outline-container-orgfe72b74" class="outline-4">
-<h4 id="orgfe72b74"><span class="done DONE">DONE</span> Linear mixed model</h4>
-<div class="outline-text-4" id="text-orgfe72b74">
+<div id="outline-container-orge48544c" class="outline-4">
+<h4 id="orge48544c"><span class="done DONE">DONE</span> Linear mixed model</h4>
+<div class="outline-text-4" id="text-orge48544c">
 \begin{equation*}
 Y_i = X_i \beta + Z_ib_i + \varepsilon_i \\
 i = 1, \ldots N
@@ -1735,12 +1856,12 @@ i = 1, \ldots N
 
 <tr>
 <td class="org-left">\(b_i \in \mathcal{R}^k\)</td>
-<td class="org-left">random effects</td>
+<td class="org-left">random effects (random)</td>
 </tr>
 
 <tr>
 <td class="org-left">\(\varepsilon_i \in \mathcal{R}^{n_i}\)</td>
-<td class="org-left">error term</td>
+<td class="org-left">error term (random)</td>
 </tr>
 </tbody>
 </table>
@@ -1752,25 +1873,127 @@ i = 1, \ldots N
 <li>\(E(b_i) = 0\) and  \(\text{Cov}(b_i) = \sigma^2 D\)</li>
 </ol></dd>
 </dl>
-</div>
-</div>
 
-<div id="outline-container-orgaa5fafc" class="outline-4">
-<h4 id="orgaa5fafc"><span class="done DONE">DONE</span> Identifiability definition</h4>
-<div class="outline-text-4" id="text-orgaa5fafc">
 <p>
-A model is identifiable if \(P_{\theta_1} = P_{\theta_2} \Rightarrow \theta_1 = \theta_2\).
+We know \(\{Y_i, X_i, Z_i, i = 1, \ldots, N\}\)
 </p>
 
 <p>
-We must have one-to-one mapping from parameter space to model space.
+Unknown \(\{\sigma^2, \beta, b_i, D \}\)
+</p>
+
+<dl class="org-dl">
+<dt class="on">&#x2611; Stacked Form</dt><dd></dd>
+</dl>
+
+<p>
+\(N\) equations given above can be compressed into one as 
+</p>
+
+\begin{equation*}
+Y = X\beta + Zb + \varepsilon
+\end{equation*}
+
+<p>
+after stacking the data in a single vector and matrix form as follows:
+</p>
+
+\begin{equation*}
+Y = 
+
+\begin{bmatrix}
+Y_1\\
+Y_2\\
+\vdots\\
+Y_N
+\end{bmatrix},
+
+X = 
+
+\begin{bmatrix}
+X_1\\
+X_2\\
+\vdots\\
+X_N
+\end{bmatrix},
+
+Z = 
+
+\begin{bmatrix}
+Z_1 \quad 0 \quad 0\\
+0 \quad \ddots \quad 0\\
+0 \quad 0 \quad Z_N
+\end{bmatrix},
+
+b = 
+
+\begin{bmatrix}
+b_1\\
+b_2\\
+\vdots\\
+b_N
+\end{bmatrix},
+
+\varepsilon = 
+
+\begin{bmatrix}
+\varepsilon_1\\
+\varepsilon_2\\
+\vdots\\
+\varepsilon_N
+\end{bmatrix}
+\end{equation*}
+
+<p>
+with \(\text{Cov}(b) = \sigma^2 (I \otimes D)\) and
+</p>
+
+<p>
+\(\text{Cov}(Y) = \text{diag}(\text{Cov}(Y_i))\)
+</p>
+
+<p>
+\(\text{Cov}(Y_i) = \text{Cov}(X_i \beta + Z_i b_i + \varepsilon_i) = \text{Cov}(Z_i b_i) + \text{Cov}(\varepsilon) = \sigma^2_i Z_i D Z_i^{\prime} + \sigma^2 I_{n_i} = \sigma^2 (Z_i D Z_i^{\prime} + i)\)
+</p>
+
+<p>
+We can think of \(Zb + \varepsilon\) as \(\tilde{\varepsilon}\)
 </p>
 </div>
 </div>
 
-<div id="outline-container-org11ae05c" class="outline-4">
-<h4 id="org11ae05c"><span class="done DONE">DONE</span> Identifiability theorem for LMM</h4>
-<div class="outline-text-4" id="text-org11ae05c">
+<div id="outline-container-orgce4e037" class="outline-4">
+<h4 id="orgce4e037"><span class="done DONE">DONE</span> Identifiability definition</h4>
+<div class="outline-text-4" id="text-orgce4e037">
+<p>
+A staticial model for data \(Y\) is defined by a family of distributions of \(Y : \{P_\theta : \theta \in \Theta \}\)
+</p>
+
+<p>
+\(\theta\) is a parameter and \(\Theta\) is the parameter space. 
+</p>
+
+<p>
+A model is identifiable on \(\Theta\) if \(P_{\theta_1} = P_{\theta_2} \Rightarrow \theta_1 = \theta_2\) for \(\theta_1, \theta_2 \in \Theta\).
+</p>
+
+<p>
+We must have one-to-one mapping from parameter space to model space. 
+</p>
+
+<p>
+Identifiability is important, otherwise we could produce same estimator from different model parameter values. 
+</p>
+
+<p>
+It may be the case that only <i>some</i> parameter values are identifiable. 
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgd30130d" class="outline-4">
+<h4 id="orgd30130d"><span class="done DONE">DONE</span> Identifiability theorem for LMM</h4>
+<div class="outline-text-4" id="text-orgd30130d">
 <p>
 LMM is identifiable if
 </p>
@@ -1778,36 +2001,72 @@ LMM is identifiable if
 <ol class="org-ol">
 <li>\(X = (X_1, X_2, \ldots, X_N)^\prime\) has full column rank</li>
 <li>At least one \(Z_i\) has full column rank</li>
-<li>\(\sum_{i = 1}^N (n_i - k) > 0\)</li>
+<li>\(\sum_{i = 1}^N (n_i - k) > 0\) (\(Z\) must be a tall matrix)</li>
 </ol>
-</div>
-</div>
 
-<div id="outline-container-org1418543" class="outline-4">
-<h4 id="org1418543"><span class="done DONE">DONE</span> Kronecker Product</h4>
-<div class="outline-text-4" id="text-org1418543">
 <p>
-Just remember that \(A \otimes B\) means each element of \(A\) gets multiplied by matrix \(B\). 
+The statement may not hold in the opposite direction. 
+</p>
+
+<p>
+To prove this, we assumed two models with different parameter values and showed that if they have the same distribution, then the parameter values are the same. We can do this by equating expectations and blocks of covariance matrices. 
 </p>
 </div>
 </div>
 
-<div id="outline-container-orgcd45106" class="outline-4">
-<h4 id="orgcd45106"><span class="done DONE">DONE</span> Vectorization</h4>
-<div class="outline-text-4" id="text-orgcd45106">
+<div id="outline-container-org239fea4" class="outline-4">
+<h4 id="org239fea4"><span class="done DONE">DONE</span> Kronecker Product</h4>
+<div class="outline-text-4" id="text-org239fea4">
 <p>
-Just stack up columns, starting with first column. 
+Just remember that \(A \otimes B\) means each element of \(A\) gets multiplied by matrix \(B\).
+</p>
+
+<p>
+\((A \otimes B)^{\prime} = A^{\prime} \otimes B^{\prime}\).  
+</p>
+</div>
+</div>
+
+<div id="outline-container-org10d5c2c" class="outline-4">
+<h4 id="org10d5c2c"><span class="done DONE">DONE</span> Vectorization</h4>
+<div class="outline-text-4" id="text-org10d5c2c">
+<p>
+Just stack up columns into a vector, starting with first column. 
 </p>
 
 \begin{equation*}
 \text{Vec}(ABC) = (B^\prime \otimes A) \text{Vec}(C)
 \end{equation*}
+
+<p>
+Any \(k^2\) -dimensional vector can be written as a vectorization of a \(k \times k\) matrix.
+</p>
+
+<p>
+\(\text{Vec}^{\prime}(A) \text{Vec}(B) = tr(AB^{\prime}) = tr(A^{\prime}B)\).
+</p>
+
+<p>
+\(\text{Vec}^{\prime}(A) \text{Vec}(A) = ||A||_F^2\).
+</p>
+
+<p>
+\(||A||_F^2\) is sum of squares of all elements in \(A\).
+</p>
+
+<p>
+\(\text{Vec}(ACB) = (B^{\prime} \otimes A) \text{Vec}(C)\).
+</p>
+
+<p>
+\(\sum_{i = 1}^n \text{Vec}(A_i) = \text{Vec}(\sum_{i = 1}^n A_i)\)
+</p>
 </div>
 </div>
 
-<div id="outline-container-orgdd5d302" class="outline-4">
-<h4 id="orgdd5d302"><span class="done DONE">DONE</span> Schur Complement Condition</h4>
-<div class="outline-text-4" id="text-orgdd5d302">
+<div id="outline-container-orge7c5e14" class="outline-4">
+<h4 id="orge7c5e14"><span class="done DONE">DONE</span> Schur Complement Condition</h4>
+<div class="outline-text-4" id="text-orge7c5e14">
 \begin{equation*}
 {\begin{pmatrix}
 A & B\\
@@ -1818,13 +2077,13 @@ B^\prime & C
 </div>
 </div>
 
-<div id="outline-container-org21bf1ba" class="outline-3">
-<h3 id="org21bf1ba"><span class="section-number-3">3.2</span> <span class="done DONE">DONE</span> MLE, ANOVA estimation, MINQUE, RMLE <code>[7/7]</code></h3>
+<div id="outline-container-org37c74fe" class="outline-3">
+<h3 id="org37c74fe"><span class="section-number-3">3.2</span> <span class="done DONE">DONE</span> MLE, ANOVA estimation, MINQUE, RMLE <code>[7/7]</code></h3>
 <div class="outline-text-3" id="text-3-2">
 </div>
-<div id="outline-container-orga27bbce" class="outline-4">
-<h4 id="orga27bbce"><span class="done DONE">DONE</span> Log-likelihood of LMM</h4>
-<div class="outline-text-4" id="text-orga27bbce">
+<div id="outline-container-org20421c8" class="outline-4">
+<h4 id="org20421c8"><span class="done DONE">DONE</span> Log-likelihood of LMM</h4>
+<div class="outline-text-4" id="text-org20421c8">
 <p>
 Under normaility assumptions, 
 </p>
@@ -1834,19 +2093,28 @@ Y_i \sim N(X_i \beta, \sigma^2 (I + Z_i D Z_i^\prime)) \\
 i = 1, \ldots, N
 \end{equation*}
 
+\begin{equation*}
+\mathbb{P}(Y_i) = (2 \pi)^{-n_i / 2} | \sigma^2 (Z_i D Z_i^{\prime} + I_{n_i}) |^\frac{-1}{2} e^ {\frac{-1}{2} (Y_i - X_i \beta)^{\prime} (\sigma^2 (Z_i D Z_i^{\prime} + I_{n_i}))^{-1} (Y_i - X_i \beta)}
+\end{equation*}
+
+
 <p>
 The log-likelihood function is given by
 </p>
 
 \begin{equation*}
-\sum_{i = 1}^{N} \left[ \frac{-n_i}{2} \log \sigma^2 - \frac{1}{2} \log |Z_i D Z_i^\prime + I_{n_i} | - \frac{\sigma^2}{2} (Y_i - X_i \beta)^\prime (Z_i D Z_i^\prime + I_{n_i})^{-1} (Y_i - X_i \beta) \right]
+l(\theta) = \sum_{i = 1}^{N} \left[ \frac{-n_i}{2} \log \sigma^2 - \frac{1}{2} \log |Z_i D Z_i^\prime + I_{n_i} | - \frac{\sigma^2}{2} (Y_i - X_i \beta)^\prime (Z_i D Z_i^\prime + I_{n_i})^{-1} (Y_i - X_i \beta) \right]
 \end{equation*}
+
+<p>
+The MLE is the solution to \(\text{argmax} l(\theta)\) over \(\theta \in \Theta\). 
+</p>
 </div>
 </div>
 
-<div id="outline-container-orge3ae288" class="outline-4">
-<h4 id="orge3ae288"><span class="done DONE">DONE</span> MLE \(\hat{\beta}\) <code>[2/2]</code></h4>
-<div class="outline-text-4" id="text-orge3ae288">
+<div id="outline-container-orgb91b022" class="outline-4">
+<h4 id="orgb91b022"><span class="done DONE">DONE</span> MLE \(\hat{\beta}\) <code>[2/2]</code></h4>
+<div class="outline-text-4" id="text-orgb91b022">
 \begin{equation*}
 \hat{\beta} = \left[ \sum_{i = 1}^{n} X_i^\prime (Z_i \hat{D} Z_i^\prime + I_{n_i})^{-1} X_i \right]^{-1} \left[ \sum_{i = 1}^{n} X_i^\prime (Z_i \hat{D} Z_i^\prime + I_{n_i})^{-1} Y_i \right]
 \end{equation*}
@@ -1876,21 +2144,33 @@ Here we are basically assuming the \(b_i\) are fixed effects. Then we get linear
 </div>
 </div>
 
-<div id="outline-container-org3fe99cd" class="outline-4">
-<h4 id="org3fe99cd"><span class="done DONE">DONE</span> MLE \(\hat{\sigma}^2\)</h4>
-<div class="outline-text-4" id="text-org3fe99cd">
+<div id="outline-container-org3bcb137" class="outline-4">
+<h4 id="org3bcb137"><span class="done DONE">DONE</span> MLE \(\hat{\sigma}^2\)</h4>
+<div class="outline-text-4" id="text-org3bcb137">
 <p>
 Use profile log-likelihood
 </p>
 </div>
 </div>
 
-<div id="outline-container-orgfe54f0a" class="outline-4">
-<h4 id="orgfe54f0a"><span class="done DONE">DONE</span> Derivatives of log-likelihood function</h4>
-<div class="outline-text-4" id="text-orgfe54f0a">
+<div id="outline-container-orgc4a760f" class="outline-4">
+<h4 id="orgc4a760f"><span class="done DONE">DONE</span> Derivatives of log-likelihood function</h4>
+<div class="outline-text-4" id="text-orgc4a760f">
 <p>
 We can have derivatives for \(\beta\), \(\sigma^2\) or \(D\). These are called the maximum likelihood equations. 
 </p>
+
+\begin{equation*}
+\frac{\partial l}{\partial \beta} = \sigma^{-2} \sum_{i= 1}^{N} [X_i^{\prime}(Z_i D Z_i^{\prime} + I)^{-1} (Y_i - X_i \beta)]
+\end{equation*}
+
+\begin{equation*}
+\frac{\partial l}{\partial \sigma^2} = \frac{-1}{2} (\sum_{i = 1}^{N} n_i) \sigma^{-2} + \frac{1}{2} \sigma^{-4} \sum_{i= 1}^{N} [(Y_i - X_i \beta)^{\prime} (Z_i D Z_i^{\prime} + I)^{-1} (Y_i - X_i \beta)]
+\end{equation*}
+
+\begin{equation*}
+\frac{\partial l}{\partial D} = \frac{-1}{2} \sum_{i= 1}^{N} [Z_i^{\prime}(Z_i D Z_i^{\prime} + I)^{-1} Z_i - \sigma^{-2} Z_i^{\prime}(Z_i D Z_i^{\prime} + I)^{-1} (Y_i - X_i \beta) (Y_i - X_i \beta)^{\prime} (Z_i D Z_i^{\prime} + I)^{-1} Z_i]
+\end{equation*}
 
 <p>
 Can use helpful identities from the <a href="https://www.math.uwaterloo.ca/~hwolkowi/matrixcookbook.pdf">Matrix Cookbook</a>
@@ -1898,9 +2178,13 @@ Can use helpful identities from the <a href="https://www.math.uwaterloo.ca/~hwol
 </div>
 </div>
 
-<div id="outline-container-org247114e" class="outline-4">
-<h4 id="org247114e"><span class="done DONE">DONE</span> Balanced random coefficient model <code>[3/3]</code></h4>
-<div class="outline-text-4" id="text-org247114e">
+<div id="outline-container-orga286e3c" class="outline-4">
+<h4 id="orga286e3c"><span class="done DONE">DONE</span> Balanced random coefficient model <code>[3/3]</code></h4>
+<div class="outline-text-4" id="text-orga286e3c">
+<p>
+See section 2.3 in Demidenko 1987. 
+</p>
+
 <p>
 <i>Balanced</i> means each group has the same number of data points. 
 </p>
@@ -1913,12 +2197,34 @@ There is fixed part and random part.
 BRCM is LMM with \(Z_i = X_i = Z\), \(i = 1, 2, \ldots, N\), \(n_1 = n_2 = \ldots = n_N = n\).
 </p>
 
+<p>
+The model can be written as 
+</p>
+
+\begin{equation*}
+Y_i = Z\beta_i + \varepsilon_i, \quad i = 1, \ldots, N \\
+\beta_i = \beta + b_i \\
+\text{where } \beta = \mathbb{E}(\beta_i), \mathbb{E}(b_i) = 0
+\end{equation*}
+
+
+<p>
+BRCM is attractive because it allows us to obtain maximum likelihood estimates in closed forms.
+</p>
+
+<p>
+An example is a longitudinal study where we measure babies at different time points. If we measure all the babies at the same times, then it is balanced.  
+</p>
+
 <dl class="org-dl">
 <dt class="on">&#x2611; MLE for \(\beta\)</dt><dd></dd>
 </dl>
-<p>
-OLS
-</p>
+
+\begin{equation*}
+\bar{Y} = \frac{1}{N} \sum_{i = 1}^{N} Y_i, \\
+\hat{\beta}_{ML} = (Z^{\prime}Z)^{-1} Z^{\prime} \bar{Y} = \hat{\beta}_{OLS}
+\end{equation*}
+
 <dl class="org-dl">
 <dt class="on">&#x2611; MLE for \(\sigma^2\)</dt><dd></dd>
 </dl>
@@ -1942,9 +2248,9 @@ If global mimizer/maximizer occurs at boundary of the constraint, then gradient 
 </div>
 </div>
 
-<div id="outline-container-org149728a" class="outline-4">
-<h4 id="org149728a"><span class="done DONE">DONE</span> Existence of MLE</h4>
-<div class="outline-text-4" id="text-org149728a">
+<div id="outline-container-org75ca9d5" class="outline-4">
+<h4 id="org75ca9d5"><span class="done DONE">DONE</span> Existence of MLE</h4>
+<div class="outline-text-4" id="text-org75ca9d5">
 <p>
 The failure of an algorithm does not mean that the MLE does not exist. 
 </p>
@@ -1958,18 +2264,34 @@ If the MLE exists, the estimate of \(\sigma^2\) must be strictly positive.
 </p>
 
 <p>
-The MLE may exist but make no sense for matrix \(D\).
+The MLE may exist but make no sense for matrix \(D\). The existence of the MLE does not guarantee that matrix \(\hat{D}\) is positive definite. 
 </p>
 
 \begin{equation*}
 \text{MLE exists } \Leftrightarrow S_\text{min} \triangleq \sum_{i = 1}^{N} ||Y_i - X_i\beta - Z_i b_i ||_2^2 > 0
 \end{equation*}
+
+<p>
+See also section 2.5 in Demidenko 1987.
+</p>
+
+<p>
+<span class="underline">Theorem</span>: Suppose the model identifiability conditions hold. 
+</p>
+
+<p>
+The MLE over \(\Theta = \{ \beta \in \mathbb{R}^m, \sigma^2 > 0, D \succeq 0 \} \text{ exists } \Leftrightarrow S_\text{min} \triangleq \sum_{i = 1}^{N} || Y_i - X_i \beta - Z_i b_i ||_2^2 > 0\) 
+</p>
 </div>
 </div>
 
-<div id="outline-container-orgcbe2677" class="outline-4">
-<h4 id="orgcbe2677"><span class="done DONE">DONE</span> LMM with random intercept <code>[3/3]</code></h4>
-<div class="outline-text-4" id="text-orgcbe2677">
+<div id="outline-container-org051ed82" class="outline-4">
+<h4 id="org051ed82"><span class="done DONE">DONE</span> LMM with random intercept <code>[3/3]</code></h4>
+<div class="outline-text-4" id="text-org051ed82">
+<p>
+See section 2.4 Demidenko 1987.
+</p>
+
 \begin{equation*}
 y_{ij} = u_{ij}^\prime \gamma + \alpha + b_i + \varepsilon_{ij} \\
 i = 1, \ldots, N \\
@@ -2006,16 +2328,16 @@ Get two cases.
 </div>
 </div>
 </div>
-<div id="outline-container-org3d8cbcf" class="outline-3">
-<h3 id="org3d8cbcf"><span class="section-number-3">3.3</span> <span class="done DONE">DONE</span> Computation and optimization <code>[9/9]</code></h3>
+<div id="outline-container-orgcc3129a" class="outline-3">
+<h3 id="orgcc3129a"><span class="section-number-3">3.3</span> <span class="done DONE">DONE</span> Computation and optimization <code>[9/9]</code></h3>
 <div class="outline-text-3" id="text-3-3">
 <p>
 MLE in LMM may not have closed form.
 </p>
 </div>
-<div id="outline-container-org1e6830b" class="outline-4">
-<h4 id="org1e6830b"><span class="done DONE">DONE</span> Gradient methods <code>[4/4]</code></h4>
-<div class="outline-text-4" id="text-org1e6830b">
+<div id="outline-container-org803d7ec" class="outline-4">
+<h4 id="org803d7ec"><span class="done DONE">DONE</span> Gradient methods <code>[4/4]</code></h4>
+<div class="outline-text-4" id="text-org803d7ec">
 <p>
 <i>Iterative descent</i>: start with an initial guess, successivley generate more samples such that each sample increases the function value. 
 </p>
@@ -2059,9 +2381,9 @@ This rule basically guarantees that we will make progress at each iteration give
 </p>
 </div>
 </div>
-<div id="outline-container-org076b0ba" class="outline-4">
-<h4 id="org076b0ba"><span class="done DONE">DONE</span> Convergence issues</h4>
-<div class="outline-text-4" id="text-org076b0ba">
+<div id="outline-container-org6dca26f" class="outline-4">
+<h4 id="org6dca26f"><span class="done DONE">DONE</span> Convergence issues</h4>
+<div class="outline-text-4" id="text-org6dca26f">
 <p>
 We may stop at a stationary point instead of the global minimizer. 
 </p>
@@ -2072,9 +2394,9 @@ The sequence may also not converge given a bad initialization.
 </div>
 </div>
 
-<div id="outline-container-org8f43efc" class="outline-4">
-<h4 id="org8f43efc"><span class="done DONE">DONE</span> Rate of Convergence</h4>
-<div class="outline-text-4" id="text-org8f43efc">
+<div id="outline-container-org973187d" class="outline-4">
+<h4 id="org973187d"><span class="done DONE">DONE</span> Rate of Convergence</h4>
+<div class="outline-text-4" id="text-org973187d">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
@@ -2102,9 +2424,9 @@ There is a trade-off between convergence rate and computation time.
 </div>
 </div>
 
-<div id="outline-container-org085f3a8" class="outline-4">
-<h4 id="org085f3a8"><span class="done DONE">DONE</span> Expectation-Maximization algorithm</h4>
-<div class="outline-text-4" id="text-org085f3a8">
+<div id="outline-container-org2e8038d" class="outline-4">
+<h4 id="org2e8038d"><span class="done DONE">DONE</span> Expectation-Maximization algorithm</h4>
+<div class="outline-text-4" id="text-org2e8038d">
 <p>
 <b>E Step</b>: calculate conditional expectation of latent parameters given data and parameter values from previous iteration.
 </p>
@@ -2118,14 +2440,14 @@ In LMM, distribution of latent parameters (random effects) given data and parame
 </p>
 
 <p>
-<span class="underline"><b>SPEND MORE TIME ON THIS</b></span>
+See also section 2.12 of Demidenko 1987.
 </p>
 </div>
 </div>
 
-<div id="outline-container-org156ed16" class="outline-4">
-<h4 id="org156ed16"><span class="done DONE">DONE</span> Fisher Scoring Algorithm</h4>
-<div class="outline-text-4" id="text-org156ed16">
+<div id="outline-container-org05d5488" class="outline-4">
+<h4 id="org05d5488"><span class="done DONE">DONE</span> Fisher Scoring Algorithm</h4>
+<div class="outline-text-4" id="text-org05d5488">
 <p>
 We use this to solve maximization of \(P(Y; \theta)\) with respect to \(\theta\).
 </p>
@@ -2141,9 +2463,9 @@ I(\theta^k) = E\left[-\nabla^2 \log P(Y;\theta^k) \right] \\
 </div>
 </div>
 
-<div id="outline-container-org1c55aff" class="outline-4">
-<h4 id="org1c55aff"><span class="done DONE">DONE</span> RMLE in LMM</h4>
-<div class="outline-text-4" id="text-org1c55aff">
+<div id="outline-container-org714d557" class="outline-4">
+<h4 id="org714d557"><span class="done DONE">DONE</span> RMLE in LMM</h4>
+<div class="outline-text-4" id="text-org714d557">
 <p>
 RMLE is the MLE of transformed data. We transform the data to get rid of nuisance parameters. RMLE can reduce the bias of MLE.
 </p>
@@ -2157,9 +2479,9 @@ The data transformation is of the form \(\tilde{Y} = A^\prime Y\). RMLE will not
 </p>
 </div>
 </div>
-<div id="outline-container-org89b3f18" class="outline-4">
-<h4 id="org89b3f18"><span class="done DONE">DONE</span> MINQUE in LMM</h4>
-<div class="outline-text-4" id="text-org89b3f18">
+<div id="outline-container-org1f764e5" class="outline-4">
+<h4 id="org1f764e5"><span class="done DONE">DONE</span> MINQUE in LMM</h4>
+<div class="outline-text-4" id="text-org1f764e5">
 <p>
 This is similar to idea of BLUE (best linear unbiased estimator).
 </p>
@@ -2205,48 +2527,175 @@ A \succeq 0
 <p>
 In this case, MINQUE is like MSE under linear model with \(Zb\) treated as fixed effects. 
 </p>
-</div>
-</div>
 
-<div id="outline-container-org12e8646" class="outline-4">
-<h4 id="org12e8646"><span class="done DONE">DONE</span> ANOVA Estimation</h4>
-<div class="outline-text-4" id="text-org12e8646">
 <p>
-Use expectations of different sums of squares and solve for the parameters of interest. The hardest part is coming up with the relevant sums of squares. 
+Also see 1.5.2 in Jiang 2007. 
 </p>
 </div>
 </div>
-<div id="outline-container-org00c6947" class="outline-4">
-<h4 id="org00c6947"><span class="done DONE">DONE</span> A general method of moments</h4>
-<div class="outline-text-4" id="text-org00c6947">
+
+<div id="outline-container-orge2a0146" class="outline-4">
+<h4 id="orge2a0146"><span class="done DONE">DONE</span> ANOVA Estimation</h4>
+<div class="outline-text-4" id="text-orge2a0146">
+<p>
+The basic idea comes from the method of moments. Use expectations of different sums of squares and solve for the parameters of interest. The hardest part is coming up with the relevant sums of squares.
+</p>
+
+<p>
+Suppose there are \(q\) variance components involved in a linear mixed model. Let \(Q\) be a \(q\) -dimensional vector whose components are quadratic functions of the data. The ANOVA estimators of the variance components are obtained by solving the system of equations \(E(Q) = Q\). Then the problem is just choosing \(Q\). See 1.5.1 in Jiang 2007. 
+</p>
+</div>
+</div>
+<div id="outline-container-orgd123740" class="outline-4">
+<h4 id="orgd123740"><span class="done DONE">DONE</span> A general method of moments</h4>
+<div class="outline-text-4" id="text-orgd123740">
 <p>
 Construct sample moments, match to population moments, and solve the system of equations. 
 </p>
 </div>
 </div>
 </div>
-<div id="outline-container-org4460688" class="outline-3">
-<h3 id="org4460688"><span class="section-number-3">3.4</span> <span class="todo TODO">TODO</span> Hypothesis testing and confidence intervals <code>[0/6]</code></h3>
+<div id="outline-container-orgeaf6c93" class="outline-3">
+<h3 id="orgeaf6c93"><span class="section-number-3">3.4</span> <span class="todo TODO">TODO</span> Hypothesis testing and confidence intervals <code>[3/6]</code></h3>
 <div class="outline-text-3" id="text-3-4">
 </div>
-<div id="outline-container-org0ded542" class="outline-4">
-<h4 id="org0ded542"><span class="todo TODO">TODO</span> F test</h4>
+<div id="outline-container-orga936ec7" class="outline-4">
+<h4 id="orga936ec7"><span class="done DONE">DONE</span> F test</h4>
+<div class="outline-text-4" id="text-orga936ec7">
+<p>
+The testing problem is: \(H_0: D = 0 \quad H_1 : D \neq 0\).
+</p>
+
+<p>
+We are basically testing the presence of random effects. 
+</p>
+
+<p>
+SSE under full model,
+</p>
+
+\begin{equation*}
+S_\text{min} = \min_{\beta, \{b_i\}} \sum_{i = 1}^N ||Y_i - X_i \beta - Z_i b_i ||_2^2
+\end{equation*}
+
+<p>
+SSE under null,
+</p>
+
+\begin{equation*}
+S_\text{OLS} = \min_{\beta} \sum_{i = 1}^N ||Y_i - X_i \beta||_2^2
+\end{equation*}
+
+<p>
+We then use quadratic form theory to show that both SSE's are chi-squared and independent, and then we can construct the \(F\) test statistic as
+</p>
+
+\begin{equation*}
+F = \frac{(S_{\text{OLS}} - S_\min) / \tilde{r}}{S_\min / r} \sim F_{\tilde{r}, r} \quad \text{under } H_0 \\
+\tilde{r} = \text{rank}(W) - \text{rank}(X), \quad W = (X \vert Z) \\
+r = \sum_{i = 1}^N n_i - \text{rank}(W)
+\end{equation*}
+
+<p>
+We reject \(H_0\) if \(F > F_{\tilde{r}, r} (1 - \alpha)\)
+</p>
+
+<p>
+In general in LMM, we don't have a nice \(F\) test for \(A\beta\).
+</p>
 </div>
-<div id="outline-container-org9fd5405" class="outline-4">
-<h4 id="org9fd5405"><span class="todo TODO">TODO</span> Likelihood ratio test</h4>
 </div>
-<div id="outline-container-org4b6438f" class="outline-4">
-<h4 id="org4b6438f"><span class="todo TODO">TODO</span> C.I. for \(\sigma^2\) in LMM</h4>
+
+<div id="outline-container-orgc7335ca" class="outline-4">
+<h4 id="orgc7335ca"><span class="done DONE">DONE</span> Likelihood ratio test</h4>
+<div class="outline-text-4" id="text-orgc7335ca">
+<p>
+Let \(X_1, \ldots, X_n\) be a random sample from density \(P(X ; \theta)\) with parameter \(\theta\) and parameter space \(\Theta\). Consider the test
+</p>
+
+\begin{equation*}
+H_0 : \theta \in \Theta_0 \\
+(\Theta_0 \subseteq \Theta \text{ is a subset of the parameter space})
+\end{equation*}
+
+<p>
+The likelihood ratio statistic is then:
+</p>
+
+\begin{equation*}
+R = \frac{\sup_{\theta \in \Theta_0} \prod_{i = 1}^{n} P(X_i ; \theta)}{\sup_{\theta \in \Theta} \prod_{i = 1}^{n} P(X_i ; \theta)}
+\end{equation*}
+
+<p>
+We reject \(H_0\) when \(R\) is small, where \(0 \leq R \leq 1\).
+</p>
+
+<p>
+We don't actually work directly with \(R\), instead we work with \(-2 \log R\), where
+</p>
+
+\begin{equation*}
+-2 \log R \rightarrow \chi^2_r \text{ as } n \rightarrow \infty \text{ under } H_0, \\
+r = \text{dim}(\Theta) - \text{dim}(\Theta_0)
+\end{equation*}
+
+<p>
+Therefore, we can only assymptotically control type I error, with rejection region
+</p>
+
+\begin{equation*}
+\{ -2 \log R > c\}, c = \chi^2_r(1 - \alpha)
+\end{equation*}
 </div>
-<div id="outline-container-orgff85f79" class="outline-4">
-<h4 id="orgff85f79"><span class="todo TODO">TODO</span> Confidence region for \(D \in \mathbb{R}^{k \times k}\)</h4>
 </div>
-<div id="outline-container-org7b1b509" class="outline-4">
-<h4 id="org7b1b509"><span class="todo TODO">TODO</span> C.I. for functions of \(\sigma^2\) and \(D\)</h4>
+
+<div id="outline-container-org0e838b3" class="outline-4">
+<h4 id="org0e838b3"><span class="done DONE">DONE</span> C.I. for \(\sigma^2\) in LMM</h4>
+<div class="outline-text-4" id="text-org0e838b3">
+<p>
+\(S_\min = \min_{\beta, \{b_i\}} \sum_{i = 1}^N ||Y_i - X_i \beta - Z_i b_i ||_2^2\).
+</p>
+
+\begin{equation*}
+W = 
+\begin{pmatrix}
+X_1 & Z_1 & 0 & 0 \\
+\vdots & 0 & \ddots & 0 \\
+X_n & 0 & 0 & Z_n
+\end{pmatrix}
+\end{equation*}
+
+<p>
+Our pivot is then 
+</p>
+
+\begin{equation*}
+\frac{S_\min}{\sigma^2} \sim \chi^2_r, \quad r = \sum_{i = 1}^{N} n_i - \text{rank}(W)
+\end{equation*}
+
+\begin{equation*}
+\mathbb{P}\left(\chi_r^2 (\frac{\alpha}{2}) \leq \frac{S_\min}{\sigma^2} \leq \chi^2_r (1 - \frac{\alpha}{2})\right) = 1 - \alpha
+\end{equation*}
+
+<p>
+Solving for \(\sigma^2\) gives a \(1 - \alpha\) level confidence interval. We get
+</p>
+
+\begin{equation*}
+\left( \frac{S_\min}{\chi^2_r (1 - \frac{\alpha}{2})},  \frac{S_\min}{\chi^2_r (\frac{\alpha}{2})} \right)
+\end{equation*}
 </div>
-<div id="outline-container-org95af0eb" class="outline-4">
-<h4 id="org95af0eb"><span class="todo TODO">TODO</span> Approximate C.I. for variance components <code>[0/2]</code></h4>
-<div class="outline-text-4" id="text-org95af0eb">
+</div>
+
+<div id="outline-container-orgbdeafb6" class="outline-4">
+<h4 id="orgbdeafb6"><span class="todo TODO">TODO</span> Confidence region for \(D \in \mathbb{R}^{k \times k}\)</h4>
+</div>
+<div id="outline-container-org16c73c7" class="outline-4">
+<h4 id="org16c73c7"><span class="todo TODO">TODO</span> C.I. for functions of \(\sigma^2\) and \(D\)</h4>
+</div>
+<div id="outline-container-org60beae8" class="outline-4">
+<h4 id="org60beae8"><span class="todo TODO">TODO</span> Approximate C.I. for variance components <code>[0/2]</code></h4>
+<div class="outline-text-4" id="text-org60beae8">
 <dl class="org-dl">
 <dt class="off">&#x2610; Sattertheuaite's Approximation</dt><dd></dd>
 
@@ -2255,16 +2704,16 @@ Construct sample moments, match to population moments, and solve the system of e
 </div>
 </div>
 </div>
-<div id="outline-container-org3064942" class="outline-3">
-<h3 id="org3064942"><span class="section-number-3">3.5</span> <span class="todo TODO">TODO</span> Generalized linear models <code>[0/7]</code></h3>
+<div id="outline-container-org8406380" class="outline-3">
+<h3 id="org8406380"><span class="section-number-3">3.5</span> <span class="todo TODO">TODO</span> Generalized linear models <code>[0/7]</code></h3>
 <div class="outline-text-3" id="text-3-5">
 </div>
-<div id="outline-container-org95957e3" class="outline-4">
-<h4 id="org95957e3"><span class="todo TODO">TODO</span> GLM Setup</h4>
+<div id="outline-container-orgcce2c07" class="outline-4">
+<h4 id="orgcce2c07"><span class="todo TODO">TODO</span> GLM Setup</h4>
 </div>
-<div id="outline-container-org83b771b" class="outline-4">
-<h4 id="org83b771b"><span class="todo TODO">TODO</span> Exponential family distribution <code>[0/4]</code></h4>
-<div class="outline-text-4" id="text-org83b771b">
+<div id="outline-container-org1f2b6d8" class="outline-4">
+<h4 id="org1f2b6d8"><span class="todo TODO">TODO</span> Exponential family distribution <code>[0/4]</code></h4>
+<div class="outline-text-4" id="text-org1f2b6d8">
 <dl class="org-dl">
 <dt class="off">&#x2610; Gaussian</dt><dd></dd>
 
@@ -2276,9 +2725,9 @@ Construct sample moments, match to population moments, and solve the system of e
 </dl>
 </div>
 </div>
-<div id="outline-container-org4effcb3" class="outline-4">
-<h4 id="org4effcb3"><span class="todo TODO">TODO</span> Link Functions <code>[0/4]</code></h4>
-<div class="outline-text-4" id="text-org4effcb3">
+<div id="outline-container-orge758999" class="outline-4">
+<h4 id="orge758999"><span class="todo TODO">TODO</span> Link Functions <code>[0/4]</code></h4>
+<div class="outline-text-4" id="text-orge758999">
 <dl class="org-dl">
 <dt class="off">&#x2610; Logit</dt><dd></dd>
 
@@ -2290,15 +2739,15 @@ Construct sample moments, match to population moments, and solve the system of e
 </dl>
 </div>
 </div>
-<div id="outline-container-orgc16c918" class="outline-4">
-<h4 id="orgc16c918"><span class="todo TODO">TODO</span> log-likelihood for GLM</h4>
+<div id="outline-container-org9ab173e" class="outline-4">
+<h4 id="org9ab173e"><span class="todo TODO">TODO</span> log-likelihood for GLM</h4>
 </div>
-<div id="outline-container-orge27c806" class="outline-4">
-<h4 id="orge27c806"><span class="todo TODO">TODO</span> Fisher scoring algorithm</h4>
+<div id="outline-container-orga55d694" class="outline-4">
+<h4 id="orga55d694"><span class="todo TODO">TODO</span> Fisher scoring algorithm</h4>
 </div>
-<div id="outline-container-org2d22140" class="outline-4">
-<h4 id="org2d22140"><span class="todo TODO">TODO</span> Inference in GLM <code>[0/4]</code></h4>
-<div class="outline-text-4" id="text-org2d22140">
+<div id="outline-container-orgdb2f5e7" class="outline-4">
+<h4 id="orgdb2f5e7"><span class="todo TODO">TODO</span> Inference in GLM <code>[0/4]</code></h4>
+<div class="outline-text-4" id="text-orgdb2f5e7">
 <dl class="org-dl">
 <dt class="off">&#x2610; Likelihood ratio test</dt><dd></dd>
 
@@ -2311,84 +2760,96 @@ Construct sample moments, match to population moments, and solve the system of e
 </div>
 </div>
 </div>
-<div id="outline-container-org1aafdc6" class="outline-3">
-<h3 id="org1aafdc6"><span class="section-number-3">3.6</span> <span class="todo TODO">TODO</span> Quasi-likelihood estimation <code>[0/3]</code></h3>
+<div id="outline-container-orge3a5ab9" class="outline-3">
+<h3 id="orge3a5ab9"><span class="section-number-3">3.6</span> <span class="todo TODO">TODO</span> Quasi-likelihood estimation <code>[0/3]</code></h3>
 <div class="outline-text-3" id="text-3-6">
+<p>
+In many problems of statistical estimation, we know some detail of the distribution governing the data, but may be unwilling to specify it exactly. Maximum likelihood requires exact specification of the distrivubution in order to construct the likelihood. Quasi-likelihood is a method of estimation that requires only a model for the mean of the data and the relationship between the mean and the variance. 
+</p>
+
+<p>
+The idea is to use normality-based estimators even if the data are not really normal. 
+</p>
 </div>
-<div id="outline-container-org2556e0d" class="outline-4">
-<h4 id="org2556e0d"><span class="todo TODO">TODO</span> Review of MLE</h4>
+<div id="outline-container-orgd3f0429" class="outline-4">
+<h4 id="orgd3f0429"><span class="todo TODO">TODO</span> Review of MLE</h4>
 </div>
-<div id="outline-container-orge39ea00" class="outline-4">
-<h4 id="orge39ea00"><span class="todo TODO">TODO</span> Construction of Quasi-likelihood function</h4>
+<div id="outline-container-org033a99e" class="outline-4">
+<h4 id="org033a99e"><span class="todo TODO">TODO</span> Construction of Quasi-likelihood function</h4>
 </div>
-<div id="outline-container-orgbf4a641" class="outline-4">
-<h4 id="orgbf4a641"><span class="todo TODO">TODO</span> Maximum quasi-likelihood estimation</h4>
+<div id="outline-container-orgd1bfcbb" class="outline-4">
+<h4 id="orgd1bfcbb"><span class="todo TODO">TODO</span> Maximum quasi-likelihood estimation</h4>
 </div>
 </div>
-<div id="outline-container-org8212aba" class="outline-3">
-<h3 id="org8212aba"><span class="section-number-3">3.7</span> <span class="todo TODO">TODO</span> Generalized linear mixed models <code>[0/10]</code></h3>
+<div id="outline-container-orgd5d6b6f" class="outline-3">
+<h3 id="orgd5d6b6f"><span class="section-number-3">3.7</span> <span class="todo TODO">TODO</span> Generalized linear mixed models <code>[0/10]</code></h3>
 <div class="outline-text-3" id="text-3-7">
 </div>
-<div id="outline-container-org0b90c95" class="outline-4">
-<h4 id="org0b90c95"><span class="todo TODO">TODO</span> General setup</h4>
+<div id="outline-container-org5fc684a" class="outline-4">
+<h4 id="org5fc684a"><span class="todo TODO">TODO</span> General setup</h4>
 </div>
-<div id="outline-container-org4560701" class="outline-4">
-<h4 id="org4560701"><span class="todo TODO">TODO</span> Mean</h4>
+<div id="outline-container-orgce860ff" class="outline-4">
+<h4 id="orgce860ff"><span class="todo TODO">TODO</span> Mean</h4>
 </div>
-<div id="outline-container-orga77b50f" class="outline-4">
-<h4 id="orga77b50f"><span class="todo TODO">TODO</span> Variance</h4>
+<div id="outline-container-org2e3a4ca" class="outline-4">
+<h4 id="org2e3a4ca"><span class="todo TODO">TODO</span> Variance</h4>
 </div>
-<div id="outline-container-orge506e86" class="outline-4">
-<h4 id="orge506e86"><span class="todo TODO">TODO</span> Covariance</h4>
+<div id="outline-container-org92cd7ef" class="outline-4">
+<h4 id="org92cd7ef"><span class="todo TODO">TODO</span> Covariance</h4>
 </div>
-<div id="outline-container-org69ab1a0" class="outline-4">
-<h4 id="org69ab1a0"><span class="todo TODO">TODO</span> Likelihood function</h4>
+<div id="outline-container-orgbe2571e" class="outline-4">
+<h4 id="orgbe2571e"><span class="todo TODO">TODO</span> Likelihood function</h4>
 </div>
-<div id="outline-container-orga5fd6f4" class="outline-4">
-<h4 id="orga5fd6f4"><span class="todo TODO">TODO</span> log-likelihood function</h4>
+<div id="outline-container-org1ee6583" class="outline-4">
+<h4 id="org1ee6583"><span class="todo TODO">TODO</span> log-likelihood function</h4>
 </div>
-<div id="outline-container-org5443058" class="outline-4">
-<h4 id="org5443058"><span class="todo TODO">TODO</span> Gauss-hermite quadrecture</h4>
+<div id="outline-container-org611746c" class="outline-4">
+<h4 id="org611746c"><span class="todo TODO">TODO</span> Gauss-hermite quadrecture</h4>
 </div>
-<div id="outline-container-orgcc21840" class="outline-4">
-<h4 id="orgcc21840"><span class="todo TODO">TODO</span> EM algorithm for GLMM</h4>
+<div id="outline-container-orga74c1fe" class="outline-4">
+<h4 id="orga74c1fe"><span class="todo TODO">TODO</span> EM algorithm for GLMM</h4>
 </div>
-<div id="outline-container-orgf45256f" class="outline-4">
-<h4 id="orgf45256f"><span class="todo TODO">TODO</span> Markov Chain Monte Carlo algorithm</h4>
+<div id="outline-container-org7eeb89f" class="outline-4">
+<h4 id="org7eeb89f"><span class="todo TODO">TODO</span> Markov Chain Monte Carlo algorithm</h4>
 </div>
-<div id="outline-container-org4209120" class="outline-4">
-<h4 id="org4209120"><span class="todo TODO">TODO</span> Metropolis-Hastings algorithm</h4>
+<div id="outline-container-org21e9eec" class="outline-4">
+<h4 id="org21e9eec"><span class="todo TODO">TODO</span> Metropolis-Hastings algorithm</h4>
 </div>
 </div>
-<div id="outline-container-orge54e52e" class="outline-3">
-<h3 id="orge54e52e"><span class="section-number-3">3.8</span> <span class="todo TODO">TODO</span> Generalized estimation equations <code>[0/4]</code></h3>
+<div id="outline-container-org4297c30" class="outline-3">
+<h3 id="org4297c30"><span class="section-number-3">3.8</span> <span class="todo TODO">TODO</span> Generalized estimation equations <code>[0/4]</code></h3>
 <div class="outline-text-3" id="text-3-8">
 </div>
-<div id="outline-container-org027cefb" class="outline-4">
-<h4 id="org027cefb"><span class="todo TODO">TODO</span> Estimating functions</h4>
+<div id="outline-container-org6316b0f" class="outline-4">
+<h4 id="org6316b0f"><span class="todo TODO">TODO</span> Estimating functions</h4>
 </div>
-<div id="outline-container-org08bf86a" class="outline-4">
-<h4 id="org08bf86a"><span class="todo TODO">TODO</span> Class of linear estimating functions</h4>
+<div id="outline-container-orgb30c5f6" class="outline-4">
+<h4 id="orgb30c5f6"><span class="todo TODO">TODO</span> Class of linear estimating functions</h4>
 </div>
-<div id="outline-container-org4684bdd" class="outline-4">
-<h4 id="org4684bdd"><span class="todo TODO">TODO</span> Optimal linear estimating equation</h4>
+<div id="outline-container-org80ae9d3" class="outline-4">
+<h4 id="org80ae9d3"><span class="todo TODO">TODO</span> Optimal linear estimating equation</h4>
 </div>
-<div id="outline-container-org7014ef5" class="outline-4">
-<h4 id="org7014ef5"><span class="todo TODO">TODO</span> Generalized estimating equation</h4>
+<div id="outline-container-org7e8ec42" class="outline-4">
+<h4 id="org7e8ec42"><span class="todo TODO">TODO</span> Generalized estimating equation</h4>
+<div class="outline-text-4" id="text-org7e8ec42">
+<p>
+These methods capture some of the benefits of quasi-likelihood estimation in the context of correlated data models, and are robust in the presence of misspecification of the variance-covariance structure of the data. These estimates are often easier to compute than ML estimates. 
+</p>
 </div>
 </div>
 </div>
-<div id="outline-container-org4a07ed8" class="outline-2">
-<h2 id="org4a07ed8"><span class="section-number-2">4</span> STT 872 <code>[56%]</code></h2>
+</div>
+<div id="outline-container-orgc8e985c" class="outline-2">
+<h2 id="orgc8e985c"><span class="section-number-2">4</span> STT 872 <code>[56%]</code></h2>
 <div class="outline-text-2" id="text-4">
 </div>
-<div id="outline-container-orgd49e8d3" class="outline-3">
-<h3 id="orgd49e8d3"><span class="section-number-3">4.1</span> <span class="done DONE">DONE</span> Preparations <code>[9/9]</code></h3>
+<div id="outline-container-org5e564db" class="outline-3">
+<h3 id="org5e564db"><span class="section-number-3">4.1</span> <span class="done DONE">DONE</span> Preparations <code>[9/9]</code></h3>
 <div class="outline-text-3" id="text-4-1">
 </div>
-<div id="outline-container-orgeefb881" class="outline-4">
-<h4 id="orgeefb881"><span class="done DONE">DONE</span> Measure Theory <code>[4/4]</code></h4>
-<div class="outline-text-4" id="text-orgeefb881">
+<div id="outline-container-orgaa522f2" class="outline-4">
+<h4 id="orgaa522f2"><span class="done DONE">DONE</span> Measure Theory <code>[4/4]</code></h4>
+<div class="outline-text-4" id="text-orgaa522f2">
 <dl class="org-dl">
 <dt class="on">&#x2611; Definition 1.3</dt><dd>Keener</dd>
 <dt class="on">&#x2611; Definition 1.4</dt><dd>Keener</dd>
@@ -2397,9 +2858,9 @@ Construct sample moments, match to population moments, and solve the system of e
 </dl>
 </div>
 </div>
-<div id="outline-container-org2f2d641" class="outline-4">
-<h4 id="org2f2d641"><span class="done DONE">DONE</span> Integration <code>[8/8]</code></h4>
-<div class="outline-text-4" id="text-org2f2d641">
+<div id="outline-container-orgef253de" class="outline-4">
+<h4 id="orgef253de"><span class="done DONE">DONE</span> Integration <code>[8/8]</code></h4>
+<div class="outline-text-4" id="text-orgef253de">
 <dl class="org-dl">
 <dt class="on">&#x2611; Definition 1.7</dt><dd>Keener</dd>
 <dt class="on">&#x2611; Theorem 1.8</dt><dd>Keener</dd>
@@ -2436,9 +2897,9 @@ A statement holding <i>almost everywhere</i> means it holds for all sets minus n
 </dl>
 </div>
 </div>
-<div id="outline-container-orgbc0f260" class="outline-4">
-<h4 id="orgbc0f260"><span class="done DONE">DONE</span> Probability Spaces <code>[11/11]</code></h4>
-<div class="outline-text-4" id="text-orgbc0f260">
+<div id="outline-container-orgd7e46bd" class="outline-4">
+<h4 id="orgd7e46bd"><span class="done DONE">DONE</span> Probability Spaces <code>[11/11]</code></h4>
+<div class="outline-text-4" id="text-orgd7e46bd">
 <dl class="org-dl">
 <dt class="on">&#x2611; Example 1.11</dt><dd>Keener</dd>
 </dl>
@@ -2518,9 +2979,9 @@ Measurable functions taken on independent random vectors are still independent.
 </p>
 </div>
 </div>
-<div id="outline-container-orgb8db8aa" class="outline-4">
-<h4 id="orgb8db8aa"><span class="done DONE">DONE</span> Group families <code>[5/5]</code></h4>
-<div class="outline-text-4" id="text-orgb8db8aa">
+<div id="outline-container-orgcd1ae3a" class="outline-4">
+<h4 id="orgcd1ae3a"><span class="done DONE">DONE</span> Group families <code>[5/5]</code></h4>
+<div class="outline-text-4" id="text-orgcd1ae3a">
 <dl class="org-dl">
 <dt class="on">&#x2611; Example 1.4.1</dt><dd>Lehmann and Casella</dd>
 </dl>
@@ -2574,9 +3035,9 @@ Multivariate normal distribution can be thought of as location-scale family for 
 </p>
 </div>
 </div>
-<div id="outline-container-org1e93c1b" class="outline-4">
-<h4 id="org1e93c1b"><span class="done DONE">DONE</span> Exponential families <code>[5/5]</code></h4>
-<div class="outline-text-4" id="text-org1e93c1b">
+<div id="outline-container-org28023e1" class="outline-4">
+<h4 id="org28023e1"><span class="done DONE">DONE</span> Exponential families <code>[5/5]</code></h4>
+<div class="outline-text-4" id="text-org28023e1">
 <dl class="org-dl">
 <dt class="on">&#x2611; Section 2.1</dt><dd>intro Keener</dd>
 </dl>
@@ -2638,9 +3099,9 @@ This theorem gives us a shortcut for calculating expected values in exponential 
 </p>
 </div>
 </div>
-<div id="outline-container-org24ebdca" class="outline-4">
-<h4 id="org24ebdca"><span class="done DONE">DONE</span> Moment and cumulant generating functions <code>[7/7]</code></h4>
-<div class="outline-text-4" id="text-org24ebdca">
+<div id="outline-container-orged58b23" class="outline-4">
+<h4 id="orged58b23"><span class="done DONE">DONE</span> Moment and cumulant generating functions <code>[7/7]</code></h4>
+<div class="outline-text-4" id="text-orged58b23">
 <p>
 Moment generating function for exponential family distribution is
 </p>
@@ -2693,9 +3154,9 @@ Gamma moments
 </div>
 </div>
 
-<div id="outline-container-orgd3a5322" class="outline-4">
-<h4 id="orgd3a5322">Models, Estimators, and Risk Functions</h4>
-<div class="outline-text-4" id="text-orgd3a5322">
+<div id="outline-container-org9fb9d13" class="outline-4">
+<h4 id="org9fb9d13">Models, Estimators, and Risk Functions</h4>
+<div class="outline-text-4" id="text-org9fb9d13">
 <p>
 This comes from Section 3.1 in Keener.
 </p>
@@ -2730,9 +3191,12 @@ Sometimes the risk functions cross for different estimators, so it is not clear 
 </div>
 </div>
 
-<div id="outline-container-org55f8df8" class="outline-4">
-<h4 id="org55f8df8"><span class="done DONE">DONE</span> Sufficient Statistics <code>[22/22]</code></h4>
-<div class="outline-text-4" id="text-org55f8df8">
+<div id="outline-container-orgc667688" class="outline-4">
+<h4 id="orgc667688"><span class="done DONE">DONE</span> Sufficient Statistics <code>[22/22]</code></h4>
+<div class="outline-text-4" id="text-orgc667688">
+<p>
+Basically to find a sufficient statistic, calucalte the joint density and use the facotization criterion. 
+</p>
 <dl class="org-dl">
 <dt class="on">&#x2611; Section 1.10</dt><dd>Keener</dd>
 </dl>
@@ -2989,9 +3453,9 @@ If you have a minimal sufficient statistic, but a function of it equals a consta
 </div>
 
 
-<div id="outline-container-org39b6d7e" class="outline-4">
-<h4 id="org39b6d7e"><span class="done DONE">DONE</span> Convexity <code>[10/10]</code></h4>
-<div class="outline-text-4" id="text-org39b6d7e">
+<div id="outline-container-org0ebeffb" class="outline-4">
+<h4 id="org0ebeffb"><span class="done DONE">DONE</span> Convexity <code>[10/10]</code></h4>
+<div class="outline-text-4" id="text-org0ebeffb">
 <p>
 Examples of convex functions are
 </p>
@@ -3145,9 +3609,9 @@ For higher-dimension convex function, we can find "support plane" rather than su
 </div>
 </div>
 
-<div id="outline-container-org4f9d821" class="outline-4">
-<h4 id="org4f9d821"><span class="done DONE">DONE</span> Large sample theory <code>[18/18]</code></h4>
-<div class="outline-text-4" id="text-org4f9d821">
+<div id="outline-container-orgffec528" class="outline-4">
+<h4 id="orgffec528"><span class="done DONE">DONE</span> Large sample theory <code>[18/18]</code></h4>
+<div class="outline-text-4" id="text-orgffec528">
 <p>
 We use this to study and compare the performance of various estimators in large samples. 
 </p>
@@ -3321,17 +3785,17 @@ Converges in distribution to multivariate normal. Makes sense.
 </div>
 </div>
 
-<div id="outline-container-orgbc36832" class="outline-3">
-<h3 id="orgbc36832"><span class="section-number-3">4.2</span> <span class="done DONE">DONE</span> Unbiasedness <code>[5/5]</code></h3>
+<div id="outline-container-org63b79a9" class="outline-3">
+<h3 id="org63b79a9"><span class="section-number-3">4.2</span> <span class="done DONE">DONE</span> Unbiasedness <code>[5/5]</code></h3>
 <div class="outline-text-3" id="text-4-2">
 <p>
 If two estimators are unbiased, then it may not be true that their risk functions will cross, so we will be better able to compare them. We may even be able to identify a best unbiased estimator.
 </p>
 </div>
 
-<div id="outline-container-org38670e0" class="outline-4">
-<h4 id="org38670e0"><span class="done DONE">DONE</span> Minimum Variance Unbiased Estimator <code>[9/9]</code></h4>
-<div class="outline-text-4" id="text-org38670e0">
+<div id="outline-container-orgd0c6a79" class="outline-4">
+<h4 id="orgd0c6a79"><span class="done DONE">DONE</span> Minimum Variance Unbiased Estimator <code>[9/9]</code></h4>
+<div class="outline-text-4" id="text-orgd0c6a79">
 <dl class="org-dl">
 <dt class="on">&#x2611; Definition 2.1.1</dt><dd>Lehmann and Casella</dd>
 </dl>
@@ -3463,9 +3927,9 @@ See example 4.6 in keener.
 </div>
 </div>
 
-<div id="outline-container-org201265d" class="outline-4">
-<h4 id="org201265d"><span class="done DONE">DONE</span> Continuous distributions and UMVU <code>[4/4]</code></h4>
-<div class="outline-text-4" id="text-org201265d">
+<div id="outline-container-org8fe31fb" class="outline-4">
+<h4 id="org8fe31fb"><span class="done DONE">DONE</span> Continuous distributions and UMVU <code>[4/4]</code></h4>
+<div class="outline-text-4" id="text-org8fe31fb">
 <dl class="org-dl">
 <dt class="on">&#x2611; Section 4.3</dt><dd>Keener</dd>
 </dl>
@@ -3548,9 +4012,9 @@ Sum of normals is normal with mean equal to sum of means and variance equal to s
 </div>
 </div>
 
-<div id="outline-container-org28202af" class="outline-4">
-<h4 id="org28202af"><span class="done DONE">DONE</span> UMVU for discrete distributions <code>[8/8]</code></h4>
-<div class="outline-text-4" id="text-org28202af">
+<div id="outline-container-org3be95bd" class="outline-4">
+<h4 id="org3be95bd"><span class="done DONE">DONE</span> UMVU for discrete distributions <code>[8/8]</code></h4>
+<div class="outline-text-4" id="text-org3be95bd">
 <dl class="org-dl">
 <dt class="on">&#x2611; Example 2.3.1</dt><dd>Lehmann and Casella</dd>
 <dt class="on">&#x2611; Power series distributions p. 104</dt><dd>Lehmann and Casella</dd>
@@ -3600,9 +4064,9 @@ It follows that \(T\) is complete and that the UMVU estimator of \(\theta^r\) on
 </dl>
 </div>
 </div>
-<div id="outline-container-orga703188" class="outline-4">
-<h4 id="orga703188"><span class="done DONE">DONE</span> Information inequality <code>[12/12]</code></h4>
-<div class="outline-text-4" id="text-orga703188">
+<div id="outline-container-org73e4e73" class="outline-4">
+<h4 id="org73e4e73"><span class="done DONE">DONE</span> Information inequality <code>[12/12]</code></h4>
+<div class="outline-text-4" id="text-org73e4e73">
 <dl class="org-dl">
 <dt class="on">&#x2611; Section 4.5</dt><dd>Keener</dd>
 </dl>
@@ -3719,9 +4183,9 @@ Gives conditions under which exponential families attain the information bound.
 </div>
 </div>
 
-<div id="outline-container-org5ad24fd" class="outline-4">
-<h4 id="org5ad24fd"><span class="done DONE">DONE</span> Multiparameter information inequality <code>[5/5]</code></h4>
-<div class="outline-text-4" id="text-org5ad24fd">
+<div id="outline-container-org5b4a884" class="outline-4">
+<h4 id="org5b4a884"><span class="done DONE">DONE</span> Multiparameter information inequality <code>[5/5]</code></h4>
+<div class="outline-text-4" id="text-org5b4a884">
 <dl class="org-dl">
 <dt class="on">&#x2611; Theorem 2.6.1</dt><dd>Lehmann and Casella</dd>
 </dl>
@@ -3750,13 +4214,13 @@ I_{ij}(\theta) = E_\theta \left[ \frac{\partial}{\partial \theta_i} \log p_\thet
 </div>
 </div>
 </div>
-<div id="outline-container-org146299f" class="outline-3">
-<h3 id="org146299f"><span class="section-number-3">4.3</span> <span class="done DONE">DONE</span> Equivariance <code>[1/1]</code></h3>
+<div id="outline-container-org7b6fbe5" class="outline-3">
+<h3 id="org7b6fbe5"><span class="section-number-3">4.3</span> <span class="done DONE">DONE</span> Equivariance <code>[1/1]</code></h3>
 <div class="outline-text-3" id="text-4-3">
 </div>
-<div id="outline-container-org33fb807" class="outline-4">
-<h4 id="org33fb807"><span class="done DONE">DONE</span> First Examples <code>[26/26]</code></h4>
-<div class="outline-text-4" id="text-org33fb807">
+<div id="outline-container-org9073d6a" class="outline-4">
+<h4 id="org9073d6a"><span class="done DONE">DONE</span> First Examples <code>[26/26]</code></h4>
+<div class="outline-text-4" id="text-org9073d6a">
 <dl class="org-dl">
 <dt class="on">&#x2611; Example 3.1.1</dt><dd>Lehmann and Casella</dd>
 </dl>
@@ -3900,13 +4364,13 @@ This means that it has lower risk than for any other value of the parameter \(\t
 </div>
 </div>
 </div>
-<div id="outline-container-org75cfb70" class="outline-3">
-<h3 id="org75cfb70"><span class="section-number-3">4.4</span> <span class="todo TODO">TODO</span> Average risk optimality <code>[3/6]</code></h3>
+<div id="outline-container-org3a3fd20" class="outline-3">
+<h3 id="org3a3fd20"><span class="section-number-3">4.4</span> <span class="todo TODO">TODO</span> Average risk optimality <code>[3/6]</code></h3>
 <div class="outline-text-3" id="text-4-4">
 </div>
-<div id="outline-container-orgf2e99be" class="outline-4">
-<h4 id="orgf2e99be"><span class="done DONE">DONE</span> Introduction <code>[5/5]</code></h4>
-<div class="outline-text-4" id="text-orgf2e99be">
+<div id="outline-container-org503120c" class="outline-4">
+<h4 id="org503120c"><span class="done DONE">DONE</span> Introduction <code>[5/5]</code></h4>
+<div class="outline-text-4" id="text-org503120c">
 <p>
 We are concerned with minimizing the (weighted) average risk for some suitable non-negative weight function. 
 </p>
@@ -3981,9 +4445,9 @@ Binomial example with Beta prior. The Bayes estimator for \(p\) is a weighted av
 </div>
 </div>
 
-<div id="outline-container-org7228ba3" class="outline-4">
-<h4 id="org7228ba3"><span class="done DONE">DONE</span> First examples <code>[7/7]</code></h4>
-<div class="outline-text-4" id="text-org7228ba3">
+<div id="outline-container-org2b3d56e" class="outline-4">
+<h4 id="org2b3d56e"><span class="done DONE">DONE</span> First examples <code>[7/7]</code></h4>
+<div class="outline-text-4" id="text-org2b3d56e">
 <p>
 We construct Bayes estimators as functions of the posterior density, and we decide which prior and loss function to use. These choises will affect the properties of the estimator.
 </p>
@@ -4056,9 +4520,9 @@ A nonrandomized estimator \(\delta(x)\) is a <span class="underline">limit of Ba
 </div>
 </div>
 
-<div id="outline-container-orga7eab97" class="outline-4">
-<h4 id="orga7eab97"><span class="done DONE">DONE</span> Single Prior Bayes <code>[3/3]</code></h4>
-<div class="outline-text-4" id="text-orga7eab97">
+<div id="outline-container-org20675f4" class="outline-4">
+<h4 id="org20675f4"><span class="done DONE">DONE</span> Single Prior Bayes <code>[3/3]</code></h4>
+<div class="outline-text-4" id="text-org20675f4">
 <p>
 Denote the prior by the density \(\pi(\theta | \gamma)\).
 </p>
@@ -4126,9 +4590,9 @@ We can apply the conjugate prior for exponential families to the gamma distribut
 </div>
 </div>
 
-<div id="outline-container-org4539717" class="outline-4">
-<h4 id="org4539717"><span class="todo TODO">TODO</span> Hierarchical Bayes <code>[0/5]</code></h4>
-<div class="outline-text-4" id="text-org4539717">
+<div id="outline-container-orge0a89d1" class="outline-4">
+<h4 id="orge0a89d1"><span class="todo TODO">TODO</span> Hierarchical Bayes <code>[0/5]</code></h4>
+<div class="outline-text-4" id="text-orge0a89d1">
 <dl class="org-dl">
 <dt class="off">&#x2610; Section 4.5 intro</dt><dd>Lehmann and Casella</dd>
 <dt class="off">&#x2610; Example 4.5.1 &amp; 4.5.2</dt><dd>Lehmann and Casella</dd>
@@ -4138,9 +4602,9 @@ We can apply the conjugate prior for exponential families to the gamma distribut
 </dl>
 </div>
 </div>
-<div id="outline-container-orgf1fd9c6" class="outline-4">
-<h4 id="orgf1fd9c6"><span class="todo TODO">TODO</span> Empirical Bayes <code>[0/5]</code></h4>
-<div class="outline-text-4" id="text-orgf1fd9c6">
+<div id="outline-container-orgedde51b" class="outline-4">
+<h4 id="orgedde51b"><span class="todo TODO">TODO</span> Empirical Bayes <code>[0/5]</code></h4>
+<div class="outline-text-4" id="text-orgedde51b">
 <dl class="org-dl">
 <dt class="off">&#x2610; Section 4.6 intro</dt><dd>Lehmann and Casella</dd>
 <dt class="off">&#x2610; Example 4.6.1</dt><dd>Lehmann and Casella</dd>
@@ -4150,9 +4614,9 @@ We can apply the conjugate prior for exponential families to the gamma distribut
 </dl>
 </div>
 </div>
-<div id="outline-container-org81f985a" class="outline-4">
-<h4 id="org81f985a"><span class="todo TODO">TODO</span> Shrinkage Estimators <code>[0/4]</code></h4>
-<div class="outline-text-4" id="text-org81f985a">
+<div id="outline-container-orgc88e3a2" class="outline-4">
+<h4 id="orgc88e3a2"><span class="todo TODO">TODO</span> Shrinkage Estimators <code>[0/4]</code></h4>
+<div class="outline-text-4" id="text-orgc88e3a2">
 <dl class="org-dl">
 <dt class="off">&#x2610; Example 4.7.1</dt><dd>Lehmann and Casella</dd>
 <dt class="off">&#x2610; Lemma 11.1</dt><dd>Keener (Stein's Identity)</dd>
@@ -4162,13 +4626,13 @@ We can apply the conjugate prior for exponential families to the gamma distribut
 </div>
 </div>
 </div>
-<div id="outline-container-orgaa2d1f2" class="outline-3">
-<h3 id="orgaa2d1f2"><span class="section-number-3">4.5</span> <span class="todo TODO">TODO</span> Minimaxity and admissibility <code>[0/3]</code></h3>
+<div id="outline-container-orgd633165" class="outline-3">
+<h3 id="orgd633165"><span class="section-number-3">4.5</span> <span class="todo TODO">TODO</span> Minimaxity and admissibility <code>[0/3]</code></h3>
 <div class="outline-text-3" id="text-4-5">
 </div>
-<div id="outline-container-org0379066" class="outline-4">
-<h4 id="org0379066"><span class="todo TODO">TODO</span> Admissibility <code>[0/5]</code></h4>
-<div class="outline-text-4" id="text-org0379066">
+<div id="outline-container-org240bebc" class="outline-4">
+<h4 id="org240bebc"><span class="todo TODO">TODO</span> Admissibility <code>[0/5]</code></h4>
+<div class="outline-text-4" id="text-org240bebc">
 <dl class="org-dl">
 <dt class="off">&#x2610; Inadmissible definintion</dt><dd>p. 213 Keener</dd>
 <dt class="off">&#x2610; Theorem 11.6</dt><dd>Keener</dd>
@@ -4178,9 +4642,9 @@ We can apply the conjugate prior for exponential families to the gamma distribut
 </dl>
 </div>
 </div>
-<div id="outline-container-orge436424" class="outline-4">
-<h4 id="orge436424"><span class="todo TODO">TODO</span> Minimax Estimation <code>[0/11]</code></h4>
-<div class="outline-text-4" id="text-orge436424">
+<div id="outline-container-orgf5e02c1" class="outline-4">
+<h4 id="orgf5e02c1"><span class="todo TODO">TODO</span> Minimax Estimation <code>[0/11]</code></h4>
+<div class="outline-text-4" id="text-orgf5e02c1">
 <dl class="org-dl">
 <dt class="off">&#x2610; Definition 5.1.1</dt><dd>Lehmann and Casella</dd>
 <dt class="off">&#x2610; Definition 5.1.3</dt><dd>Lehmann and Casella</dd>
@@ -4196,9 +4660,9 @@ We can apply the conjugate prior for exponential families to the gamma distribut
 </dl>
 </div>
 </div>
-<div id="outline-container-org8c88ac1" class="outline-4">
-<h4 id="org8c88ac1"><span class="todo TODO">TODO</span> Admissibility and minimaxity in exponential families <code>[2/12]</code></h4>
-<div class="outline-text-4" id="text-org8c88ac1">
+<div id="outline-container-org665c557" class="outline-4">
+<h4 id="org665c557"><span class="todo TODO">TODO</span> Admissibility and minimaxity in exponential families <code>[2/12]</code></h4>
+<div class="outline-text-4" id="text-org665c557">
 <dl class="org-dl">
 <dt class="off">&#x2610; Lemma 5.2.1</dt><dd>Lehmann and Casella</dd>
 <dt class="off">&#x2610; Example 5.2.2</dt><dd>Lehmann and Casella</dd>
@@ -4224,21 +4688,21 @@ If an estimator is unique minimax, it is admissible.
 </div>
 </div>
 </div>
-<div id="outline-container-org1b69dbc" class="outline-3">
-<h3 id="org1b69dbc"><span class="section-number-3">4.6</span> <span class="todo TODO">TODO</span> Uniformly most powerful tests <code>[0/6]</code></h3>
+<div id="outline-container-org8fe1110" class="outline-3">
+<h3 id="org8fe1110"><span class="section-number-3">4.6</span> <span class="todo TODO">TODO</span> Uniformly most powerful tests <code>[0/6]</code></h3>
 <div class="outline-text-3" id="text-4-6">
 </div>
-<div id="outline-container-org57f30dd" class="outline-4">
-<h4 id="org57f30dd"><span class="todo TODO">TODO</span> Stating the problem <code>[0/1]</code></h4>
-<div class="outline-text-4" id="text-org57f30dd">
+<div id="outline-container-org985d4a1" class="outline-4">
+<h4 id="org985d4a1"><span class="todo TODO">TODO</span> Stating the problem <code>[0/1]</code></h4>
+<div class="outline-text-4" id="text-org985d4a1">
 <dl class="org-dl">
 <dt class="off">&#x2610; Chapter 3 Section 1</dt><dd>Lehmann</dd>
 </dl>
 </div>
 </div>
-<div id="outline-container-org23d5cd0" class="outline-4">
-<h4 id="org23d5cd0"><span class="todo TODO">TODO</span> Neyman-Pearson Fundamental Lemma <code>[0/4]</code></h4>
-<div class="outline-text-4" id="text-org23d5cd0">
+<div id="outline-container-orgf3c562c" class="outline-4">
+<h4 id="orgf3c562c"><span class="todo TODO">TODO</span> Neyman-Pearson Fundamental Lemma <code>[0/4]</code></h4>
+<div class="outline-text-4" id="text-orgf3c562c">
 <dl class="org-dl">
 <dt class="off">&#x2610; Chapter 3 Section 2</dt><dd>Lehmann</dd>
 <dt class="off">&#x2610; Theorem 3.1</dt><dd>Lehmann</dd>
@@ -4247,9 +4711,9 @@ If an estimator is unique minimax, it is admissible.
 </dl>
 </div>
 </div>
-<div id="outline-container-org3aa782f" class="outline-4">
-<h4 id="org3aa782f"><span class="todo TODO">TODO</span> Distributions with monotone likelihood ratio <code>[0/8]</code></h4>
-<div class="outline-text-4" id="text-org3aa782f">
+<div id="outline-container-org2ce5e45" class="outline-4">
+<h4 id="org2ce5e45"><span class="todo TODO">TODO</span> Distributions with monotone likelihood ratio <code>[0/8]</code></h4>
+<div class="outline-text-4" id="text-org2ce5e45">
 <dl class="org-dl">
 <dt class="off">&#x2610; Theorem 3.2</dt><dd>Lehmann</dd>
 <dt class="off">&#x2610; Example 3.1</dt><dd>Lehmann</dd>
@@ -4262,9 +4726,9 @@ If an estimator is unique minimax, it is admissible.
 </dl>
 </div>
 </div>
-<div id="outline-container-org8dad3f1" class="outline-4">
-<h4 id="org8dad3f1"><span class="todo TODO">TODO</span> Confidence bounds <code>[0/6]</code></h4>
-<div class="outline-text-4" id="text-org8dad3f1">
+<div id="outline-container-org082641d" class="outline-4">
+<h4 id="org082641d"><span class="todo TODO">TODO</span> Confidence bounds <code>[0/6]</code></h4>
+<div class="outline-text-4" id="text-org082641d">
 <dl class="org-dl">
 <dt class="off">&#x2610; Chapter 3 Section 5</dt><dd>Lehmann</dd>
 <dt class="off">&#x2610; Theorem 3.4</dt><dd>Lehmann</dd>
@@ -4275,9 +4739,9 @@ If an estimator is unique minimax, it is admissible.
 </dl>
 </div>
 </div>
-<div id="outline-container-org6f4453d" class="outline-4">
-<h4 id="org6f4453d"><span class="todo TODO">TODO</span> A generalization of the fundamental lemma <code>[0/3]</code></h4>
-<div class="outline-text-4" id="text-org6f4453d">
+<div id="outline-container-org3657bbb" class="outline-4">
+<h4 id="org3657bbb"><span class="todo TODO">TODO</span> A generalization of the fundamental lemma <code>[0/3]</code></h4>
+<div class="outline-text-4" id="text-org3657bbb">
 <dl class="org-dl">
 <dt class="off">&#x2610; Theorem 3.5</dt><dd>Lehmann</dd>
 <dt class="off">&#x2610; Corollary 3.4</dt><dd>Lehmann</dd>
@@ -4285,9 +4749,9 @@ If an estimator is unique minimax, it is admissible.
 </dl>
 </div>
 </div>
-<div id="outline-container-org6c2a7c2" class="outline-4">
-<h4 id="org6c2a7c2"><span class="todo TODO">TODO</span> Two-sided hypotheses <code>[0/2]</code></h4>
-<div class="outline-text-4" id="text-org6c2a7c2">
+<div id="outline-container-org4612224" class="outline-4">
+<h4 id="org4612224"><span class="todo TODO">TODO</span> Two-sided hypotheses <code>[0/2]</code></h4>
+<div class="outline-text-4" id="text-org4612224">
 <dl class="org-dl">
 <dt class="off">&#x2610; Theorem 3.6</dt><dd>Lehmann</dd>
 <dt class="off">&#x2610; Lemma 3.4</dt><dd>Lehmann</dd>
@@ -4295,8 +4759,8 @@ If an estimator is unique minimax, it is admissible.
 </div>
 </div>
 </div>
-<div id="outline-container-org594eef9" class="outline-3">
-<h3 id="org594eef9"><span class="section-number-3">4.7</span> <span class="todo TODO">TODO</span> Unbiased tests <code>[0/5]</code></h3>
+<div id="outline-container-org81eca3e" class="outline-3">
+<h3 id="org81eca3e"><span class="section-number-3">4.7</span> <span class="todo TODO">TODO</span> Unbiased tests <code>[0/5]</code></h3>
 <div class="outline-text-3" id="text-4-7">
 <dl class="org-dl">
 <dt class="off">&#x2610; Definition 12.25</dt><dd>Keener</dd>
@@ -4311,7 +4775,7 @@ If an estimator is unique minimax, it is admissible.
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Elliot Shannon</p>
-<p class="date">Created: 2024-06-05 Wed 13:49</p>
+<p class="date">Created: 2024-06-07 Fri 12:09</p>
 <p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>
