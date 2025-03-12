@@ -1,2 +1,1 @@
-# Personal Website for Elliot S. Shannon
-[elliotshannon.github.io](https://elliotshannon.github.io)
+# [Personal Website](https://elliotshannon.github.io)
