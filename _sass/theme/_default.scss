@@ -18,7 +18,7 @@ $warning-color              : #f89406;
 
 /* Other basic settings for the template */
 $border-radius              : 4px;
-$box-shadow                 : 0 1px 1px rgba(24, 69, 59, 0.125);
+$box-shadow                 : 0 1px 1px rgba(0, 0, 0, 0.125);
 $global-transition          : all 0.2s ease-in-out;
 $masthead-height            : 70px;
 $navicon-width              : 28px;
@@ -42,4 +42,5 @@ $sidebar-screen-min-width   : 1024px;
     --global-text-color                 : #{$dark-gray};
     --global-text-color-light           : #{$light-gray};
     --global-thead-color                : #{$lighter-gray};
+    --global-highlight-color            : #18453B;
 }
