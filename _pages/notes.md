@@ -27,6 +27,6 @@ These are a collection of notes I have created over time. There are likely many 
 
 [Tree Factors for Plot Sampling](http://elliotshannon.github.io/files/tree_factors.pdf)
 
-[Intro to Point Sampling](http://elliotshannon.github.io/files/plot_sampling.pdf)
+[Intro to Point Sampling](http://elliotshannon.github.io/files/point_sampling.pdf)
 
 [MSU STT Graduate Student Seminar](http://elliotshannon.github.io/files/STT_Student_Seminar_2025.pdf)
