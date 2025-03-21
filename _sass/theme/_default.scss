@@ -42,5 +42,8 @@ $sidebar-screen-min-width   : 1024px;
     --global-text-color                 : #{$dark-gray};
     --global-text-color-light           : #{$light-gray};
     --global-thead-color                : #{$lighter-gray};
-    --global-highlight-color            : #18453B;
+}
+
+::selection {
+  background: #18453B;
 }
