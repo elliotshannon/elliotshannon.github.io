@@ -17,6 +17,8 @@ These are a collection of notes I have created over time. There are likely many 
 
 [Dynamic Linear Regression](http://elliotshannon.github.io/files/dynamic.html)
 
+[Dynamic CAR Model](http://elliotshannon.github.io/files/dynamic_car.html)
+
 ## Slides
 
 [Intro to ggplot2](http://elliotshannon.github.io/files/ggplot2.html)
