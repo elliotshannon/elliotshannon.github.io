@@ -24,3 +24,5 @@ These are a collection of notes I have created over time. There are likely many 
 [Intro to ggplot2](http://elliotshannon.github.io/files/ggplot2.html)
 
 [Stand and Stock Table Workflows](http://elliotshannon.github.io/files/workflows.html)
+
+[Forest Parameter Estimation](http://elliotshannon.github.io/files/estimation.html)
