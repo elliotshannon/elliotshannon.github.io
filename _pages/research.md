@@ -7,11 +7,11 @@ author_profile: true
 
 {% include base_path %}
 
-My research interests include both development of statistical methods, as well as applications to carbon monitoring, national forest inventory, and remote sensing. Specifically, my work focuses on spatio-temporal statistics, dynamic models, small area estimation, and Bayesian hierarchical modeling. 
+My research interests include both development of statistical methods, as well as applications to environmental problems including carbon monitoring, national forest inventory, and remote sensing. Specifically, my work focuses on spatio-temporal statistics, dynamic models, small area estimation, and Bayesian hierarchical modeling. 
 
 ## Publications 
 
-**Elliot S. Shannon**, Andrew O. Finley, Paul B. May, and Jane Foster. 2025. Balancing land use tradeoffs for energy development and forest resource availability using remote sensing in the Northeast United States. *In prep*.
+**Elliot S. Shannon**, Andrew O. Finley, Paul B. May, and Jane Foster. 2025. Quantifying impacts of natural gas development on forest carbon using remote sensing and small area estimation. *In prep*.
 
 **Elliot S. Shannon**, Andrew O. Finley, Paul B. May, and Sudipto Banerjee. 2025. A multivariate spatio-temporal model for forest carbon pools across the contiguous US. *In prep*.
 
