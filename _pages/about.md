@@ -14,4 +14,4 @@ My research interests include spatio-temporal statistics, small area estimation,
 
 [You can find my CV here.](files/Elliot_CV.pdf)
 
-![Forest Carbon](images/carbon.png)
+![Spatiotemporal_Process](images/spacetime_transparent.png)
