@@ -21,6 +21,4 @@ author_profile: true
 
 ## 2023
 
-[Intro to ggplot2](http://elliotshannon.github.io/files/ggplot2.html)
-
 [A Dynamic Space-Time Regression Model of Plot-Level Forest Biomass Data in Maine, USA](http://elliotshannon.github.io/files/JSM_2023.pdf)
