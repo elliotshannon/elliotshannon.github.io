@@ -17,7 +17,7 @@ author_profile: true
 
 ## 2024
 
-[A Multivariate Spatio-Temporal Fay-Herriot Model for Forest Carbon Pools Across the Contiguous US](http://elliotshannon.github.io/files/JSM_2024)
+[A Multivariate Spatio-Temporal Fay-Herriot Model for Forest Carbon Pools Across the Contiguous US](http://elliotshannon.github.io/files/JSM_2024.pdf)
 
 ## 2023
 
