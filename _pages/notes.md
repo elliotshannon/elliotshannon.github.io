@@ -7,19 +7,19 @@ author_profile: true
 
 {% include base_path %}
 
-These are a collection of notes I have created over time. There are likely many errors. Please use with caution.
+These are a collection of notes I have created over time, which I hope can be useful to students and others who are interested. These notes likely contain errors, so use with caution. 
 
-## Michigan State University Statistics Prelim Exam
+## Study Guides
 
 [STT Prelim Study Guide](http://elliotshannon.github.io/files/prelims.html)
 
-## Deriving Gibbs Updates
+## Bayesian Modeling
 
 [Dynamic Linear Regression](http://elliotshannon.github.io/files/dynamic.html)
 
 [Dynamic CAR Model](http://elliotshannon.github.io/files/dynamic_car.html)
 
-## Slides
+## R Programming
 
 [Intro to ggplot2](http://elliotshannon.github.io/files/ggplot2.html)
 
