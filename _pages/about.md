@@ -15,4 +15,5 @@ My research interests include spatio-temporal statistics, small area estimation,
 [You can find my CV here.](files/eshannon_cv.pdf)
 
 ![Spatiotemporal_Process](images/spacetime_transparent.png)
-*Spatio-temporal data generated from a continuous-space, discrete-time process.*
+<p style="text-align: center;"><em>Example of spatio-temporal data generated from a continuous-space, discrete-time process.</em></p>
+

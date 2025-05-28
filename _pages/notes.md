@@ -19,7 +19,7 @@ These are a collection of notes I have created over time, which I hope can be us
 
 [Dynamic CAR Model](http://elliotshannon.github.io/files/dynamic_car.html)
 
-## R Programming
+## `R` Programming
 
 [Intro to ggplot2](http://elliotshannon.github.io/files/ggplot2.html)
 
