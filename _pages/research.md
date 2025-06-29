@@ -15,7 +15,7 @@ My research interests include both development of statistical methods, as well a
 
 Naresh Khanal, Raju Pokharel, **Elliot S. Shannon**, Jagdish Poudel, Emily Silver and Emily Silver. 2025. Historical trend of market coverage and competition of various wood products in Michigan. *To be submitted to Forestry*.
 
-**Elliot S. Shannon**, Andrew O. Finley and Paul B. May. 2025. Quantifying impacts of natural gas development on forest carbon. *To be submitted*. [bioRxiv preprint](https://doi.org/10.1101/2025.06.23.661107)
+**Elliot S. Shannon**, Andrew O. Finley and Paul B. May. 2025. Quantifying impacts of natural gas development on forest carbon. *To be submitted to PNAS*. [bioRxiv preprint](https://doi.org/10.1101/2025.06.23.661107)
 
 **Elliot S. Shannon**, Andrew O. Finley, Paul B. May, Grant M. Domke, Hans-Erik Andersen, George C. Gaines III, Arne Nothdurft and Sudipto Banerjee. 2025. Leveraging national forest inventory data to estimate forest carbon density status and trends for small areas. *Submitted to Forest Ecology and Managment*. [ArXiv preprint](https://arxiv.org/abs/2503.08653).
 
