@@ -24,10 +24,10 @@ author:
   # Biographic information
   avatar           : "elliot.png"
   name             : "Elliot S. Shannon"
-  pronouns         : # example: "she/her"  
-  bio              : "Graduate Research Assistant"
-  location         : "East Lansing, MI"
-  employer         : "Michigan State University"
+  pronouns         : "he/him"  
+  bio              : "Senior Operational Analyst"
+  location         : "Tualatin, OR"
+  employer         : "Portland General Electric"
   uri              : # URL
   email            : "shann125@msu.edu" 
 
