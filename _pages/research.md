@@ -7,17 +7,17 @@ author_profile: true
 
 {% include base_path %}
 
-My research interests include both development of statistical methods, as well as applications to environmental problems including carbon monitoring, national forest inventory, and remote sensing. Specifically, my work focuses on spatio-temporal statistics, dynamic models, small area estimation, and Bayesian hierarchical modeling. 
+My research interests include both development of statistical methods, as well as applications to environmental problems including wildfire risk assessment, carbon monitoring, and remote sensing. Specifically, my focus is in spatio-temporal statistics, dynamic models, small area estimation, and Bayesian hierarchical modeling. 
 
 ## Publications 
 
-**Elliot S. Shannon**, Andrew O. Finley, Paul B. May and Sudipto Banerjee. 2025. Investigating spatio-temporal models for forest inventory data under increasing information. *In prep*.
+**Elliot S. Shannon**, Andrew O. Finley, Paul B. May, Hans-Erik Andersen, Harold Zald and Grant M. Domke. 2025. Modeling biomass and forest land loss associated with 20 years of West Coast fires. *In prep*.
 
-Naresh Khanal, Raju Pokharel, **Elliot S. Shannon**, Jagdish Poudel, Emily Silver and Emily Silver. 2025. Historical trend of market coverage and competition of various wood products in Michigan. *To be submitted to Forestry*.
+Naresh Khanal, Raju Pokharel, **Elliot S. Shannon**, Jagdish Poudel, Shivan GC and Emily Silver. 2025. Historical trends of market coverage and competition of various wood products in Michigan. *To be submitted to Forestry*.
 
-**Elliot S. Shannon**, Andrew O. Finley and Paul B. May. 2025. Quantifying impacts of natural gas development on forest carbon. *To be submitted to PNAS*. [bioRxiv preprint](https://doi.org/10.1101/2025.06.23.661107).
+**Elliot S. Shannon**, Andrew O. Finley and Paul B. May. 2025. Quantifying impacts of natural gas development on forest carbon. *Submitted to Nature Energy*. [bioRxiv preprint](https://doi.org/10.1101/2025.06.23.661107).
 
-**Elliot S. Shannon**, Andrew O. Finley, Paul B. May, Grant M. Domke, Hans-Erik Andersen, George C. Gaines III, Arne Nothdurft and Sudipto Banerjee. 2025. Leveraging national forest inventory data to estimate forest carbon density status and trends for small areas. *Submitted to Forest Ecology and Managment*. [ArXiv preprint](https://arxiv.org/abs/2503.08653).
+**Elliot S. Shannon**, Andrew O. Finley, Paul B. May, Grant M. Domke, Hans-Erik Andersen, George C. Gaines III, Arne Nothdurft and Sudipto Banerjee. 2025. Leveraging national forest inventory data to estimate forest carbon density status and trends for small areas. *Forest Ecology and Managment*. DOI: [10.1016/j.foreco.2025.122999](https://doi.org/10.1016/j.foreco.2025.122999).
 
 **Elliot S. Shannon**, Andrew O. Finley, Grant M. Domke, Paul B. May, Hans-Erik Andersen, George C. Gaines III and Sudipto Banerjee. 2025. Toward spatio-temporal models to support national-scale forest carbon monitoring and reporting. *Environmental Research Letters*. DOI: [10.1088/1748-9326/ad9e07](https://doi.org/10.1088/1748-9326/ad9e07).
 
