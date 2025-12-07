@@ -9,6 +9,8 @@ author_profile: true
 
 ## 2025
 
+[Dissertation Defense](http://elliotshannon.github.io/files/Shannon_Dissertation_Slides.pdf)
+
 [Leveraging national forest inventory data to estimate forest carbon density status and trends for small areas](http://elliotshannon.github.io/files/WNAR_2025.pdf)
 
 [Spatio-Temporal Models to Support Small Area Estimation: Applications to National-Scale Forest Carbon Monitoring](http://elliotshannon.github.io/files/UM_ESMSS_2025.pdf)
