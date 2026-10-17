@@ -11,11 +11,11 @@ My research interests include both development of statistical methods, as well a
 
 ## Publications 
 
-**Elliot S. Shannon**, Andrew O. Finley, Paul B. May, Hans-Erik Andersen, Harold Zald and Grant M. Domke. 2025. Modeling biomass and forest land loss associated with 20 years of West Coast fires. *In prep*.
+**Elliot S. Shannon**, Andrew O. Finley, Paul B. May, Hans-Erik Andersen, Harold Zald and Grant M. Domke. 2026. Within-fire estimates of biomass loss across national forests of the US West Coast: inventory-informed inference with uncertainty. *Submitted to Environmental Research Letters* arXiv preprint: [10.48550/arXiv.2610.05614](https://doi.org/10.48550/arXiv.2610.05614).
 
-Naresh Khanal, Raju Pokharel, **Elliot S. Shannon**, Jagdish Poudel, Shivan GC and Emily Silver. 2025. Historical trends of market coverage and competition of various wood products in Michigan. *To be submitted to Forestry*.
+Naresh Khanal, Raju Pokharel, Shivan GC, **Elliot S. Shannon**, Jagdish Poudel, and Emily Silver. 2026. Historical Trends of Market Coverage and Competition of Various Wood Products in Michigan. *Journal of Forestry*. DOI: [10.1007/s44392-026-00107-7](https://doi.org/10.1007/s44392-026-00107-7).
 
-**Elliot S. Shannon**, Andrew O. Finley and Paul B. May. 2025. Quantifying impacts of natural gas development on forest carbon. *Submitted to Nature Energy*. [bioRxiv preprint](https://doi.org/10.1101/2025.06.23.661107).
+**Elliot S. Shannon**, Andrew O. Finley and Paul B. May. 2026. Accounting for Forest Carbon Loss from Natural Gas Development in a Major U.S. Gas Region. *Environmental Science and Technology*. DOI: [10.1021/acs.est.6c00986](https://doi.org/10.1021/acs.est.6c00986).
 
 **Elliot S. Shannon**, Andrew O. Finley, Paul B. May, Grant M. Domke, Hans-Erik Andersen, George C. Gaines III, Arne Nothdurft and Sudipto Banerjee. 2025. Leveraging national forest inventory data to estimate forest carbon density status and trends for small areas. *Forest Ecology and Managment*. DOI: [10.1016/j.foreco.2025.122999](https://doi.org/10.1016/j.foreco.2025.122999).
 
